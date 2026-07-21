@@ -80,16 +80,29 @@ export function WordTableView({ posLabel, levels, words }: WordTableViewProps) {
           </div>
           <ul className="max-h-[min(60vh,520px)] divide-y divide-zinc-100 overflow-y-auto dark:divide-zinc-800">
             {activeWords.map((word, i) => (
-              <li
-                key={word.id}
-                className="grid grid-cols-[2rem_1fr_1fr_2.75rem] items-center gap-x-2 px-3 py-2.5 text-sm"
-              >
-                <span className="tabular-nums text-zinc-400">{i + 1}</span>
-                <span className="font-medium text-zinc-900 dark:text-zinc-50">{word.en}</span>
-                <span className="text-zinc-600 dark:text-zinc-300">{word.ja}</span>
-                <div className="flex justify-center">
-                  <LearnedStarButton wordId={word.id} size="sm" />
+              <li key={word.id} className="px-3 py-2.5">
+                <div className="grid grid-cols-[2rem_1fr_1fr_2.75rem] items-center gap-x-2 text-sm">
+                  <span className="tabular-nums text-zinc-400">{i + 1}</span>
+                  <span className="font-medium text-zinc-900 dark:text-zinc-50">{word.en}</span>
+                  <span className="text-zinc-600 dark:text-zinc-300">{word.ja}</span>
+                  <div className="flex justify-center">
+                    <LearnedStarButton wordId={word.id} size="sm" />
+                  </div>
                 </div>
+                {(word.exampleEn || word.exampleJa) && (
+                  <div className="mt-1.5 ml-8 border-l-2 border-zinc-200 pl-3 dark:border-zinc-700">
+                    {word.exampleEn && (
+                      <p className="text-xs leading-relaxed text-zinc-500 dark:text-zinc-400">
+                        {word.exampleEn}
+                      </p>
+                    )}
+                    {word.exampleJa && (
+                      <p className="text-xs leading-relaxed text-zinc-400 dark:text-zinc-500">
+                        {word.exampleJa}
+                      </p>
+                    )}
+                  </div>
+                )}
               </li>
             ))}
           </ul>

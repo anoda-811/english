@@ -22,6 +22,8 @@ export type VocabularyWord = {
   ja: string;
   pos: PartOfSpeechId;
   level: LevelId;
+  exampleEn?: string;
+  exampleJa?: string;
 };
 
 const data = raw as {

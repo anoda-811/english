@@ -32,17 +32,12 @@ export default async function IdiomStudyPage({ params }: PageProps) {
         backLabel={classification.labelJa}
       />
       <PageShell>
-        <div className="mx-4 mt-3 rounded-xl border border-amber-200/70 bg-amber-50/90 px-3 py-2.5 text-sm leading-relaxed text-amber-950 dark:border-amber-800/50 dark:bg-amber-950/35 dark:text-amber-100">
-          <span className="text-[10px] font-semibold uppercase tracking-wider text-amber-700/80 dark:text-amber-300/80">
-            Core image
+        <div className="mx-4 mt-2 rounded-lg border border-amber-200/70 bg-amber-50/90 px-3 py-1.5 text-xs leading-snug text-amber-950 dark:border-amber-800/50 dark:bg-amber-950/35 dark:text-amber-100">
+          <span className="font-semibold text-amber-800 dark:text-amber-200">
+            {group.headWord}
           </span>
-          <p className="mt-0.5">
-            <span className="font-semibold text-amber-800 dark:text-amber-200">
-              {group.headWord}
-            </span>
-            <span className="text-amber-700/80 dark:text-amber-300/80"> = </span>
-            <span>「{group.coreImage}」</span>
-          </p>
+          <span className="text-amber-700/80 dark:text-amber-300/80"> = </span>
+          <span>「{group.coreImage}」</span>
         </div>
         <StudySession
           words={items}
