@@ -43,7 +43,7 @@ export function WordTableView({ posLabel, levels, words }: WordTableViewProps) {
         {posLabel} · ☆タップで「覚えた」を付け外しできます
       </p>
 
-      <div className="flex rounded-xl bg-zinc-100 p-1 dark:bg-zinc-800/80">
+      <div className="flex gap-1.5 overflow-x-auto pb-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         {levels.map((level) => {
           const count = wordsByLevel.get(level.id)?.length ?? 0;
           return (
@@ -52,13 +52,13 @@ export function WordTableView({ posLabel, levels, words }: WordTableViewProps) {
               type="button"
               disabled={count === 0}
               onClick={() => setActiveLevel(level.id)}
-              className={`flex-1 rounded-lg py-2 text-sm font-medium transition disabled:opacity-35 ${
+              className={`shrink-0 rounded-full px-3 py-1.5 text-xs font-medium transition disabled:opacity-35 ${
                 activeLevel === level.id
-                  ? "bg-white text-indigo-700 shadow-sm dark:bg-zinc-900 dark:text-indigo-300"
-                  : "text-zinc-600 dark:text-zinc-400"
+                  ? "bg-indigo-600 text-white"
+                  : "bg-zinc-100 text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300"
               }`}
             >
-              {level.labelJa.replace(" ", "")}
+              Lv.{level.id}
             </button>
           );
         })}

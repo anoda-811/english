@@ -1,6 +1,6 @@
 import raw from "@/data/idioms/idioms.json";
 
-export type IdiomClassificationId = "verb" | "preposition";
+export type IdiomClassificationId = "verb" | "preposition" | "other";
 
 export type IdiomClassification = {
   id: IdiomClassificationId;

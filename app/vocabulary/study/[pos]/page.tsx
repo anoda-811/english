@@ -30,7 +30,18 @@ export default async function StudyLevelPage({ params }: PageProps) {
                   href={`/vocabulary/study/${pos.id}/${level.id}`}
                   title={level.labelJa}
                   description={`${level.descriptionJa} · ${level.wordCount} 語`}
-                  icon={level.id === "1" ? "🌱" : level.id === "2" ? "🌿" : "🌳"}
+                  icon={
+                    ({
+                      "1": "🌱",
+                      "2": "🌿",
+                      "3": "🌳",
+                      "4": "🌲",
+                      "5": "🍃",
+                      "6": "🪴",
+                      "7": "🌵",
+                      "8": "🎄",
+                    } as Record<string, string>)[level.id] ?? "📘"
+                  }
                 />
               ) : (
                 <NavCard

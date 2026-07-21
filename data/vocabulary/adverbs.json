@@ -1,0 +1,1804 @@
+{
+  "words": [
+    {
+      "id": "d1-1",
+      "en": "again",
+      "ja": "再び",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Please try again.",
+      "exampleJa": "もう一度試してください。"
+    },
+    {
+      "id": "d1-2",
+      "en": "almost",
+      "ja": "ほとんど",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "I almost missed the train.",
+      "exampleJa": "電車に乗り遅れるところだった。"
+    },
+    {
+      "id": "d1-3",
+      "en": "already",
+      "ja": "すでに",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "She has already left.",
+      "exampleJa": "彼女はすでに出かけた。"
+    },
+    {
+      "id": "d1-4",
+      "en": "also",
+      "ja": "また",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "I also want coffee.",
+      "exampleJa": "私もコーヒーが欲しい。"
+    },
+    {
+      "id": "d1-5",
+      "en": "always",
+      "ja": "いつも",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "He always wakes up early.",
+      "exampleJa": "彼はいつも早く起きる。"
+    },
+    {
+      "id": "d1-6",
+      "en": "anyway",
+      "ja": "とにかく",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Anyway, let's get started.",
+      "exampleJa": "とにかく始めよう。"
+    },
+    {
+      "id": "d1-7",
+      "en": "anywhere",
+      "ja": "どこでも",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "You can sit anywhere.",
+      "exampleJa": "どこに座ってもいいよ。"
+    },
+    {
+      "id": "d1-8",
+      "en": "apart",
+      "ja": "離れて",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "They live miles apart.",
+      "exampleJa": "彼らは何マイルも離れて暮らしている。"
+    },
+    {
+      "id": "d1-9",
+      "en": "around",
+      "ja": "あたりに",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Look around the room.",
+      "exampleJa": "部屋の中を見回して。"
+    },
+    {
+      "id": "d1-10",
+      "en": "aside",
+      "ja": "脇に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Step aside, please.",
+      "exampleJa": "脇にどいてください。"
+    },
+    {
+      "id": "d1-11",
+      "en": "away",
+      "ja": "離れて",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Go away for a minute.",
+      "exampleJa": "少しの間どこかへ行って。"
+    },
+    {
+      "id": "d1-12",
+      "en": "back",
+      "ja": "戻って",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Come back soon.",
+      "exampleJa": "すぐ戻ってきて。"
+    },
+    {
+      "id": "d1-13",
+      "en": "badly",
+      "ja": "ひどく",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "He badly needs rest.",
+      "exampleJa": "彼は休息をひどく必要としている。"
+    },
+    {
+      "id": "d1-14",
+      "en": "barely",
+      "ja": "かろうじて",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "I barely heard you.",
+      "exampleJa": "かろうじて聞こえた。"
+    },
+    {
+      "id": "d1-15",
+      "en": "basically",
+      "ja": "基本的に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Basically, I agree.",
+      "exampleJa": "基本的に賛成です。"
+    },
+    {
+      "id": "d1-16",
+      "en": "before",
+      "ja": "前に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Think before you speak.",
+      "exampleJa": "話す前に考えなさい。"
+    },
+    {
+      "id": "d1-17",
+      "en": "behind",
+      "ja": "後ろに",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "The cat hid behind the sofa.",
+      "exampleJa": "猫はソファの後ろに隠れた。"
+    },
+    {
+      "id": "d1-18",
+      "en": "below",
+      "ja": "下に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "See the note below.",
+      "exampleJa": "下のメモを見てください。"
+    },
+    {
+      "id": "d1-19",
+      "en": "besides",
+      "ja": "その上",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Besides, it is too late.",
+      "exampleJa": "その上、もう遅すぎる。"
+    },
+    {
+      "id": "d1-20",
+      "en": "best",
+      "ja": "最もよく",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "She sings best in the choir.",
+      "exampleJa": "彼女は合唱団で最もよく歌う。"
+    },
+    {
+      "id": "d1-21",
+      "en": "better",
+      "ja": "よりよく",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "You'd better hurry.",
+      "exampleJa": "急いだ方がいい。"
+    },
+    {
+      "id": "d1-22",
+      "en": "between",
+      "ja": "間に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Choose between tea and coffee.",
+      "exampleJa": "紅茶とコーヒーのどちらかを選んで。"
+    },
+    {
+      "id": "d1-23",
+      "en": "beyond",
+      "ja": "向こうに",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "The hills lie beyond the river.",
+      "exampleJa": "丘は川の向こうにある。"
+    },
+    {
+      "id": "d1-24",
+      "en": "both",
+      "ja": "両方とも",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Both answers are correct.",
+      "exampleJa": "両方の答えが正しい。"
+    },
+    {
+      "id": "d1-25",
+      "en": "briefly",
+      "ja": "短く",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "He spoke briefly about the plan.",
+      "exampleJa": "彼は計画について短く話した。"
+    },
+    {
+      "id": "d1-26",
+      "en": "brightly",
+      "ja": "明るく",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "The sun shone brightly.",
+      "exampleJa": "太陽が明るく輝いた。"
+    },
+    {
+      "id": "d1-27",
+      "en": "broadly",
+      "ja": "広く",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "She smiled broadly.",
+      "exampleJa": "彼女は口を広く開けて笑った。"
+    },
+    {
+      "id": "d1-28",
+      "en": "carefully",
+      "ja": "注意深く",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Drive carefully in the rain.",
+      "exampleJa": "雨の中は注意深く運転して。"
+    },
+    {
+      "id": "d1-29",
+      "en": "certainly",
+      "ja": "確かに",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "I will certainly help you.",
+      "exampleJa": "確かに手伝います。"
+    },
+    {
+      "id": "d1-30",
+      "en": "clearly",
+      "ja": "はっきり",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Please speak more clearly.",
+      "exampleJa": "もっとはっきり話してください。"
+    },
+    {
+      "id": "d1-31",
+      "en": "close",
+      "ja": "近くに",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Stay close to me.",
+      "exampleJa": "私の近くにいて。"
+    },
+    {
+      "id": "d1-32",
+      "en": "closely",
+      "ja": "密接に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Watch the game closely.",
+      "exampleJa": "試合を密接に見守って。"
+    },
+    {
+      "id": "d1-33",
+      "en": "completely",
+      "ja": "完全に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "I completely forgot.",
+      "exampleJa": "完全に忘れていた。"
+    },
+    {
+      "id": "d1-34",
+      "en": "constantly",
+      "ja": "絶えず",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "The phone rings constantly.",
+      "exampleJa": "電話が絶えず鳴る。"
+    },
+    {
+      "id": "d1-35",
+      "en": "correctly",
+      "ja": "正しく",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Spell your name correctly.",
+      "exampleJa": "名前を正しく綴って。"
+    },
+    {
+      "id": "d1-36",
+      "en": "currently",
+      "ja": "現在",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "She is currently abroad.",
+      "exampleJa": "彼女は現在海外にいる。"
+    },
+    {
+      "id": "d1-37",
+      "en": "daily",
+      "ja": "毎日",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "I exercise daily.",
+      "exampleJa": "毎日運動している。"
+    },
+    {
+      "id": "d1-38",
+      "en": "deeply",
+      "ja": "深く",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "I deeply appreciate your help.",
+      "exampleJa": "ご協力に深く感謝します。"
+    },
+    {
+      "id": "d1-39",
+      "en": "definitely",
+      "ja": "間違いなく",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "We will definitely win.",
+      "exampleJa": "間違いなく勝つ。"
+    },
+    {
+      "id": "d1-40",
+      "en": "deliberately",
+      "ja": "わざと",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "He deliberately ignored me.",
+      "exampleJa": "彼はわざと私を無視した。"
+    },
+    {
+      "id": "d1-41",
+      "en": "directly",
+      "ja": "直接",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Email me directly.",
+      "exampleJa": "直接メールして。"
+    },
+    {
+      "id": "d1-42",
+      "en": "downtown",
+      "ja": "中心街に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Let's meet downtown.",
+      "exampleJa": "中心街で会おう。"
+    },
+    {
+      "id": "d1-43",
+      "en": "downstairs",
+      "ja": "階下に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "She went downstairs.",
+      "exampleJa": "彼女は階下に降りた。"
+    },
+    {
+      "id": "d1-44",
+      "en": "early",
+      "ja": "早く",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "We arrived early.",
+      "exampleJa": "私たちは早く着いた。"
+    },
+    {
+      "id": "d1-45",
+      "en": "easily",
+      "ja": "簡単に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "You can easily fix this.",
+      "exampleJa": "これは簡単に直せる。"
+    },
+    {
+      "id": "d1-46",
+      "en": "effectively",
+      "ja": "効果的に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Use time effectively.",
+      "exampleJa": "時間を効果的に使いなさい。"
+    },
+    {
+      "id": "d1-47",
+      "en": "either",
+      "ja": "どちらか",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Either way is fine.",
+      "exampleJa": "どちらの方法でも大丈夫。"
+    },
+    {
+      "id": "d1-48",
+      "en": "else",
+      "ja": "他に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "What else do you need?",
+      "exampleJa": "他に何が必要？"
+    },
+    {
+      "id": "d1-49",
+      "en": "elsewhere",
+      "ja": "他所で",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Let's look elsewhere.",
+      "exampleJa": "他所を探そう。"
+    },
+    {
+      "id": "d1-50",
+      "en": "enough",
+      "ja": "十分",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "That is enough for today.",
+      "exampleJa": "今日はそれで十分。"
+    },
+    {
+      "id": "d1-51",
+      "en": "entirely",
+      "ja": "全く",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "I entirely agree with you.",
+      "exampleJa": "全くあなたに賛成です。"
+    },
+    {
+      "id": "d1-52",
+      "en": "equally",
+      "ja": "同じくらい",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Both tasks are equally hard.",
+      "exampleJa": "両方の仕事が同じくらい難しい。"
+    },
+    {
+      "id": "d1-53",
+      "en": "especially",
+      "ja": "特に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "I especially like jazz.",
+      "exampleJa": "特にジャズが好きだ。"
+    },
+    {
+      "id": "d1-54",
+      "en": "even",
+      "ja": "さえ",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Even children know that.",
+      "exampleJa": "子供でさえそれを知っている。"
+    },
+    {
+      "id": "d1-55",
+      "en": "eventually",
+      "ja": "最終的に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Eventually, he agreed.",
+      "exampleJa": "最終的に彼は同意した。"
+    },
+    {
+      "id": "d1-56",
+      "en": "ever",
+      "ja": "これまで",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Have you ever been to Paris?",
+      "exampleJa": "パリに行ったことがある？"
+    },
+    {
+      "id": "d1-57",
+      "en": "everywhere",
+      "ja": "どこでも",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Flowers were everywhere.",
+      "exampleJa": "花がどこにでもあった。"
+    },
+    {
+      "id": "d1-58",
+      "en": "exactly",
+      "ja": "正確に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "That is exactly right.",
+      "exampleJa": "それは正確に正しい。"
+    },
+    {
+      "id": "d1-59",
+      "en": "extremely",
+      "ja": "非常に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "It is extremely cold today.",
+      "exampleJa": "今日は非常に寒い。"
+    },
+    {
+      "id": "d1-60",
+      "en": "fairly",
+      "ja": "かなり",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "The test was fairly easy.",
+      "exampleJa": "テストはかなり簡単だった。"
+    },
+    {
+      "id": "d1-61",
+      "en": "far",
+      "ja": "遠く",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "We walked far from home.",
+      "exampleJa": "家から遠くまで歩いた。"
+    },
+    {
+      "id": "d1-62",
+      "en": "fast",
+      "ja": "速く",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Run as fast as you can.",
+      "exampleJa": "できるだけ速く走れ。"
+    },
+    {
+      "id": "d1-63",
+      "en": "finally",
+      "ja": "ついに",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Finally, the bus came.",
+      "exampleJa": "ついにバスが来た。"
+    },
+    {
+      "id": "d1-64",
+      "en": "firmly",
+      "ja": "しっかり",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Hold the rope firmly.",
+      "exampleJa": "ロープをしっかり持って。"
+    },
+    {
+      "id": "d1-65",
+      "en": "first",
+      "ja": "最初に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "First, read the instructions.",
+      "exampleJa": "最初に説明を読んで。"
+    },
+    {
+      "id": "d1-66",
+      "en": "forever",
+      "ja": "永遠に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Nothing lasts forever.",
+      "exampleJa": "永遠に続くものはない。"
+    },
+    {
+      "id": "d1-67",
+      "en": "fortunately",
+      "ja": "幸い",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Fortunately, no one was hurt.",
+      "exampleJa": "幸い、誰もけがをしなかった。"
+    },
+    {
+      "id": "d1-68",
+      "en": "forward",
+      "ja": "前へ",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Move forward slowly.",
+      "exampleJa": "ゆっくり前へ進んで。"
+    },
+    {
+      "id": "d1-69",
+      "en": "freely",
+      "ja": "自由に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Speak freely at the meeting.",
+      "exampleJa": "会議では自由に話して。"
+    },
+    {
+      "id": "d1-70",
+      "en": "frequently",
+      "ja": "頻繁に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Trains run frequently here.",
+      "exampleJa": "ここでは電車が頻繁に走る。"
+    },
+    {
+      "id": "d1-71",
+      "en": "fully",
+      "ja": "完全に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "I fully understand.",
+      "exampleJa": "完全に理解している。"
+    },
+    {
+      "id": "d1-72",
+      "en": "further",
+      "ja": "さらに",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "We need to discuss this further.",
+      "exampleJa": "これについてさらに話し合う必要がある。"
+    },
+    {
+      "id": "d1-73",
+      "en": "generally",
+      "ja": "一般に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Generally, I prefer tea.",
+      "exampleJa": "一般に紅茶の方が好きだ。"
+    },
+    {
+      "id": "d1-74",
+      "en": "gently",
+      "ja": "優しく",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Close the door gently.",
+      "exampleJa": "ドアを優しく閉めて。"
+    },
+    {
+      "id": "d1-75",
+      "en": "gladly",
+      "ja": "喜んで",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "I would gladly help.",
+      "exampleJa": "喜んで手伝うよ。"
+    },
+    {
+      "id": "d1-76",
+      "en": "gradually",
+      "ja": "徐々に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "It got gradually warmer.",
+      "exampleJa": "徐々に暖かくなった。"
+    },
+    {
+      "id": "d1-77",
+      "en": "greatly",
+      "ja": "大いに",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Your support helped greatly.",
+      "exampleJa": "あなたの支援は大いに役立った。"
+    },
+    {
+      "id": "d1-78",
+      "en": "hard",
+      "ja": "一生懸命",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Work hard every day.",
+      "exampleJa": "毎日一生懸命働きなさい。"
+    },
+    {
+      "id": "d1-79",
+      "en": "hardly",
+      "ja": "ほとんど〜ない",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "I hardly know him.",
+      "exampleJa": "彼のことはほとんど知らない。"
+    },
+    {
+      "id": "d1-80",
+      "en": "heavily",
+      "ja": "激しく",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "It rained heavily last night.",
+      "exampleJa": "昨夜は激しく雨が降った。"
+    },
+    {
+      "id": "d1-81",
+      "en": "hence",
+      "ja": "それゆえ",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Hence, we must act now.",
+      "exampleJa": "それゆえ、今行動しなければならない。"
+    },
+    {
+      "id": "d1-82",
+      "en": "here",
+      "ja": "ここに",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Come here, please.",
+      "exampleJa": "ここに来てください。"
+    },
+    {
+      "id": "d1-83",
+      "en": "highly",
+      "ja": "高度に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "She is highly skilled.",
+      "exampleJa": "彼女は高度に熟練している。"
+    },
+    {
+      "id": "d1-84",
+      "en": "honestly",
+      "ja": "正直に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Honestly, I do not know.",
+      "exampleJa": "正直に言うと、わからない。"
+    },
+    {
+      "id": "d1-85",
+      "en": "hopefully",
+      "ja": "うまくいけば",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Hopefully, the weather clears.",
+      "exampleJa": "うまくいけば天気が晴れる。"
+    },
+    {
+      "id": "d1-86",
+      "en": "however",
+      "ja": "しかし",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "However, we must wait.",
+      "exampleJa": "しかし、待たなければならない。"
+    },
+    {
+      "id": "d1-87",
+      "en": "immediately",
+      "ja": "すぐに",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Call me immediately.",
+      "exampleJa": "すぐに電話して。"
+    },
+    {
+      "id": "d1-88",
+      "en": "indeed",
+      "ja": "実に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "It is indeed a problem.",
+      "exampleJa": "実に問題だ。"
+    },
+    {
+      "id": "d1-89",
+      "en": "indoors",
+      "ja": "屋内で",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Let's stay indoors today.",
+      "exampleJa": "今日は屋内にいよう。"
+    },
+    {
+      "id": "d1-90",
+      "en": "initially",
+      "ja": "最初は",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Initially, I was nervous.",
+      "exampleJa": "最初は緊張していた。"
+    },
+    {
+      "id": "d1-91",
+      "en": "instead",
+      "ja": "代わりに",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Take the bus instead.",
+      "exampleJa": "代わりにバスに乗って。"
+    },
+    {
+      "id": "d1-92",
+      "en": "instantly",
+      "ja": "即座に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "He replied instantly.",
+      "exampleJa": "彼は即座に返事した。"
+    },
+    {
+      "id": "d1-93",
+      "en": "interestingly",
+      "ja": "興味深いことに",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Interestingly, birds returned early.",
+      "exampleJa": "興味深いことに、鳥が早く戻った。"
+    },
+    {
+      "id": "d1-94",
+      "en": "internally",
+      "ja": "内部で",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "The team debated internally.",
+      "exampleJa": "チームは内部で議論した。"
+    },
+    {
+      "id": "d1-95",
+      "en": "invariably",
+      "ja": "いつも",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "He invariably arrives late.",
+      "exampleJa": "彼はいつも遅刻する。"
+    },
+    {
+      "id": "d1-96",
+      "en": "ironically",
+      "ja": "皮肉なことに",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "Ironically, the fire station burned.",
+      "exampleJa": "皮肉なことに、消防署が燃えた。"
+    },
+    {
+      "id": "d1-97",
+      "en": "jointly",
+      "ja": "共同で",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "They jointly wrote the report.",
+      "exampleJa": "彼らは共同で報告書を書いた。"
+    },
+    {
+      "id": "d1-98",
+      "en": "just",
+      "ja": "ちょうど",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "I just finished lunch.",
+      "exampleJa": "ちょうど昼食を終えた。"
+    },
+    {
+      "id": "d1-99",
+      "en": "justly",
+      "ja": "正当に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "He was justly praised.",
+      "exampleJa": "彼は正当に称賛された。"
+    },
+    {
+      "id": "d1-100",
+      "en": "kindly",
+      "ja": "親切に",
+      "pos": "adverb",
+      "level": "1",
+      "exampleEn": "She kindly offered a ride.",
+      "exampleJa": "彼女は親切に車に乗せてくれた。"
+    },
+    {
+      "id": "d2-1",
+      "en": "knowingly",
+      "ja": "故意に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "He knowingly broke the rule.",
+      "exampleJa": "彼は故意に規則を破った。"
+    },
+    {
+      "id": "d2-2",
+      "en": "lastly",
+      "ja": "最後に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Lastly, thank the audience.",
+      "exampleJa": "最後に、聴衆に感謝しなさい。"
+    },
+    {
+      "id": "d2-3",
+      "en": "late",
+      "ja": "遅く",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Do not stay up late.",
+      "exampleJa": "遅くまで起きないで。"
+    },
+    {
+      "id": "d2-4",
+      "en": "lately",
+      "ja": "最近",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "I have been busy lately.",
+      "exampleJa": "最近忙しい。"
+    },
+    {
+      "id": "d2-5",
+      "en": "later",
+      "ja": "後で",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "See you later.",
+      "exampleJa": "後で会おう。"
+    },
+    {
+      "id": "d2-6",
+      "en": "least",
+      "ja": "最も少なく",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "At least try once.",
+      "exampleJa": "少なくとも一度は試して。"
+    },
+    {
+      "id": "d2-7",
+      "en": "left",
+      "ja": "左に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Turn left at the corner.",
+      "exampleJa": "角を左に曲がって。"
+    },
+    {
+      "id": "d2-8",
+      "en": "legally",
+      "ja": "合法的に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "The deal was legally binding.",
+      "exampleJa": "その取引は合法的に拘束力があった。"
+    },
+    {
+      "id": "d2-9",
+      "en": "less",
+      "ja": "より少なく",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Eat less sugar.",
+      "exampleJa": "砂糖をより少なく摂りなさい。"
+    },
+    {
+      "id": "d2-10",
+      "en": "lightly",
+      "ja": "軽く",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Tap lightly on the door.",
+      "exampleJa": "ドアを軽く叩いて。"
+    },
+    {
+      "id": "d2-11",
+      "en": "likely",
+      "ja": "おそらく",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "It will likely rain.",
+      "exampleJa": "おそらく雨が降る。"
+    },
+    {
+      "id": "d2-12",
+      "en": "likewise",
+      "ja": "同様に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Likewise, thanks to you.",
+      "exampleJa": "同様に、あなたにも感謝します。"
+    },
+    {
+      "id": "d2-13",
+      "en": "literally",
+      "ja": "文字通り",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "I literally ran all the way.",
+      "exampleJa": "文字通り一路走った。"
+    },
+    {
+      "id": "d2-14",
+      "en": "little",
+      "ja": "少し",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Sleep a little longer.",
+      "exampleJa": "もう少し長く寝なさい。"
+    },
+    {
+      "id": "d2-15",
+      "en": "locally",
+      "ja": "地元で",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Buy food locally.",
+      "exampleJa": "食料は地元で買いなさい。"
+    },
+    {
+      "id": "d2-16",
+      "en": "logically",
+      "ja": "論理的に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Think logically about the issue.",
+      "exampleJa": "その問題を論理的に考えなさい。"
+    },
+    {
+      "id": "d2-17",
+      "en": "long",
+      "ja": "長く",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Wait no longer.",
+      "exampleJa": "これ以上長く待つな。"
+    },
+    {
+      "id": "d2-18",
+      "en": "loosely",
+      "ja": "ゆるく",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Tie the knot loosely.",
+      "exampleJa": "結び目をゆるく結んで。"
+    },
+    {
+      "id": "d2-19",
+      "en": "loudly",
+      "ja": "大声で",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Do not speak loudly in the library.",
+      "exampleJa": "図書館で大声で話すな。"
+    },
+    {
+      "id": "d2-20",
+      "en": "mainly",
+      "ja": "主に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "We mainly use buses.",
+      "exampleJa": "主にバスを使っている。"
+    },
+    {
+      "id": "d2-21",
+      "en": "maybe",
+      "ja": "たぶん",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Maybe we should leave.",
+      "exampleJa": "たぶん出発した方がいい。"
+    },
+    {
+      "id": "d2-22",
+      "en": "meanwhile",
+      "ja": "その間に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Meanwhile, heat the oven.",
+      "exampleJa": "その間にオーブンを温めて。"
+    },
+    {
+      "id": "d2-23",
+      "en": "merely",
+      "ja": "単に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "I merely asked a question.",
+      "exampleJa": "単に質問しただけだ。"
+    },
+    {
+      "id": "d2-24",
+      "en": "mentally",
+      "ja": "精神的に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Stay mentally strong.",
+      "exampleJa": "精神的に強くありなさい。"
+    },
+    {
+      "id": "d2-25",
+      "en": "mildly",
+      "ja": "穏やかに",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "He mildly protested.",
+      "exampleJa": "彼は穏やかに抗議した。"
+    },
+    {
+      "id": "d2-26",
+      "en": "minimally",
+      "ja": "最小限",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Change the plan minimally.",
+      "exampleJa": "計画を最小限変更しなさい。"
+    },
+    {
+      "id": "d2-27",
+      "en": "moderately",
+      "ja": "適度に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Exercise moderately each week.",
+      "exampleJa": "毎週適度に運動しなさい。"
+    },
+    {
+      "id": "d2-28",
+      "en": "monthly",
+      "ja": "毎月",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Pay rent monthly.",
+      "exampleJa": "家賃は毎月払う。"
+    },
+    {
+      "id": "d2-29",
+      "en": "more",
+      "ja": "もっと",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "I need more time.",
+      "exampleJa": "もっと時間が必要だ。"
+    },
+    {
+      "id": "d2-30",
+      "en": "moreover",
+      "ja": "その上",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Moreover, costs are rising.",
+      "exampleJa": "その上、コストが上がっている。"
+    },
+    {
+      "id": "d2-31",
+      "en": "mostly",
+      "ja": "主として",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "It is mostly sunny.",
+      "exampleJa": "主として晴れている。"
+    },
+    {
+      "id": "d2-32",
+      "en": "much",
+      "ja": "とても",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Thank you very much.",
+      "exampleJa": "どうもありがとう。"
+    },
+    {
+      "id": "d2-33",
+      "en": "mutually",
+      "ja": "相互に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "They mutually agreed.",
+      "exampleJa": "彼らは相互に同意した。"
+    },
+    {
+      "id": "d2-34",
+      "en": "namely",
+      "ja": "すなわち",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "One person replied, namely Tom.",
+      "exampleJa": "一人が返事した、すなわちトムだ。"
+    },
+    {
+      "id": "d2-35",
+      "en": "narrowly",
+      "ja": "かろうじて",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "We narrowly avoided an accident.",
+      "exampleJa": "事故をかろうじて避けた。"
+    },
+    {
+      "id": "d2-36",
+      "en": "nationally",
+      "ja": "全国的に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "The news spread nationally.",
+      "exampleJa": "そのニュースは全国的に広がった。"
+    },
+    {
+      "id": "d2-37",
+      "en": "naturally",
+      "ja": "自然に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Naturally, she was surprised.",
+      "exampleJa": "自然に、彼女は驚いた。"
+    },
+    {
+      "id": "d2-38",
+      "en": "nearby",
+      "ja": "近くに",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "There is a cafe nearby.",
+      "exampleJa": "近くにカフェがある。"
+    },
+    {
+      "id": "d2-39",
+      "en": "nearly",
+      "ja": "ほぼ",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "It is nearly midnight.",
+      "exampleJa": "ほぼ真夜中だ。"
+    },
+    {
+      "id": "d2-40",
+      "en": "neatly",
+      "ja": "きちんと",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Fold the clothes neatly.",
+      "exampleJa": "服をきちんと畳んで。"
+    },
+    {
+      "id": "d2-41",
+      "en": "necessarily",
+      "ja": "必ずしも",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "More money does not necessarily mean happiness.",
+      "exampleJa": "お金が多いから必ずしも幸せとは限らない。"
+    },
+    {
+      "id": "d2-42",
+      "en": "needlessly",
+      "ja": "無用に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Do not worry needlessly.",
+      "exampleJa": "無用に心配するな。"
+    },
+    {
+      "id": "d2-43",
+      "en": "negatively",
+      "ja": "否定的に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Do not think negatively.",
+      "exampleJa": "否定的に考えるな。"
+    },
+    {
+      "id": "d2-44",
+      "en": "neither",
+      "ja": "どちらも〜ない",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Neither option works.",
+      "exampleJa": "どちらの選択肢もうまくいかない。"
+    },
+    {
+      "id": "d2-45",
+      "en": "nervously",
+      "ja": "不安そうに",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "She laughed nervously.",
+      "exampleJa": "彼女は不安そうに笑った。"
+    },
+    {
+      "id": "d2-46",
+      "en": "never",
+      "ja": "決して〜ない",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "I never eat meat.",
+      "exampleJa": "決して肉は食べない。"
+    },
+    {
+      "id": "d2-47",
+      "en": "newly",
+      "ja": "新しく",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "They moved into a newly built house.",
+      "exampleJa": "彼らは新しく建てられた家に引っ越した。"
+    },
+    {
+      "id": "d2-48",
+      "en": "next",
+      "ja": "次に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Who is next in line?",
+      "exampleJa": "次は誰？"
+    },
+    {
+      "id": "d2-49",
+      "en": "nicely",
+      "ja": "うまく",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Everything went nicely.",
+      "exampleJa": "すべてうまくいった。"
+    },
+    {
+      "id": "d2-50",
+      "en": "nightly",
+      "ja": "毎晩",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Stars appear nightly.",
+      "exampleJa": "星は毎晩現れる。"
+    },
+    {
+      "id": "d2-51",
+      "en": "no",
+      "ja": "もう〜ない",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "There is no milk left.",
+      "exampleJa": "もうミルクは残っていない。"
+    },
+    {
+      "id": "d2-52",
+      "en": "normally",
+      "ja": "普通は",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "I normally walk to work.",
+      "exampleJa": "普通は歩いて通勤する。"
+    },
+    {
+      "id": "d2-53",
+      "en": "notably",
+      "ja": "特に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Notably, sales rose in March.",
+      "exampleJa": "特に、三月は売上が伸びた。"
+    },
+    {
+      "id": "d2-54",
+      "en": "noticeably",
+      "ja": "目立って",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "She improved noticeably.",
+      "exampleJa": "彼女は目立って上達した。"
+    },
+    {
+      "id": "d2-55",
+      "en": "now",
+      "ja": "今",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Start now.",
+      "exampleJa": "今始めなさい。"
+    },
+    {
+      "id": "d2-56",
+      "en": "nowadays",
+      "ja": "近頃",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Nowadays, phones are essential.",
+      "exampleJa": "近頃、携帯は必需品だ。"
+    },
+    {
+      "id": "d2-57",
+      "en": "nowhere",
+      "ja": "どこにも〜ない",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "I can find it nowhere.",
+      "exampleJa": "どこにも見つからない。"
+    },
+    {
+      "id": "d2-58",
+      "en": "numerically",
+      "ja": "数値的に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Compare the results numerically.",
+      "exampleJa": "結果を数値的に比較しなさい。"
+    },
+    {
+      "id": "d2-59",
+      "en": "objectively",
+      "ja": "客観的に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Judge the case objectively.",
+      "exampleJa": "その事件を客観的に判断しなさい。"
+    },
+    {
+      "id": "d2-60",
+      "en": "obviously",
+      "ja": "明らかに",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Obviously, he was tired.",
+      "exampleJa": "明らかに彼は疲れていた。"
+    },
+    {
+      "id": "d2-61",
+      "en": "occasionally",
+      "ja": "時々",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "We eat out occasionally.",
+      "exampleJa": "時々外食する。"
+    },
+    {
+      "id": "d2-62",
+      "en": "oddly",
+      "ja": "奇妙に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Oddly, the store was closed.",
+      "exampleJa": "奇妙に、その店は閉まっていた。"
+    },
+    {
+      "id": "d2-63",
+      "en": "off",
+      "ja": "離れて",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Keep off the grass.",
+      "exampleJa": "芝生から離れなさい。"
+    },
+    {
+      "id": "d2-64",
+      "en": "officially",
+      "ja": "正式に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "The game officially starts at six.",
+      "exampleJa": "試合は正式に六時に始まる。"
+    },
+    {
+      "id": "d2-65",
+      "en": "often",
+      "ja": "よく",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "I often read before bed.",
+      "exampleJa": "寝る前によく読書する。"
+    },
+    {
+      "id": "d2-66",
+      "en": "once",
+      "ja": "一度",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Try it once.",
+      "exampleJa": "一度試してみて。"
+    },
+    {
+      "id": "d2-67",
+      "en": "online",
+      "ja": "オンラインで",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Shop online safely.",
+      "exampleJa": "オンラインで安全に買い物しなさい。"
+    },
+    {
+      "id": "d2-68",
+      "en": "only",
+      "ja": "だけ",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Only three seats remain.",
+      "exampleJa": "席は三つだけ残っている。"
+    },
+    {
+      "id": "d2-69",
+      "en": "openly",
+      "ja": "公然と",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "They openly discussed the issue.",
+      "exampleJa": "彼らは公然とその問題を議論した。"
+    },
+    {
+      "id": "d2-70",
+      "en": "optimistically",
+      "ja": "楽観的に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "She spoke optimistically about the future.",
+      "exampleJa": "彼女は将来について楽観的に話した。"
+    },
+    {
+      "id": "d2-71",
+      "en": "originally",
+      "ja": "もともと",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Originally, the plan was different.",
+      "exampleJa": "もともと計画は違っていた。"
+    },
+    {
+      "id": "d2-72",
+      "en": "otherwise",
+      "ja": "さもなければ",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Hurry, otherwise we will miss it.",
+      "exampleJa": "急げ、さもなければ間に合わない。"
+    },
+    {
+      "id": "d2-73",
+      "en": "outdoors",
+      "ja": "屋外で",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Let's eat outdoors.",
+      "exampleJa": "屋外で食べよう。"
+    },
+    {
+      "id": "d2-74",
+      "en": "outwardly",
+      "ja": "身体的に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Outwardly, he seemed calm.",
+      "exampleJa": "外見上、彼は落ち着いて見えた。"
+    },
+    {
+      "id": "d2-75",
+      "en": "overall",
+      "ja": "全体として",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Overall, the trip was great.",
+      "exampleJa": "全体として、旅行は素晴らしかった。"
+    },
+    {
+      "id": "d2-76",
+      "en": "overnight",
+      "ja": "一晩で",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "The snow melted overnight.",
+      "exampleJa": "雪は一晩で溶けた。"
+    },
+    {
+      "id": "d2-77",
+      "en": "overly",
+      "ja": "過度に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Do not be overly critical.",
+      "exampleJa": "過度に批判的になるな。"
+    },
+    {
+      "id": "d2-78",
+      "en": "overseas",
+      "ja": "海外で",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "He works overseas.",
+      "exampleJa": "彼は海外で働いている。"
+    },
+    {
+      "id": "d2-79",
+      "en": "overwhelmingly",
+      "ja": "圧倒的に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "The team won overwhelmingly.",
+      "exampleJa": "チームは圧倒的に勝った。"
+    },
+    {
+      "id": "d2-80",
+      "en": "painfully",
+      "ja": "痛いほど",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "The truth hurt painfully.",
+      "exampleJa": "真実は痛いほど傷ついた。"
+    },
+    {
+      "id": "d2-81",
+      "en": "partially",
+      "ja": "部分的に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "The road is partially closed.",
+      "exampleJa": "道路は部分的に通行止めだ。"
+    },
+    {
+      "id": "d2-82",
+      "en": "particularly",
+      "ja": "特に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "I particularly enjoy hiking.",
+      "exampleJa": "特にハイキングが好きだ。"
+    },
+    {
+      "id": "d2-83",
+      "en": "partly",
+      "ja": "部分的に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "It is partly my fault.",
+      "exampleJa": "部分的に私のせいだ。"
+    },
+    {
+      "id": "d2-84",
+      "en": "passionately",
+      "ja": "情熱的に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "She spoke passionately about art.",
+      "exampleJa": "彼女は芸術について情熱的に話した。"
+    },
+    {
+      "id": "d2-85",
+      "en": "patiently",
+      "ja": "辛抱強く",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Wait patiently in line.",
+      "exampleJa": "列で辛抱強く待ちなさい。"
+    },
+    {
+      "id": "d2-86",
+      "en": "perfectly",
+      "ja": "完璧に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "That fits perfectly.",
+      "exampleJa": "それは完璧に合う。"
+    },
+    {
+      "id": "d2-87",
+      "en": "permanently",
+      "ja": "永久に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "He moved here permanently.",
+      "exampleJa": "彼は永久にここに引っ越した。"
+    },
+    {
+      "id": "d2-88",
+      "en": "personally",
+      "ja": "個人的に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Personally, I disagree.",
+      "exampleJa": "個人的には反対だ。"
+    },
+    {
+      "id": "d2-89",
+      "en": "physically",
+      "ja": "身体的に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Stay physically active.",
+      "exampleJa": "身体的に活動的でいなさい。"
+    },
+    {
+      "id": "d2-90",
+      "en": "plainly",
+      "ja": "はっきり",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "State your name plainly.",
+      "exampleJa": "名前をはっきり言いなさい。"
+    },
+    {
+      "id": "d2-91",
+      "en": "pleasantly",
+      "ja": "楽しく",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "We chatted pleasantly.",
+      "exampleJa": "楽しくおしゃべりした。"
+    },
+    {
+      "id": "d2-92",
+      "en": "politely",
+      "ja": "丁寧に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Ask politely for help.",
+      "exampleJa": "丁寧に助けを求めなさい。"
+    },
+    {
+      "id": "d2-93",
+      "en": "politically",
+      "ja": "政治的に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "The topic is politically sensitive.",
+      "exampleJa": "その話題は政治的にデリケートだ。"
+    },
+    {
+      "id": "d2-94",
+      "en": "poorly",
+      "ja": "下手に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "The team played poorly.",
+      "exampleJa": "チームは下手にプレーした。"
+    },
+    {
+      "id": "d2-95",
+      "en": "positively",
+      "ja": "前向きに",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Think positively every day.",
+      "exampleJa": "毎日前向きに考えなさい。"
+    },
+    {
+      "id": "d2-96",
+      "en": "possibly",
+      "ja": "おそらく",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Could you possibly help?",
+      "exampleJa": "おそらく手伝ってもらえますか？"
+    },
+    {
+      "id": "d2-97",
+      "en": "potentially",
+      "ja": "潜在的に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "This is potentially dangerous.",
+      "exampleJa": "これは潜在的に危険だ。"
+    },
+    {
+      "id": "d2-98",
+      "en": "practically",
+      "ja": "実質的に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "The project is practically done.",
+      "exampleJa": "プロジェクトは実質的に終わった。"
+    },
+    {
+      "id": "d2-99",
+      "en": "precisely",
+      "ja": "正確に",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Measure precisely in millimeters.",
+      "exampleJa": "ミリ単位で正確に測りなさい。"
+    },
+    {
+      "id": "d2-100",
+      "en": "preferably",
+      "ja": "できれば",
+      "pos": "adverb",
+      "level": "2",
+      "exampleEn": "Arrive preferably before noon.",
+      "exampleJa": "できれば正午前に着きなさい。"
+    }
+  ]
+}

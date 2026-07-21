@@ -1,0 +1,7204 @@
+{
+  "words": [
+    {
+      "id": "n1-1",
+      "en": "apple",
+      "ja": "りんご",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "I bought an apple at the store.",
+      "exampleJa": "店でりんごを買った。"
+    },
+    {
+      "id": "n1-2",
+      "en": "book",
+      "ja": "本",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "She is reading a book.",
+      "exampleJa": "彼女は本を読んでいる。"
+    },
+    {
+      "id": "n1-3",
+      "en": "water",
+      "ja": "水",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "Please drink more water.",
+      "exampleJa": "もっと水を飲んでください。"
+    },
+    {
+      "id": "n1-4",
+      "en": "friend",
+      "ja": "友達",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "He is my best friend.",
+      "exampleJa": "彼は私の親友です。"
+    },
+    {
+      "id": "n1-5",
+      "en": "house",
+      "ja": "家",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a house.",
+      "exampleJa": "これは家です。"
+    },
+    {
+      "id": "n1-6",
+      "en": "school",
+      "ja": "学校",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a school.",
+      "exampleJa": "これは学校です。"
+    },
+    {
+      "id": "n1-7",
+      "en": "teacher",
+      "ja": "先生",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a teacher.",
+      "exampleJa": "これは先生です。"
+    },
+    {
+      "id": "n1-8",
+      "en": "student",
+      "ja": "生徒",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a student.",
+      "exampleJa": "これは生徒です。"
+    },
+    {
+      "id": "n1-9",
+      "en": "mother",
+      "ja": "母",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a mother.",
+      "exampleJa": "これは母です。"
+    },
+    {
+      "id": "n1-10",
+      "en": "father",
+      "ja": "父",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a father.",
+      "exampleJa": "これは父です。"
+    },
+    {
+      "id": "n1-11",
+      "en": "brother",
+      "ja": "兄弟",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a brother.",
+      "exampleJa": "これは兄弟です。"
+    },
+    {
+      "id": "n1-12",
+      "en": "sister",
+      "ja": "姉妹",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a sister.",
+      "exampleJa": "これは姉妹です。"
+    },
+    {
+      "id": "n1-13",
+      "en": "dog",
+      "ja": "犬",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a dog.",
+      "exampleJa": "これは犬です。"
+    },
+    {
+      "id": "n1-14",
+      "en": "cat",
+      "ja": "猫",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a cat.",
+      "exampleJa": "これは猫です。"
+    },
+    {
+      "id": "n1-15",
+      "en": "bird",
+      "ja": "鳥",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a bird.",
+      "exampleJa": "これは鳥です。"
+    },
+    {
+      "id": "n1-16",
+      "en": "fish",
+      "ja": "魚",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a fish.",
+      "exampleJa": "これは魚です。"
+    },
+    {
+      "id": "n1-17",
+      "en": "food",
+      "ja": "食べ物",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a food.",
+      "exampleJa": "これは食べ物です。"
+    },
+    {
+      "id": "n1-18",
+      "en": "bread",
+      "ja": "パン",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a bread.",
+      "exampleJa": "これはパンです。"
+    },
+    {
+      "id": "n1-19",
+      "en": "rice",
+      "ja": "ご飯・米",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a rice.",
+      "exampleJa": "これはご飯・米です。"
+    },
+    {
+      "id": "n1-20",
+      "en": "milk",
+      "ja": "牛乳",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a milk.",
+      "exampleJa": "これは牛乳です。"
+    },
+    {
+      "id": "n1-21",
+      "en": "egg",
+      "ja": "卵",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is an egg.",
+      "exampleJa": "これは卵です。"
+    },
+    {
+      "id": "n1-22",
+      "en": "meat",
+      "ja": "肉",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a meat.",
+      "exampleJa": "これは肉です。"
+    },
+    {
+      "id": "n1-23",
+      "en": "fruit",
+      "ja": "果物",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a fruit.",
+      "exampleJa": "これは果物です。"
+    },
+    {
+      "id": "n1-24",
+      "en": "vegetable",
+      "ja": "野菜",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a vegetable.",
+      "exampleJa": "これは野菜です。"
+    },
+    {
+      "id": "n1-25",
+      "en": "day",
+      "ja": "日・昼",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a day.",
+      "exampleJa": "これは日・昼です。"
+    },
+    {
+      "id": "n1-26",
+      "en": "night",
+      "ja": "夜",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a night.",
+      "exampleJa": "これは夜です。"
+    },
+    {
+      "id": "n1-27",
+      "en": "morning",
+      "ja": "朝",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a morning.",
+      "exampleJa": "これは朝です。"
+    },
+    {
+      "id": "n1-28",
+      "en": "evening",
+      "ja": "夕方",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is an evening.",
+      "exampleJa": "これは夕方です。"
+    },
+    {
+      "id": "n1-29",
+      "en": "week",
+      "ja": "週",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a week.",
+      "exampleJa": "これは週です。"
+    },
+    {
+      "id": "n1-30",
+      "en": "month",
+      "ja": "月",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a month.",
+      "exampleJa": "これは月です。"
+    },
+    {
+      "id": "n1-31",
+      "en": "year",
+      "ja": "年",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a year.",
+      "exampleJa": "これは年です。"
+    },
+    {
+      "id": "n1-32",
+      "en": "time",
+      "ja": "時間",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a time.",
+      "exampleJa": "これは時間です。"
+    },
+    {
+      "id": "n1-33",
+      "en": "man",
+      "ja": "男性",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a man.",
+      "exampleJa": "これは男性です。"
+    },
+    {
+      "id": "n1-34",
+      "en": "woman",
+      "ja": "女性",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a woman.",
+      "exampleJa": "これは女性です。"
+    },
+    {
+      "id": "n1-35",
+      "en": "boy",
+      "ja": "男の子",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a boy.",
+      "exampleJa": "これは男の子です。"
+    },
+    {
+      "id": "n1-36",
+      "en": "girl",
+      "ja": "女の子",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a girl.",
+      "exampleJa": "これは女の子です。"
+    },
+    {
+      "id": "n1-37",
+      "en": "child",
+      "ja": "子供",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a child.",
+      "exampleJa": "これは子供です。"
+    },
+    {
+      "id": "n1-38",
+      "en": "baby",
+      "ja": "赤ちゃん",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a baby.",
+      "exampleJa": "これは赤ちゃんです。"
+    },
+    {
+      "id": "n1-39",
+      "en": "people",
+      "ja": "人々",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a people.",
+      "exampleJa": "これは人々です。"
+    },
+    {
+      "id": "n1-40",
+      "en": "person",
+      "ja": "人",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a person.",
+      "exampleJa": "これは人です。"
+    },
+    {
+      "id": "n1-41",
+      "en": "hand",
+      "ja": "手",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a hand.",
+      "exampleJa": "これは手です。"
+    },
+    {
+      "id": "n1-42",
+      "en": "foot",
+      "ja": "足",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a foot.",
+      "exampleJa": "これは足です。"
+    },
+    {
+      "id": "n1-43",
+      "en": "eye",
+      "ja": "目",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is an eye.",
+      "exampleJa": "これは目です。"
+    },
+    {
+      "id": "n1-44",
+      "en": "ear",
+      "ja": "耳",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is an ear.",
+      "exampleJa": "これは耳です。"
+    },
+    {
+      "id": "n1-45",
+      "en": "nose",
+      "ja": "鼻",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a nose.",
+      "exampleJa": "これは鼻です。"
+    },
+    {
+      "id": "n1-46",
+      "en": "mouth",
+      "ja": "口",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a mouth.",
+      "exampleJa": "これは口です。"
+    },
+    {
+      "id": "n1-47",
+      "en": "head",
+      "ja": "頭",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a head.",
+      "exampleJa": "これは頭です。"
+    },
+    {
+      "id": "n1-48",
+      "en": "face",
+      "ja": "顔",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a face.",
+      "exampleJa": "これは顔です。"
+    },
+    {
+      "id": "n1-49",
+      "en": "room",
+      "ja": "部屋",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a room.",
+      "exampleJa": "これは部屋です。"
+    },
+    {
+      "id": "n1-50",
+      "en": "door",
+      "ja": "ドア",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a door.",
+      "exampleJa": "これはドアです。"
+    },
+    {
+      "id": "n1-51",
+      "en": "window",
+      "ja": "窓",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a window.",
+      "exampleJa": "これは窓です。"
+    },
+    {
+      "id": "n1-52",
+      "en": "table",
+      "ja": "テーブル",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a table.",
+      "exampleJa": "これはテーブルです。"
+    },
+    {
+      "id": "n1-53",
+      "en": "chair",
+      "ja": "椅子",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a chair.",
+      "exampleJa": "これは椅子です。"
+    },
+    {
+      "id": "n1-54",
+      "en": "bed",
+      "ja": "ベッド",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a bed.",
+      "exampleJa": "これはベッドです。"
+    },
+    {
+      "id": "n1-55",
+      "en": "bag",
+      "ja": "かばん",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a bag.",
+      "exampleJa": "これはかばんです。"
+    },
+    {
+      "id": "n1-56",
+      "en": "pen",
+      "ja": "ペン",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a pen.",
+      "exampleJa": "これはペンです。"
+    },
+    {
+      "id": "n1-57",
+      "en": "pencil",
+      "ja": "鉛筆",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a pencil.",
+      "exampleJa": "これは鉛筆です。"
+    },
+    {
+      "id": "n1-58",
+      "en": "paper",
+      "ja": "紙",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a paper.",
+      "exampleJa": "これは紙です。"
+    },
+    {
+      "id": "n1-59",
+      "en": "phone",
+      "ja": "電話",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a phone.",
+      "exampleJa": "これは電話です。"
+    },
+    {
+      "id": "n1-60",
+      "en": "car",
+      "ja": "車",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a car.",
+      "exampleJa": "これは車です。"
+    },
+    {
+      "id": "n1-61",
+      "en": "bus",
+      "ja": "バス",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a bus.",
+      "exampleJa": "これはバスです。"
+    },
+    {
+      "id": "n1-62",
+      "en": "train",
+      "ja": "電車",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a train.",
+      "exampleJa": "これは電車です。"
+    },
+    {
+      "id": "n1-63",
+      "en": "bike",
+      "ja": "自転車",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a bike.",
+      "exampleJa": "これは自転車です。"
+    },
+    {
+      "id": "n1-64",
+      "en": "plane",
+      "ja": "飛行機",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a plane.",
+      "exampleJa": "これは飛行機です。"
+    },
+    {
+      "id": "n1-65",
+      "en": "city",
+      "ja": "都市",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a city.",
+      "exampleJa": "これは都市です。"
+    },
+    {
+      "id": "n1-66",
+      "en": "town",
+      "ja": "町",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a town.",
+      "exampleJa": "これは町です。"
+    },
+    {
+      "id": "n1-67",
+      "en": "street",
+      "ja": "通り",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a street.",
+      "exampleJa": "これは通りです。"
+    },
+    {
+      "id": "n1-68",
+      "en": "park",
+      "ja": "公園",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a park.",
+      "exampleJa": "これは公園です。"
+    },
+    {
+      "id": "n1-69",
+      "en": "shop",
+      "ja": "店",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a shop.",
+      "exampleJa": "これは店です。"
+    },
+    {
+      "id": "n1-70",
+      "en": "hospital",
+      "ja": "病院",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a hospital.",
+      "exampleJa": "これは病院です。"
+    },
+    {
+      "id": "n1-71",
+      "en": "station",
+      "ja": "駅",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a station.",
+      "exampleJa": "これは駅です。"
+    },
+    {
+      "id": "n1-72",
+      "en": "office",
+      "ja": "事務所",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is an office.",
+      "exampleJa": "これは事務所です。"
+    },
+    {
+      "id": "n1-73",
+      "en": "job",
+      "ja": "仕事",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a job.",
+      "exampleJa": "これは仕事です。"
+    },
+    {
+      "id": "n1-74",
+      "en": "money",
+      "ja": "お金",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a money.",
+      "exampleJa": "これはお金です。"
+    },
+    {
+      "id": "n1-75",
+      "en": "name",
+      "ja": "名前",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a name.",
+      "exampleJa": "これは名前です。"
+    },
+    {
+      "id": "n1-76",
+      "en": "number",
+      "ja": "数字・番号",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a number.",
+      "exampleJa": "これは数字・番号です。"
+    },
+    {
+      "id": "n1-77",
+      "en": "color",
+      "ja": "色",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a color.",
+      "exampleJa": "これは色です。"
+    },
+    {
+      "id": "n1-78",
+      "en": "red",
+      "ja": "赤",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a red.",
+      "exampleJa": "これは赤です。"
+    },
+    {
+      "id": "n1-79",
+      "en": "blue",
+      "ja": "青",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a blue.",
+      "exampleJa": "これは青です。"
+    },
+    {
+      "id": "n1-80",
+      "en": "green",
+      "ja": "緑",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a green.",
+      "exampleJa": "これは緑です。"
+    },
+    {
+      "id": "n1-81",
+      "en": "white",
+      "ja": "白",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a white.",
+      "exampleJa": "これは白です。"
+    },
+    {
+      "id": "n1-82",
+      "en": "black",
+      "ja": "黒",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a black.",
+      "exampleJa": "これは黒です。"
+    },
+    {
+      "id": "n1-83",
+      "en": "sun",
+      "ja": "太陽",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a sun.",
+      "exampleJa": "これは太陽です。"
+    },
+    {
+      "id": "n1-84",
+      "en": "moon",
+      "ja": "月（衛星）",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a moon.",
+      "exampleJa": "これは月（衛星）です。"
+    },
+    {
+      "id": "n1-85",
+      "en": "rain",
+      "ja": "雨",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a rain.",
+      "exampleJa": "これは雨です。"
+    },
+    {
+      "id": "n1-86",
+      "en": "snow",
+      "ja": "雪",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a snow.",
+      "exampleJa": "これは雪です。"
+    },
+    {
+      "id": "n1-87",
+      "en": "wind",
+      "ja": "風",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a wind.",
+      "exampleJa": "これは風です。"
+    },
+    {
+      "id": "n1-88",
+      "en": "sky",
+      "ja": "空",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a sky.",
+      "exampleJa": "これは空です。"
+    },
+    {
+      "id": "n1-89",
+      "en": "tree",
+      "ja": "木",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a tree.",
+      "exampleJa": "これは木です。"
+    },
+    {
+      "id": "n1-90",
+      "en": "flower",
+      "ja": "花",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a flower.",
+      "exampleJa": "これは花です。"
+    },
+    {
+      "id": "n1-91",
+      "en": "grass",
+      "ja": "草",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a grass.",
+      "exampleJa": "これは草です。"
+    },
+    {
+      "id": "n1-92",
+      "en": "river",
+      "ja": "川",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a river.",
+      "exampleJa": "これは川です。"
+    },
+    {
+      "id": "n1-93",
+      "en": "sea",
+      "ja": "海",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a sea.",
+      "exampleJa": "これは海です。"
+    },
+    {
+      "id": "n1-94",
+      "en": "mountain",
+      "ja": "山",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a mountain.",
+      "exampleJa": "これは山です。"
+    },
+    {
+      "id": "n1-95",
+      "en": "animal",
+      "ja": "動物",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is an animal.",
+      "exampleJa": "これは動物です。"
+    },
+    {
+      "id": "n1-96",
+      "en": "music",
+      "ja": "音楽",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a music.",
+      "exampleJa": "これは音楽です。"
+    },
+    {
+      "id": "n1-97",
+      "en": "song",
+      "ja": "歌",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a song.",
+      "exampleJa": "これは歌です。"
+    },
+    {
+      "id": "n1-98",
+      "en": "game",
+      "ja": "ゲーム",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a game.",
+      "exampleJa": "これはゲームです。"
+    },
+    {
+      "id": "n1-99",
+      "en": "ball",
+      "ja": "ボール",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a ball.",
+      "exampleJa": "これはボールです。"
+    },
+    {
+      "id": "n1-100",
+      "en": "movie",
+      "ja": "映画",
+      "pos": "noun",
+      "level": "1",
+      "exampleEn": "This is a movie.",
+      "exampleJa": "これは映画です。"
+    },
+    {
+      "id": "n2-1",
+      "en": "family",
+      "ja": "家族",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a family.",
+      "exampleJa": "これは家族です。"
+    },
+    {
+      "id": "n2-2",
+      "en": "parent",
+      "ja": "親",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a parent.",
+      "exampleJa": "これは親です。"
+    },
+    {
+      "id": "n2-3",
+      "en": "uncle",
+      "ja": "おじさん",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is an uncle.",
+      "exampleJa": "これはおじさんです。"
+    },
+    {
+      "id": "n2-4",
+      "en": "aunt",
+      "ja": "おばさん",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is an aunt.",
+      "exampleJa": "これはおばさんです。"
+    },
+    {
+      "id": "n2-5",
+      "en": "cousin",
+      "ja": "いとこ",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a cousin.",
+      "exampleJa": "これはいとこです。"
+    },
+    {
+      "id": "n2-6",
+      "en": "neighbor",
+      "ja": "隣人",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a neighbor.",
+      "exampleJa": "これは隣人です。"
+    },
+    {
+      "id": "n2-7",
+      "en": "guest",
+      "ja": "客人",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a guest.",
+      "exampleJa": "これは客人です。"
+    },
+    {
+      "id": "n2-8",
+      "en": "host",
+      "ja": "ホスト",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a host.",
+      "exampleJa": "これはホストです。"
+    },
+    {
+      "id": "n2-9",
+      "en": "kitchen",
+      "ja": "台所",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a kitchen.",
+      "exampleJa": "これは台所です。"
+    },
+    {
+      "id": "n2-10",
+      "en": "bathroom",
+      "ja": "浴室",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a bathroom.",
+      "exampleJa": "これは浴室です。"
+    },
+    {
+      "id": "n2-11",
+      "en": "garden",
+      "ja": "庭",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a garden.",
+      "exampleJa": "これは庭です。"
+    },
+    {
+      "id": "n2-12",
+      "en": "floor",
+      "ja": "床・階",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a floor.",
+      "exampleJa": "これは床・階です。"
+    },
+    {
+      "id": "n2-13",
+      "en": "wall",
+      "ja": "壁",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a wall.",
+      "exampleJa": "これは壁です。"
+    },
+    {
+      "id": "n2-14",
+      "en": "roof",
+      "ja": "屋根",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a roof.",
+      "exampleJa": "これは屋根です。"
+    },
+    {
+      "id": "n2-15",
+      "en": "key",
+      "ja": "鍵",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a key.",
+      "exampleJa": "これは鍵です。"
+    },
+    {
+      "id": "n2-16",
+      "en": "clock",
+      "ja": "時計",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a clock.",
+      "exampleJa": "これは時計です。"
+    },
+    {
+      "id": "n2-17",
+      "en": "watch",
+      "ja": "腕時計",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a watch.",
+      "exampleJa": "これは腕時計です。"
+    },
+    {
+      "id": "n2-18",
+      "en": "camera",
+      "ja": "カメラ",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a camera.",
+      "exampleJa": "これはカメラです。"
+    },
+    {
+      "id": "n2-19",
+      "en": "computer",
+      "ja": "コンピュータ",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a computer.",
+      "exampleJa": "これはコンピュータです。"
+    },
+    {
+      "id": "n2-20",
+      "en": "internet",
+      "ja": "インターネット",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is an internet.",
+      "exampleJa": "これはインターネットです。"
+    },
+    {
+      "id": "n2-21",
+      "en": "email",
+      "ja": "メール",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is an email.",
+      "exampleJa": "これはメールです。"
+    },
+    {
+      "id": "n2-22",
+      "en": "message",
+      "ja": "メッセージ",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a message.",
+      "exampleJa": "これはメッセージです。"
+    },
+    {
+      "id": "n2-23",
+      "en": "letter",
+      "ja": "手紙",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a letter.",
+      "exampleJa": "これは手紙です。"
+    },
+    {
+      "id": "n2-24",
+      "en": "card",
+      "ja": "カード",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a card.",
+      "exampleJa": "これはカードです。"
+    },
+    {
+      "id": "n2-25",
+      "en": "ticket",
+      "ja": "切符",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a ticket.",
+      "exampleJa": "これは切符です。"
+    },
+    {
+      "id": "n2-26",
+      "en": "passport",
+      "ja": "パスポート",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a passport.",
+      "exampleJa": "これはパスポートです。"
+    },
+    {
+      "id": "n2-27",
+      "en": "map",
+      "ja": "地図",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a map.",
+      "exampleJa": "これは地図です。"
+    },
+    {
+      "id": "n2-28",
+      "en": "photo",
+      "ja": "写真",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a photo.",
+      "exampleJa": "これは写真です。"
+    },
+    {
+      "id": "n2-29",
+      "en": "picture",
+      "ja": "絵・写真",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a picture.",
+      "exampleJa": "これは絵・写真です。"
+    },
+    {
+      "id": "n2-30",
+      "en": "news",
+      "ja": "ニュース",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a news.",
+      "exampleJa": "これはニュースです。"
+    },
+    {
+      "id": "n2-31",
+      "en": "story",
+      "ja": "物語",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a story.",
+      "exampleJa": "これは物語です。"
+    },
+    {
+      "id": "n2-32",
+      "en": "language",
+      "ja": "言語",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a language.",
+      "exampleJa": "これは言語です。"
+    },
+    {
+      "id": "n2-33",
+      "en": "word",
+      "ja": "単語",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a word.",
+      "exampleJa": "これは単語です。"
+    },
+    {
+      "id": "n2-34",
+      "en": "sentence",
+      "ja": "文",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a sentence.",
+      "exampleJa": "これは文です。"
+    },
+    {
+      "id": "n2-35",
+      "en": "question",
+      "ja": "質問",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a question.",
+      "exampleJa": "これは質問です。"
+    },
+    {
+      "id": "n2-36",
+      "en": "answer",
+      "ja": "答え",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is an answer.",
+      "exampleJa": "これは答えです。"
+    },
+    {
+      "id": "n2-37",
+      "en": "test",
+      "ja": "テスト",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a test.",
+      "exampleJa": "これはテストです。"
+    },
+    {
+      "id": "n2-38",
+      "en": "exam",
+      "ja": "試験",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is an exam.",
+      "exampleJa": "これは試験です。"
+    },
+    {
+      "id": "n2-39",
+      "en": "homework",
+      "ja": "宿題",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a homework.",
+      "exampleJa": "これは宿題です。"
+    },
+    {
+      "id": "n2-40",
+      "en": "class",
+      "ja": "授業・クラス",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a class.",
+      "exampleJa": "これは授業・クラスです。"
+    },
+    {
+      "id": "n2-41",
+      "en": "lesson",
+      "ja": "レッスン",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a lesson.",
+      "exampleJa": "これはレッスンです。"
+    },
+    {
+      "id": "n2-42",
+      "en": "subject",
+      "ja": "科目",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a subject.",
+      "exampleJa": "これは科目です。"
+    },
+    {
+      "id": "n2-43",
+      "en": "math",
+      "ja": "数学",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a math.",
+      "exampleJa": "これは数学です。"
+    },
+    {
+      "id": "n2-44",
+      "en": "science",
+      "ja": "科学",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a science.",
+      "exampleJa": "これは科学です。"
+    },
+    {
+      "id": "n2-45",
+      "en": "history",
+      "ja": "歴史",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a history.",
+      "exampleJa": "これは歴史です。"
+    },
+    {
+      "id": "n2-46",
+      "en": "art",
+      "ja": "芸術",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is an art.",
+      "exampleJa": "これは芸術です。"
+    },
+    {
+      "id": "n2-47",
+      "en": "sport",
+      "ja": "スポーツ",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a sport.",
+      "exampleJa": "これはスポーツです。"
+    },
+    {
+      "id": "n2-48",
+      "en": "team",
+      "ja": "チーム",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a team.",
+      "exampleJa": "これはチームです。"
+    },
+    {
+      "id": "n2-49",
+      "en": "player",
+      "ja": "選手",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a player.",
+      "exampleJa": "これは選手です。"
+    },
+    {
+      "id": "n2-50",
+      "en": "match",
+      "ja": "試合",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a match.",
+      "exampleJa": "これは試合です。"
+    },
+    {
+      "id": "n2-51",
+      "en": "goal",
+      "ja": "ゴール・目標",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a goal.",
+      "exampleJa": "これはゴール・目標です。"
+    },
+    {
+      "id": "n2-52",
+      "en": "score",
+      "ja": "得点",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a score.",
+      "exampleJa": "これは得点です。"
+    },
+    {
+      "id": "n2-53",
+      "en": "breakfast",
+      "ja": "朝食",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a breakfast.",
+      "exampleJa": "これは朝食です。"
+    },
+    {
+      "id": "n2-54",
+      "en": "lunch",
+      "ja": "昼食",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a lunch.",
+      "exampleJa": "これは昼食です。"
+    },
+    {
+      "id": "n2-55",
+      "en": "dinner",
+      "ja": "夕食",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a dinner.",
+      "exampleJa": "これは夕食です。"
+    },
+    {
+      "id": "n2-56",
+      "en": "meal",
+      "ja": "食事",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a meal.",
+      "exampleJa": "これは食事です。"
+    },
+    {
+      "id": "n2-57",
+      "en": "coffee",
+      "ja": "コーヒー",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a coffee.",
+      "exampleJa": "これはコーヒーです。"
+    },
+    {
+      "id": "n2-58",
+      "en": "tea",
+      "ja": "お茶",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a tea.",
+      "exampleJa": "これはお茶です。"
+    },
+    {
+      "id": "n2-59",
+      "en": "juice",
+      "ja": "ジュース",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a juice.",
+      "exampleJa": "これはジュースです。"
+    },
+    {
+      "id": "n2-60",
+      "en": "sugar",
+      "ja": "砂糖",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a sugar.",
+      "exampleJa": "これは砂糖です。"
+    },
+    {
+      "id": "n2-61",
+      "en": "salt",
+      "ja": "塩",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a salt.",
+      "exampleJa": "これは塩です。"
+    },
+    {
+      "id": "n2-62",
+      "en": "butter",
+      "ja": "バター",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a butter.",
+      "exampleJa": "これはバターです。"
+    },
+    {
+      "id": "n2-63",
+      "en": "cheese",
+      "ja": "チーズ",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a cheese.",
+      "exampleJa": "これはチーズです。"
+    },
+    {
+      "id": "n2-64",
+      "en": "soup",
+      "ja": "スープ",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a soup.",
+      "exampleJa": "これはスープです。"
+    },
+    {
+      "id": "n2-65",
+      "en": "salad",
+      "ja": "サラダ",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a salad.",
+      "exampleJa": "これはサラダです。"
+    },
+    {
+      "id": "n2-66",
+      "en": "cake",
+      "ja": "ケーキ",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a cake.",
+      "exampleJa": "これはケーキです。"
+    },
+    {
+      "id": "n2-67",
+      "en": "cookie",
+      "ja": "クッキー",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a cookie.",
+      "exampleJa": "これはクッキーです。"
+    },
+    {
+      "id": "n2-68",
+      "en": "ice",
+      "ja": "氷",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is an ice.",
+      "exampleJa": "これは氷です。"
+    },
+    {
+      "id": "n2-69",
+      "en": "clothes",
+      "ja": "服",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a clothes.",
+      "exampleJa": "これは服です。"
+    },
+    {
+      "id": "n2-70",
+      "en": "shirt",
+      "ja": "シャツ",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a shirt.",
+      "exampleJa": "これはシャツです。"
+    },
+    {
+      "id": "n2-71",
+      "en": "pants",
+      "ja": "ズボン",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a pants.",
+      "exampleJa": "これはズボンです。"
+    },
+    {
+      "id": "n2-72",
+      "en": "dress",
+      "ja": "ドレス",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a dress.",
+      "exampleJa": "これはドレスです。"
+    },
+    {
+      "id": "n2-73",
+      "en": "skirt",
+      "ja": "スカート",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a skirt.",
+      "exampleJa": "これはスカートです。"
+    },
+    {
+      "id": "n2-74",
+      "en": "coat",
+      "ja": "コート",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a coat.",
+      "exampleJa": "これはコートです。"
+    },
+    {
+      "id": "n2-75",
+      "en": "hat",
+      "ja": "帽子",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a hat.",
+      "exampleJa": "これは帽子です。"
+    },
+    {
+      "id": "n2-76",
+      "en": "shoes",
+      "ja": "靴",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a shoes.",
+      "exampleJa": "これは靴です。"
+    },
+    {
+      "id": "n2-77",
+      "en": "socks",
+      "ja": "靴下",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a socks.",
+      "exampleJa": "これは靴下です。"
+    },
+    {
+      "id": "n2-78",
+      "en": "glasses",
+      "ja": "眼鏡",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a glasses.",
+      "exampleJa": "これは眼鏡です。"
+    },
+    {
+      "id": "n2-79",
+      "en": "weather",
+      "ja": "天気",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a weather.",
+      "exampleJa": "これは天気です。"
+    },
+    {
+      "id": "n2-80",
+      "en": "season",
+      "ja": "季節",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a season.",
+      "exampleJa": "これは季節です。"
+    },
+    {
+      "id": "n2-81",
+      "en": "spring",
+      "ja": "春",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a spring.",
+      "exampleJa": "これは春です。"
+    },
+    {
+      "id": "n2-82",
+      "en": "summer",
+      "ja": "夏",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a summer.",
+      "exampleJa": "これは夏です。"
+    },
+    {
+      "id": "n2-83",
+      "en": "autumn",
+      "ja": "秋",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is an autumn.",
+      "exampleJa": "これは秋です。"
+    },
+    {
+      "id": "n2-84",
+      "en": "winter",
+      "ja": "冬",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a winter.",
+      "exampleJa": "これは冬です。"
+    },
+    {
+      "id": "n2-85",
+      "en": "holiday",
+      "ja": "休日",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a holiday.",
+      "exampleJa": "これは休日です。"
+    },
+    {
+      "id": "n2-86",
+      "en": "vacation",
+      "ja": "休暇",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a vacation.",
+      "exampleJa": "これは休暇です。"
+    },
+    {
+      "id": "n2-87",
+      "en": "party",
+      "ja": "パーティー",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a party.",
+      "exampleJa": "これはパーティーです。"
+    },
+    {
+      "id": "n2-88",
+      "en": "gift",
+      "ja": "贈り物",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a gift.",
+      "exampleJa": "これは贈り物です。"
+    },
+    {
+      "id": "n2-89",
+      "en": "birthday",
+      "ja": "誕生日",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a birthday.",
+      "exampleJa": "これは誕生日です。"
+    },
+    {
+      "id": "n2-90",
+      "en": "wedding",
+      "ja": "結婚式",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a wedding.",
+      "exampleJa": "これは結婚式です。"
+    },
+    {
+      "id": "n2-91",
+      "en": "meeting",
+      "ja": "会議",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a meeting.",
+      "exampleJa": "これは会議です。"
+    },
+    {
+      "id": "n2-92",
+      "en": "plan",
+      "ja": "計画",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a plan.",
+      "exampleJa": "これは計画です。"
+    },
+    {
+      "id": "n2-93",
+      "en": "idea",
+      "ja": "考え",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is an idea.",
+      "exampleJa": "これは考えです。"
+    },
+    {
+      "id": "n2-94",
+      "en": "problem",
+      "ja": "問題",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a problem.",
+      "exampleJa": "これは問題です。"
+    },
+    {
+      "id": "n2-95",
+      "en": "reason",
+      "ja": "理由",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a reason.",
+      "exampleJa": "これは理由です。"
+    },
+    {
+      "id": "n2-96",
+      "en": "result",
+      "ja": "結果",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a result.",
+      "exampleJa": "これは結果です。"
+    },
+    {
+      "id": "n2-97",
+      "en": "hobby",
+      "ja": "趣味",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a hobby.",
+      "exampleJa": "これは趣味です。"
+    },
+    {
+      "id": "n2-98",
+      "en": "skill",
+      "ja": "技能",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a skill.",
+      "exampleJa": "これは技能です。"
+    },
+    {
+      "id": "n2-99",
+      "en": "tool",
+      "ja": "道具",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a tool.",
+      "exampleJa": "これは道具です。"
+    },
+    {
+      "id": "n2-100",
+      "en": "toy",
+      "ja": "おもちゃ",
+      "pos": "noun",
+      "level": "2",
+      "exampleEn": "This is a toy.",
+      "exampleJa": "これはおもちゃです。"
+    },
+    {
+      "id": "n3-1",
+      "en": "address",
+      "ja": "住所",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an address.",
+      "exampleJa": "これは住所です。"
+    },
+    {
+      "id": "n3-2",
+      "en": "age",
+      "ja": "年齢",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an age.",
+      "exampleJa": "これは年齢です。"
+    },
+    {
+      "id": "n3-3",
+      "en": "air",
+      "ja": "空気",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an air.",
+      "exampleJa": "これは空気です。"
+    },
+    {
+      "id": "n3-4",
+      "en": "airport",
+      "ja": "空港",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an airport.",
+      "exampleJa": "これは空港です。"
+    },
+    {
+      "id": "n3-5",
+      "en": "area",
+      "ja": "地域・面積",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an area.",
+      "exampleJa": "これは地域・面積です。"
+    },
+    {
+      "id": "n3-6",
+      "en": "bank",
+      "ja": "銀行",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a bank.",
+      "exampleJa": "これは銀行です。"
+    },
+    {
+      "id": "n3-7",
+      "en": "beach",
+      "ja": "海岸",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a beach.",
+      "exampleJa": "これは海岸です。"
+    },
+    {
+      "id": "n3-8",
+      "en": "bridge",
+      "ja": "橋",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a bridge.",
+      "exampleJa": "これは橋です。"
+    },
+    {
+      "id": "n3-9",
+      "en": "building",
+      "ja": "建物",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a building.",
+      "exampleJa": "これは建物です。"
+    },
+    {
+      "id": "n3-10",
+      "en": "business",
+      "ja": "商売・事業",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a business.",
+      "exampleJa": "これは商売・事業です。"
+    },
+    {
+      "id": "n3-11",
+      "en": "career",
+      "ja": "経歴",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a career.",
+      "exampleJa": "これは経歴です。"
+    },
+    {
+      "id": "n3-12",
+      "en": "center",
+      "ja": "中心",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a center.",
+      "exampleJa": "これは中心です。"
+    },
+    {
+      "id": "n3-13",
+      "en": "chance",
+      "ja": "機会・可能性",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a chance.",
+      "exampleJa": "これは機会・可能性です。"
+    },
+    {
+      "id": "n3-14",
+      "en": "change",
+      "ja": "変化・お釣り",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a change.",
+      "exampleJa": "これは変化・お釣りです。"
+    },
+    {
+      "id": "n3-15",
+      "en": "choice",
+      "ja": "選択",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a choice.",
+      "exampleJa": "これは選択です。"
+    },
+    {
+      "id": "n3-16",
+      "en": "club",
+      "ja": "クラブ",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a club.",
+      "exampleJa": "これはクラブです。"
+    },
+    {
+      "id": "n3-17",
+      "en": "college",
+      "ja": "大学（短大など）",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a college.",
+      "exampleJa": "これは大学（短大など）です。"
+    },
+    {
+      "id": "n3-18",
+      "en": "company",
+      "ja": "会社",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a company.",
+      "exampleJa": "これは会社です。"
+    },
+    {
+      "id": "n3-19",
+      "en": "concert",
+      "ja": "コンサート",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a concert.",
+      "exampleJa": "これはコンサートです。"
+    },
+    {
+      "id": "n3-20",
+      "en": "condition",
+      "ja": "状態・条件",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a condition.",
+      "exampleJa": "これは状態・条件です。"
+    },
+    {
+      "id": "n3-21",
+      "en": "conversation",
+      "ja": "会話",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a conversation.",
+      "exampleJa": "これは会話です。"
+    },
+    {
+      "id": "n3-22",
+      "en": "country",
+      "ja": "国・田舎",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a country.",
+      "exampleJa": "これは国・田舎です。"
+    },
+    {
+      "id": "n3-23",
+      "en": "couple",
+      "ja": "夫婦・カップル",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a couple.",
+      "exampleJa": "これは夫婦・カップルです。"
+    },
+    {
+      "id": "n3-24",
+      "en": "course",
+      "ja": "講座・コース",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a course.",
+      "exampleJa": "これは講座・コースです。"
+    },
+    {
+      "id": "n3-25",
+      "en": "crowd",
+      "ja": "群衆",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a crowd.",
+      "exampleJa": "これは群衆です。"
+    },
+    {
+      "id": "n3-26",
+      "en": "culture",
+      "ja": "文化",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a culture.",
+      "exampleJa": "これは文化です。"
+    },
+    {
+      "id": "n3-27",
+      "en": "customer",
+      "ja": "客",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a customer.",
+      "exampleJa": "これは客です。"
+    },
+    {
+      "id": "n3-28",
+      "en": "danger",
+      "ja": "危険",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a danger.",
+      "exampleJa": "これは危険です。"
+    },
+    {
+      "id": "n3-29",
+      "en": "decision",
+      "ja": "決定",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a decision.",
+      "exampleJa": "これは決定です。"
+    },
+    {
+      "id": "n3-30",
+      "en": "difference",
+      "ja": "違い",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a difference.",
+      "exampleJa": "これは違いです。"
+    },
+    {
+      "id": "n3-31",
+      "en": "direction",
+      "ja": "方向・指示",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a direction.",
+      "exampleJa": "これは方向・指示です。"
+    },
+    {
+      "id": "n3-32",
+      "en": "distance",
+      "ja": "距離",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a distance.",
+      "exampleJa": "これは距離です。"
+    },
+    {
+      "id": "n3-33",
+      "en": "dream",
+      "ja": "夢",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a dream.",
+      "exampleJa": "これは夢です。"
+    },
+    {
+      "id": "n3-34",
+      "en": "earth",
+      "ja": "地球",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an earth.",
+      "exampleJa": "これは地球です。"
+    },
+    {
+      "id": "n3-35",
+      "en": "education",
+      "ja": "教育",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an education.",
+      "exampleJa": "これは教育です。"
+    },
+    {
+      "id": "n3-36",
+      "en": "effort",
+      "ja": "努力",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an effort.",
+      "exampleJa": "これは努力です。"
+    },
+    {
+      "id": "n3-37",
+      "en": "energy",
+      "ja": "エネルギー",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an energy.",
+      "exampleJa": "これはエネルギーです。"
+    },
+    {
+      "id": "n3-38",
+      "en": "event",
+      "ja": "出来事・行事",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an event.",
+      "exampleJa": "これは出来事・行事です。"
+    },
+    {
+      "id": "n3-39",
+      "en": "example",
+      "ja": "例",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an example.",
+      "exampleJa": "これは例です。"
+    },
+    {
+      "id": "n3-40",
+      "en": "experience",
+      "ja": "経験",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an experience.",
+      "exampleJa": "これは経験です。"
+    },
+    {
+      "id": "n3-41",
+      "en": "fact",
+      "ja": "事実",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a fact.",
+      "exampleJa": "これは事実です。"
+    },
+    {
+      "id": "n3-42",
+      "en": "farm",
+      "ja": "農場",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a farm.",
+      "exampleJa": "これは農場です。"
+    },
+    {
+      "id": "n3-43",
+      "en": "feeling",
+      "ja": "気持ち",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a feeling.",
+      "exampleJa": "これは気持ちです。"
+    },
+    {
+      "id": "n3-44",
+      "en": "field",
+      "ja": "畑・分野",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a field.",
+      "exampleJa": "これは畑・分野です。"
+    },
+    {
+      "id": "n3-45",
+      "en": "fire",
+      "ja": "火",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a fire.",
+      "exampleJa": "これは火です。"
+    },
+    {
+      "id": "n3-46",
+      "en": "flight",
+      "ja": "飛行・便",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a flight.",
+      "exampleJa": "これは飛行・便です。"
+    },
+    {
+      "id": "n3-47",
+      "en": "forest",
+      "ja": "森",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a forest.",
+      "exampleJa": "これは森です。"
+    },
+    {
+      "id": "n3-48",
+      "en": "future",
+      "ja": "未来",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a future.",
+      "exampleJa": "これは未来です。"
+    },
+    {
+      "id": "n3-49",
+      "en": "government",
+      "ja": "政府",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a government.",
+      "exampleJa": "これは政府です。"
+    },
+    {
+      "id": "n3-50",
+      "en": "ground",
+      "ja": "地面",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a ground.",
+      "exampleJa": "これは地面です。"
+    },
+    {
+      "id": "n3-51",
+      "en": "group",
+      "ja": "グループ",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a group.",
+      "exampleJa": "これはグループです。"
+    },
+    {
+      "id": "n3-52",
+      "en": "habit",
+      "ja": "習慣",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a habit.",
+      "exampleJa": "これは習慣です。"
+    },
+    {
+      "id": "n3-53",
+      "en": "health",
+      "ja": "健康",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a health.",
+      "exampleJa": "これは健康です。"
+    },
+    {
+      "id": "n3-54",
+      "en": "heart",
+      "ja": "心臓・心",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a heart.",
+      "exampleJa": "これは心臓・心です。"
+    },
+    {
+      "id": "n3-55",
+      "en": "hill",
+      "ja": "丘",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a hill.",
+      "exampleJa": "これは丘です。"
+    },
+    {
+      "id": "n3-56",
+      "en": "hope",
+      "ja": "希望",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a hope.",
+      "exampleJa": "これは希望です。"
+    },
+    {
+      "id": "n3-57",
+      "en": "hotel",
+      "ja": "ホテル",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a hotel.",
+      "exampleJa": "これはホテルです。"
+    },
+    {
+      "id": "n3-58",
+      "en": "hour",
+      "ja": "時間（60分）",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a hour.",
+      "exampleJa": "これは時間（60分）です。"
+    },
+    {
+      "id": "n3-59",
+      "en": "human",
+      "ja": "人間",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a human.",
+      "exampleJa": "これは人間です。"
+    },
+    {
+      "id": "n3-60",
+      "en": "industry",
+      "ja": "産業",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an industry.",
+      "exampleJa": "これは産業です。"
+    },
+    {
+      "id": "n3-61",
+      "en": "information",
+      "ja": "情報",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an information.",
+      "exampleJa": "これは情報です。"
+    },
+    {
+      "id": "n3-62",
+      "en": "interest",
+      "ja": "興味",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an interest.",
+      "exampleJa": "これは興味です。"
+    },
+    {
+      "id": "n3-63",
+      "en": "island",
+      "ja": "島",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an island.",
+      "exampleJa": "これは島です。"
+    },
+    {
+      "id": "n3-64",
+      "en": "kind",
+      "ja": "種類・親切",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a kind.",
+      "exampleJa": "これは種類・親切です。"
+    },
+    {
+      "id": "n3-65",
+      "en": "knowledge",
+      "ja": "知識",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a knowledge.",
+      "exampleJa": "これは知識です。"
+    },
+    {
+      "id": "n3-66",
+      "en": "lake",
+      "ja": "湖",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a lake.",
+      "exampleJa": "これは湖です。"
+    },
+    {
+      "id": "n3-67",
+      "en": "law",
+      "ja": "法律",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a law.",
+      "exampleJa": "これは法律です。"
+    },
+    {
+      "id": "n3-68",
+      "en": "leader",
+      "ja": "指導者",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a leader.",
+      "exampleJa": "これは指導者です。"
+    },
+    {
+      "id": "n3-69",
+      "en": "library",
+      "ja": "図書館",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a library.",
+      "exampleJa": "これは図書館です。"
+    },
+    {
+      "id": "n3-70",
+      "en": "life",
+      "ja": "人生・生命",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a life.",
+      "exampleJa": "これは人生・生命です。"
+    },
+    {
+      "id": "n3-71",
+      "en": "light",
+      "ja": "光・明かり",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a light.",
+      "exampleJa": "これは光・明かりです。"
+    },
+    {
+      "id": "n3-72",
+      "en": "line",
+      "ja": "線・列",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a line.",
+      "exampleJa": "これは線・列です。"
+    },
+    {
+      "id": "n3-73",
+      "en": "list",
+      "ja": "リスト",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a list.",
+      "exampleJa": "これはリストです。"
+    },
+    {
+      "id": "n3-74",
+      "en": "machine",
+      "ja": "機械",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a machine.",
+      "exampleJa": "これは機械です。"
+    },
+    {
+      "id": "n3-75",
+      "en": "market",
+      "ja": "市場",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a market.",
+      "exampleJa": "これは市場です。"
+    },
+    {
+      "id": "n3-76",
+      "en": "material",
+      "ja": "材料",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a material.",
+      "exampleJa": "これは材料です。"
+    },
+    {
+      "id": "n3-77",
+      "en": "member",
+      "ja": "会員",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a member.",
+      "exampleJa": "これは会員です。"
+    },
+    {
+      "id": "n3-78",
+      "en": "memory",
+      "ja": "記憶",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a memory.",
+      "exampleJa": "これは記憶です。"
+    },
+    {
+      "id": "n3-79",
+      "en": "method",
+      "ja": "方法",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a method.",
+      "exampleJa": "これは方法です。"
+    },
+    {
+      "id": "n3-80",
+      "en": "mind",
+      "ja": "心・精神",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a mind.",
+      "exampleJa": "これは心・精神です。"
+    },
+    {
+      "id": "n3-81",
+      "en": "minute",
+      "ja": "分",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a minute.",
+      "exampleJa": "これは分です。"
+    },
+    {
+      "id": "n3-82",
+      "en": "moment",
+      "ja": "瞬間",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a moment.",
+      "exampleJa": "これは瞬間です。"
+    },
+    {
+      "id": "n3-83",
+      "en": "museum",
+      "ja": "博物館",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a museum.",
+      "exampleJa": "これは博物館です。"
+    },
+    {
+      "id": "n3-84",
+      "en": "nature",
+      "ja": "自然",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a nature.",
+      "exampleJa": "これは自然です。"
+    },
+    {
+      "id": "n3-85",
+      "en": "noise",
+      "ja": "騒音",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a noise.",
+      "exampleJa": "これは騒音です。"
+    },
+    {
+      "id": "n3-86",
+      "en": "note",
+      "ja": "メモ・音符",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a note.",
+      "exampleJa": "これはメモ・音符です。"
+    },
+    {
+      "id": "n3-87",
+      "en": "object",
+      "ja": "物・対象",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an object.",
+      "exampleJa": "これは物・対象です。"
+    },
+    {
+      "id": "n3-88",
+      "en": "ocean",
+      "ja": "大洋",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an ocean.",
+      "exampleJa": "これは大洋です。"
+    },
+    {
+      "id": "n3-89",
+      "en": "opinion",
+      "ja": "意見",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an opinion.",
+      "exampleJa": "これは意見です。"
+    },
+    {
+      "id": "n3-90",
+      "en": "order",
+      "ja": "注文・順序",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is an order.",
+      "exampleJa": "これは注文・順序です。"
+    },
+    {
+      "id": "n3-91",
+      "en": "passenger",
+      "ja": "乗客",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a passenger.",
+      "exampleJa": "これは乗客です。"
+    },
+    {
+      "id": "n3-92",
+      "en": "path",
+      "ja": "道・小道",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a path.",
+      "exampleJa": "これは道・小道です。"
+    },
+    {
+      "id": "n3-93",
+      "en": "patient",
+      "ja": "患者",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a patient.",
+      "exampleJa": "これは患者です。"
+    },
+    {
+      "id": "n3-94",
+      "en": "peace",
+      "ja": "平和",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a peace.",
+      "exampleJa": "これは平和です。"
+    },
+    {
+      "id": "n3-95",
+      "en": "plant",
+      "ja": "植物",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a plant.",
+      "exampleJa": "これは植物です。"
+    },
+    {
+      "id": "n3-96",
+      "en": "police",
+      "ja": "警察",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a police.",
+      "exampleJa": "これは警察です。"
+    },
+    {
+      "id": "n3-97",
+      "en": "price",
+      "ja": "価格",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a price.",
+      "exampleJa": "これは価格です。"
+    },
+    {
+      "id": "n3-98",
+      "en": "program",
+      "ja": "番組・計画",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a program.",
+      "exampleJa": "これは番組・計画です。"
+    },
+    {
+      "id": "n3-99",
+      "en": "pupil",
+      "ja": "生徒",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a pupil.",
+      "exampleJa": "これは生徒です。"
+    },
+    {
+      "id": "n3-100",
+      "en": "purse",
+      "ja": "財布",
+      "pos": "noun",
+      "level": "3",
+      "exampleEn": "This is a purse.",
+      "exampleJa": "これは財布です。"
+    },
+    {
+      "id": "n4-1",
+      "en": "ability",
+      "ja": "能力",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "She has the ability to lead.",
+      "exampleJa": "彼女にはリーダーの能力がある。"
+    },
+    {
+      "id": "n4-2",
+      "en": "account",
+      "ja": "口座・説明",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an account.",
+      "exampleJa": "これは口座・説明です。"
+    },
+    {
+      "id": "n4-3",
+      "en": "action",
+      "ja": "行動",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an action.",
+      "exampleJa": "これは行動です。"
+    },
+    {
+      "id": "n4-4",
+      "en": "activity",
+      "ja": "活動",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an activity.",
+      "exampleJa": "これは活動です。"
+    },
+    {
+      "id": "n4-5",
+      "en": "actor",
+      "ja": "俳優",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an actor.",
+      "exampleJa": "これは俳優です。"
+    },
+    {
+      "id": "n4-6",
+      "en": "advice",
+      "ja": "助言",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an advice.",
+      "exampleJa": "これは助言です。"
+    },
+    {
+      "id": "n4-7",
+      "en": "agreement",
+      "ja": "合意",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an agreement.",
+      "exampleJa": "これは合意です。"
+    },
+    {
+      "id": "n4-8",
+      "en": "aim",
+      "ja": "目的",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an aim.",
+      "exampleJa": "これは目的です。"
+    },
+    {
+      "id": "n4-9",
+      "en": "amount",
+      "ja": "量",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an amount.",
+      "exampleJa": "これは量です。"
+    },
+    {
+      "id": "n4-10",
+      "en": "analysis",
+      "ja": "分析",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an analysis.",
+      "exampleJa": "これは分析です。"
+    },
+    {
+      "id": "n4-11",
+      "en": "anger",
+      "ja": "怒り",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an anger.",
+      "exampleJa": "これは怒りです。"
+    },
+    {
+      "id": "n4-12",
+      "en": "appearance",
+      "ja": "外見・出現",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an appearance.",
+      "exampleJa": "これは外見・出現です。"
+    },
+    {
+      "id": "n4-13",
+      "en": "application",
+      "ja": "申込・応用",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an application.",
+      "exampleJa": "これは申込・応用です。"
+    },
+    {
+      "id": "n4-14",
+      "en": "appointment",
+      "ja": "約束・予約",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an appointment.",
+      "exampleJa": "これは約束・予約です。"
+    },
+    {
+      "id": "n4-15",
+      "en": "approach",
+      "ja": "接近・手法",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an approach.",
+      "exampleJa": "これは接近・手法です。"
+    },
+    {
+      "id": "n4-16",
+      "en": "argument",
+      "ja": "議論",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an argument.",
+      "exampleJa": "これは議論です。"
+    },
+    {
+      "id": "n4-17",
+      "en": "arrangement",
+      "ja": "手配",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an arrangement.",
+      "exampleJa": "これは手配です。"
+    },
+    {
+      "id": "n4-18",
+      "en": "article",
+      "ja": "記事・品物",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an article.",
+      "exampleJa": "これは記事・品物です。"
+    },
+    {
+      "id": "n4-19",
+      "en": "atmosphere",
+      "ja": "雰囲気・大気",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an atmosphere.",
+      "exampleJa": "これは雰囲気・大気です。"
+    },
+    {
+      "id": "n4-20",
+      "en": "attention",
+      "ja": "注意",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an attention.",
+      "exampleJa": "これは注意です。"
+    },
+    {
+      "id": "n4-21",
+      "en": "attitude",
+      "ja": "態度",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an attitude.",
+      "exampleJa": "これは態度です。"
+    },
+    {
+      "id": "n4-22",
+      "en": "audience",
+      "ja": "観客",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an audience.",
+      "exampleJa": "これは観客です。"
+    },
+    {
+      "id": "n4-23",
+      "en": "authority",
+      "ja": "権威・当局",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an authority.",
+      "exampleJa": "これは権威・当局です。"
+    },
+    {
+      "id": "n4-24",
+      "en": "average",
+      "ja": "平均",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is an average.",
+      "exampleJa": "これは平均です。"
+    },
+    {
+      "id": "n4-25",
+      "en": "background",
+      "ja": "背景",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a background.",
+      "exampleJa": "これは背景です。"
+    },
+    {
+      "id": "n4-26",
+      "en": "balance",
+      "ja": "バランス",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a balance.",
+      "exampleJa": "これはバランスです。"
+    },
+    {
+      "id": "n4-27",
+      "en": "base",
+      "ja": "基盤",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a base.",
+      "exampleJa": "これは基盤です。"
+    },
+    {
+      "id": "n4-28",
+      "en": "basic",
+      "ja": "基本",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a basic.",
+      "exampleJa": "これは基本です。"
+    },
+    {
+      "id": "n4-29",
+      "en": "behavior",
+      "ja": "行動・振る舞い",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a behavior.",
+      "exampleJa": "これは行動・振る舞いです。"
+    },
+    {
+      "id": "n4-30",
+      "en": "belief",
+      "ja": "信念",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a belief.",
+      "exampleJa": "これは信念です。"
+    },
+    {
+      "id": "n4-31",
+      "en": "benefit",
+      "ja": "利益・恩恵",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a benefit.",
+      "exampleJa": "これは利益・恩恵です。"
+    },
+    {
+      "id": "n4-32",
+      "en": "bill",
+      "ja": "請求書",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a bill.",
+      "exampleJa": "これは請求書です。"
+    },
+    {
+      "id": "n4-33",
+      "en": "board",
+      "ja": "板・委員会",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a board.",
+      "exampleJa": "これは板・委員会です。"
+    },
+    {
+      "id": "n4-34",
+      "en": "border",
+      "ja": "国境",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a border.",
+      "exampleJa": "これは国境です。"
+    },
+    {
+      "id": "n4-35",
+      "en": "bottom",
+      "ja": "底",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a bottom.",
+      "exampleJa": "これは底です。"
+    },
+    {
+      "id": "n4-36",
+      "en": "brain",
+      "ja": "脳",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a brain.",
+      "exampleJa": "これは脳です。"
+    },
+    {
+      "id": "n4-37",
+      "en": "branch",
+      "ja": "枝・支店",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a branch.",
+      "exampleJa": "これは枝・支店です。"
+    },
+    {
+      "id": "n4-38",
+      "en": "budget",
+      "ja": "予算",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a budget.",
+      "exampleJa": "これは予算です。"
+    },
+    {
+      "id": "n4-39",
+      "en": "campaign",
+      "ja": "キャンペーン",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a campaign.",
+      "exampleJa": "これはキャンペーンです。"
+    },
+    {
+      "id": "n4-40",
+      "en": "candidate",
+      "ja": "候補者",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a candidate.",
+      "exampleJa": "これは候補者です。"
+    },
+    {
+      "id": "n4-41",
+      "en": "capacity",
+      "ja": "能力・容量",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a capacity.",
+      "exampleJa": "これは能力・容量です。"
+    },
+    {
+      "id": "n4-42",
+      "en": "capital",
+      "ja": "首都・資本",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a capital.",
+      "exampleJa": "これは首都・資本です。"
+    },
+    {
+      "id": "n4-43",
+      "en": "case",
+      "ja": "場合・ケース",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a case.",
+      "exampleJa": "これは場合・ケースです。"
+    },
+    {
+      "id": "n4-44",
+      "en": "category",
+      "ja": "カテゴリー",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a category.",
+      "exampleJa": "これはカテゴリーです。"
+    },
+    {
+      "id": "n4-45",
+      "en": "cause",
+      "ja": "原因",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a cause.",
+      "exampleJa": "これは原因です。"
+    },
+    {
+      "id": "n4-46",
+      "en": "ceremony",
+      "ja": "式",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a ceremony.",
+      "exampleJa": "これは式です。"
+    },
+    {
+      "id": "n4-47",
+      "en": "challenge",
+      "ja": "挑戦",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a challenge.",
+      "exampleJa": "これは挑戦です。"
+    },
+    {
+      "id": "n4-48",
+      "en": "character",
+      "ja": "性格・文字",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a character.",
+      "exampleJa": "これは性格・文字です。"
+    },
+    {
+      "id": "n4-49",
+      "en": "charge",
+      "ja": "料金・担当",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a charge.",
+      "exampleJa": "これは料金・担当です。"
+    },
+    {
+      "id": "n4-50",
+      "en": "chemical",
+      "ja": "化学物質",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a chemical.",
+      "exampleJa": "これは化学物質です。"
+    },
+    {
+      "id": "n4-51",
+      "en": "citizen",
+      "ja": "市民",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a citizen.",
+      "exampleJa": "これは市民です。"
+    },
+    {
+      "id": "n4-52",
+      "en": "claim",
+      "ja": "主張",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a claim.",
+      "exampleJa": "これは主張です。"
+    },
+    {
+      "id": "n4-53",
+      "en": "climate",
+      "ja": "気候",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a climate.",
+      "exampleJa": "これは気候です。"
+    },
+    {
+      "id": "n4-54",
+      "en": "code",
+      "ja": "暗号・規範",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a code.",
+      "exampleJa": "これは暗号・規範です。"
+    },
+    {
+      "id": "n4-55",
+      "en": "collection",
+      "ja": "収集",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a collection.",
+      "exampleJa": "これは収集です。"
+    },
+    {
+      "id": "n4-56",
+      "en": "comment",
+      "ja": "コメント",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a comment.",
+      "exampleJa": "これはコメントです。"
+    },
+    {
+      "id": "n4-57",
+      "en": "communication",
+      "ja": "コミュニケーション",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a communication.",
+      "exampleJa": "これはコミュニケーションです。"
+    },
+    {
+      "id": "n4-58",
+      "en": "community",
+      "ja": "共同体",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a community.",
+      "exampleJa": "これは共同体です。"
+    },
+    {
+      "id": "n4-59",
+      "en": "comparison",
+      "ja": "比較",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a comparison.",
+      "exampleJa": "これは比較です。"
+    },
+    {
+      "id": "n4-60",
+      "en": "competition",
+      "ja": "競争",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a competition.",
+      "exampleJa": "これは競争です。"
+    },
+    {
+      "id": "n4-61",
+      "en": "complaint",
+      "ja": "苦情",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a complaint.",
+      "exampleJa": "これは苦情です。"
+    },
+    {
+      "id": "n4-62",
+      "en": "complex",
+      "ja": "複合体・複雑なもの",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a complex.",
+      "exampleJa": "これは複合体・複雑なものです。"
+    },
+    {
+      "id": "n4-63",
+      "en": "concept",
+      "ja": "概念",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a concept.",
+      "exampleJa": "これは概念です。"
+    },
+    {
+      "id": "n4-64",
+      "en": "concern",
+      "ja": "懸念",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a concern.",
+      "exampleJa": "これは懸念です。"
+    },
+    {
+      "id": "n4-65",
+      "en": "conclusion",
+      "ja": "結論",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a conclusion.",
+      "exampleJa": "これは結論です。"
+    },
+    {
+      "id": "n4-66",
+      "en": "confidence",
+      "ja": "自信",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a confidence.",
+      "exampleJa": "これは自信です。"
+    },
+    {
+      "id": "n4-67",
+      "en": "conflict",
+      "ja": "対立",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a conflict.",
+      "exampleJa": "これは対立です。"
+    },
+    {
+      "id": "n4-68",
+      "en": "connection",
+      "ja": "つながり",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a connection.",
+      "exampleJa": "これはつながりです。"
+    },
+    {
+      "id": "n4-69",
+      "en": "consequence",
+      "ja": "結果・影響",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a consequence.",
+      "exampleJa": "これは結果・影響です。"
+    },
+    {
+      "id": "n4-70",
+      "en": "construction",
+      "ja": "建設",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a construction.",
+      "exampleJa": "これは建設です。"
+    },
+    {
+      "id": "n4-71",
+      "en": "consumer",
+      "ja": "消費者",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a consumer.",
+      "exampleJa": "これは消費者です。"
+    },
+    {
+      "id": "n4-72",
+      "en": "contact",
+      "ja": "連絡",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a contact.",
+      "exampleJa": "これは連絡です。"
+    },
+    {
+      "id": "n4-73",
+      "en": "content",
+      "ja": "内容",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a content.",
+      "exampleJa": "これは内容です。"
+    },
+    {
+      "id": "n4-74",
+      "en": "context",
+      "ja": "文脈",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a context.",
+      "exampleJa": "これは文脈です。"
+    },
+    {
+      "id": "n4-75",
+      "en": "contract",
+      "ja": "契約",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a contract.",
+      "exampleJa": "これは契約です。"
+    },
+    {
+      "id": "n4-76",
+      "en": "contrast",
+      "ja": "対照",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a contrast.",
+      "exampleJa": "これは対照です。"
+    },
+    {
+      "id": "n4-77",
+      "en": "contribution",
+      "ja": "貢献",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a contribution.",
+      "exampleJa": "これは貢献です。"
+    },
+    {
+      "id": "n4-78",
+      "en": "control",
+      "ja": "管理・制御",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a control.",
+      "exampleJa": "これは管理・制御です。"
+    },
+    {
+      "id": "n4-79",
+      "en": "convenience",
+      "ja": "便利",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a convenience.",
+      "exampleJa": "これは便利です。"
+    },
+    {
+      "id": "n4-80",
+      "en": "convention",
+      "ja": "慣習・大会",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a convention.",
+      "exampleJa": "これは慣習・大会です。"
+    },
+    {
+      "id": "n4-81",
+      "en": "corner",
+      "ja": "角",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a corner.",
+      "exampleJa": "これは角です。"
+    },
+    {
+      "id": "n4-82",
+      "en": "cost",
+      "ja": "費用",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a cost.",
+      "exampleJa": "これは費用です。"
+    },
+    {
+      "id": "n4-83",
+      "en": "court",
+      "ja": "裁判所・コート",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a court.",
+      "exampleJa": "これは裁判所・コートです。"
+    },
+    {
+      "id": "n4-84",
+      "en": "cover",
+      "ja": "覆い・表紙",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a cover.",
+      "exampleJa": "これは覆い・表紙です。"
+    },
+    {
+      "id": "n4-85",
+      "en": "creation",
+      "ja": "創造",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a creation.",
+      "exampleJa": "これは創造です。"
+    },
+    {
+      "id": "n4-86",
+      "en": "credit",
+      "ja": "信用・単位",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a credit.",
+      "exampleJa": "これは信用・単位です。"
+    },
+    {
+      "id": "n4-87",
+      "en": "crime",
+      "ja": "犯罪",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a crime.",
+      "exampleJa": "これは犯罪です。"
+    },
+    {
+      "id": "n4-88",
+      "en": "crisis",
+      "ja": "危機",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a crisis.",
+      "exampleJa": "これは危機です。"
+    },
+    {
+      "id": "n4-89",
+      "en": "criterion",
+      "ja": "基準",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a criterion.",
+      "exampleJa": "これは基準です。"
+    },
+    {
+      "id": "n4-90",
+      "en": "criticism",
+      "ja": "批判",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a criticism.",
+      "exampleJa": "これは批判です。"
+    },
+    {
+      "id": "n4-91",
+      "en": "crop",
+      "ja": "作物",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a crop.",
+      "exampleJa": "これは作物です。"
+    },
+    {
+      "id": "n4-92",
+      "en": "custom",
+      "ja": "習慣・税関",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a custom.",
+      "exampleJa": "これは習慣・税関です。"
+    },
+    {
+      "id": "n4-93",
+      "en": "cycle",
+      "ja": "循環",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a cycle.",
+      "exampleJa": "これは循環です。"
+    },
+    {
+      "id": "n4-94",
+      "en": "damage",
+      "ja": "損害",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a damage.",
+      "exampleJa": "これは損害です。"
+    },
+    {
+      "id": "n4-95",
+      "en": "data",
+      "ja": "データ",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a data.",
+      "exampleJa": "これはデータです。"
+    },
+    {
+      "id": "n4-96",
+      "en": "debate",
+      "ja": "討論",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a debate.",
+      "exampleJa": "これは討論です。"
+    },
+    {
+      "id": "n4-97",
+      "en": "debt",
+      "ja": "借金",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a debt.",
+      "exampleJa": "これは借金です。"
+    },
+    {
+      "id": "n4-98",
+      "en": "decade",
+      "ja": "10年",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "A decade has passed since then.",
+      "exampleJa": "それから10年が過ぎた。"
+    },
+    {
+      "id": "n4-99",
+      "en": "delay",
+      "ja": "遅れ",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a delay.",
+      "exampleJa": "これは遅れです。"
+    },
+    {
+      "id": "n4-100",
+      "en": "demand",
+      "ja": "需要",
+      "pos": "noun",
+      "level": "4",
+      "exampleEn": "This is a demand.",
+      "exampleJa": "これは需要です。"
+    },
+    {
+      "id": "n5-1",
+      "en": "definition",
+      "ja": "定義",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a definition.",
+      "exampleJa": "これは定義です。"
+    },
+    {
+      "id": "n5-2",
+      "en": "degree",
+      "ja": "程度・学位",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a degree.",
+      "exampleJa": "これは程度・学位です。"
+    },
+    {
+      "id": "n5-3",
+      "en": "delivery",
+      "ja": "配達",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a delivery.",
+      "exampleJa": "これは配達です。"
+    },
+    {
+      "id": "n5-4",
+      "en": "department",
+      "ja": "部門",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a department.",
+      "exampleJa": "これは部門です。"
+    },
+    {
+      "id": "n5-5",
+      "en": "depression",
+      "ja": "不況・うつ",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a depression.",
+      "exampleJa": "これは不況・うつです。"
+    },
+    {
+      "id": "n5-6",
+      "en": "depth",
+      "ja": "深さ",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a depth.",
+      "exampleJa": "これは深さです。"
+    },
+    {
+      "id": "n5-7",
+      "en": "description",
+      "ja": "説明",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a description.",
+      "exampleJa": "これは説明です。"
+    },
+    {
+      "id": "n5-8",
+      "en": "design",
+      "ja": "デザイン",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a design.",
+      "exampleJa": "これはデザインです。"
+    },
+    {
+      "id": "n5-9",
+      "en": "desire",
+      "ja": "欲望",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a desire.",
+      "exampleJa": "これは欲望です。"
+    },
+    {
+      "id": "n5-10",
+      "en": "detail",
+      "ja": "詳細",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a detail.",
+      "exampleJa": "これは詳細です。"
+    },
+    {
+      "id": "n5-11",
+      "en": "development",
+      "ja": "発展",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a development.",
+      "exampleJa": "これは発展です。"
+    },
+    {
+      "id": "n5-12",
+      "en": "device",
+      "ja": "装置",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a device.",
+      "exampleJa": "これは装置です。"
+    },
+    {
+      "id": "n5-13",
+      "en": "diet",
+      "ja": "食事・ダイエット",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a diet.",
+      "exampleJa": "これは食事・ダイエットです。"
+    },
+    {
+      "id": "n5-14",
+      "en": "difficulty",
+      "ja": "困難",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a difficulty.",
+      "exampleJa": "これは困難です。"
+    },
+    {
+      "id": "n5-15",
+      "en": "dimension",
+      "ja": "次元・寸法",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a dimension.",
+      "exampleJa": "これは次元・寸法です。"
+    },
+    {
+      "id": "n5-16",
+      "en": "disaster",
+      "ja": "災害",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a disaster.",
+      "exampleJa": "これは災害です。"
+    },
+    {
+      "id": "n5-17",
+      "en": "discipline",
+      "ja": "規律・学問",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a discipline.",
+      "exampleJa": "これは規律・学問です。"
+    },
+    {
+      "id": "n5-18",
+      "en": "discount",
+      "ja": "割引",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a discount.",
+      "exampleJa": "これは割引です。"
+    },
+    {
+      "id": "n5-19",
+      "en": "discussion",
+      "ja": "議論",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a discussion.",
+      "exampleJa": "これは議論です。"
+    },
+    {
+      "id": "n5-20",
+      "en": "disease",
+      "ja": "病気",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a disease.",
+      "exampleJa": "これは病気です。"
+    },
+    {
+      "id": "n5-21",
+      "en": "display",
+      "ja": "展示・表示",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a display.",
+      "exampleJa": "これは展示・表示です。"
+    },
+    {
+      "id": "n5-22",
+      "en": "distribution",
+      "ja": "分配",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a distribution.",
+      "exampleJa": "これは分配です。"
+    },
+    {
+      "id": "n5-23",
+      "en": "district",
+      "ja": "地区",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a district.",
+      "exampleJa": "これは地区です。"
+    },
+    {
+      "id": "n5-24",
+      "en": "document",
+      "ja": "書類",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a document.",
+      "exampleJa": "これは書類です。"
+    },
+    {
+      "id": "n5-25",
+      "en": "domain",
+      "ja": "領域",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a domain.",
+      "exampleJa": "これは領域です。"
+    },
+    {
+      "id": "n5-26",
+      "en": "drama",
+      "ja": "ドラマ",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a drama.",
+      "exampleJa": "これはドラマです。"
+    },
+    {
+      "id": "n5-27",
+      "en": "duty",
+      "ja": "義務",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a duty.",
+      "exampleJa": "これは義務です。"
+    },
+    {
+      "id": "n5-28",
+      "en": "economy",
+      "ja": "経済",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an economy.",
+      "exampleJa": "これは経済です。"
+    },
+    {
+      "id": "n5-29",
+      "en": "edge",
+      "ja": "端",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an edge.",
+      "exampleJa": "これは端です。"
+    },
+    {
+      "id": "n5-30",
+      "en": "editor",
+      "ja": "編集者",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an editor.",
+      "exampleJa": "これは編集者です。"
+    },
+    {
+      "id": "n5-31",
+      "en": "effect",
+      "ja": "効果・影響",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an effect.",
+      "exampleJa": "これは効果・影響です。"
+    },
+    {
+      "id": "n5-32",
+      "en": "efficiency",
+      "ja": "効率",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an efficiency.",
+      "exampleJa": "これは効率です。"
+    },
+    {
+      "id": "n5-33",
+      "en": "election",
+      "ja": "選挙",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an election.",
+      "exampleJa": "これは選挙です。"
+    },
+    {
+      "id": "n5-34",
+      "en": "element",
+      "ja": "要素",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an element.",
+      "exampleJa": "これは要素です。"
+    },
+    {
+      "id": "n5-35",
+      "en": "emotion",
+      "ja": "感情",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an emotion.",
+      "exampleJa": "これは感情です。"
+    },
+    {
+      "id": "n5-36",
+      "en": "emphasis",
+      "ja": "強調",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an emphasis.",
+      "exampleJa": "これは強調です。"
+    },
+    {
+      "id": "n5-37",
+      "en": "employee",
+      "ja": "従業員",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an employee.",
+      "exampleJa": "これは従業員です。"
+    },
+    {
+      "id": "n5-38",
+      "en": "employer",
+      "ja": "雇用主",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an employer.",
+      "exampleJa": "これは雇用主です。"
+    },
+    {
+      "id": "n5-39",
+      "en": "employment",
+      "ja": "雇用",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an employment.",
+      "exampleJa": "これは雇用です。"
+    },
+    {
+      "id": "n5-40",
+      "en": "enemy",
+      "ja": "敵",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an enemy.",
+      "exampleJa": "これは敵です。"
+    },
+    {
+      "id": "n5-41",
+      "en": "engine",
+      "ja": "エンジン",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an engine.",
+      "exampleJa": "これはエンジンです。"
+    },
+    {
+      "id": "n5-42",
+      "en": "engineer",
+      "ja": "エンジニア",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an engineer.",
+      "exampleJa": "これはエンジニアです。"
+    },
+    {
+      "id": "n5-43",
+      "en": "entertainment",
+      "ja": "娯楽",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an entertainment.",
+      "exampleJa": "これは娯楽です。"
+    },
+    {
+      "id": "n5-44",
+      "en": "enthusiasm",
+      "ja": "熱意",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an enthusiasm.",
+      "exampleJa": "これは熱意です。"
+    },
+    {
+      "id": "n5-45",
+      "en": "entrance",
+      "ja": "入口",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an entrance.",
+      "exampleJa": "これは入口です。"
+    },
+    {
+      "id": "n5-46",
+      "en": "environment",
+      "ja": "環境",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "We must protect the environment.",
+      "exampleJa": "環境を守らなければならない。"
+    },
+    {
+      "id": "n5-47",
+      "en": "episode",
+      "ja": "エピソード",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an episode.",
+      "exampleJa": "これはエピソードです。"
+    },
+    {
+      "id": "n5-48",
+      "en": "equipment",
+      "ja": "設備",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an equipment.",
+      "exampleJa": "これは設備です。"
+    },
+    {
+      "id": "n5-49",
+      "en": "error",
+      "ja": "誤り",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an error.",
+      "exampleJa": "これは誤りです。"
+    },
+    {
+      "id": "n5-50",
+      "en": "escape",
+      "ja": "脱出",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an escape.",
+      "exampleJa": "これは脱出です。"
+    },
+    {
+      "id": "n5-51",
+      "en": "estimate",
+      "ja": "見積もり",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an estimate.",
+      "exampleJa": "これは見積もりです。"
+    },
+    {
+      "id": "n5-52",
+      "en": "evidence",
+      "ja": "証拠",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an evidence.",
+      "exampleJa": "これは証拠です。"
+    },
+    {
+      "id": "n5-53",
+      "en": "exchange",
+      "ja": "交換",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an exchange.",
+      "exampleJa": "これは交換です。"
+    },
+    {
+      "id": "n5-54",
+      "en": "excitement",
+      "ja": "興奮",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an excitement.",
+      "exampleJa": "これは興奮です。"
+    },
+    {
+      "id": "n5-55",
+      "en": "exhibition",
+      "ja": "展示会",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an exhibition.",
+      "exampleJa": "これは展示会です。"
+    },
+    {
+      "id": "n5-56",
+      "en": "existence",
+      "ja": "存在",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an existence.",
+      "exampleJa": "これは存在です。"
+    },
+    {
+      "id": "n5-57",
+      "en": "expansion",
+      "ja": "拡大",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an expansion.",
+      "exampleJa": "これは拡大です。"
+    },
+    {
+      "id": "n5-58",
+      "en": "expectation",
+      "ja": "期待",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an expectation.",
+      "exampleJa": "これは期待です。"
+    },
+    {
+      "id": "n5-59",
+      "en": "expense",
+      "ja": "費用",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an expense.",
+      "exampleJa": "これは費用です。"
+    },
+    {
+      "id": "n5-60",
+      "en": "experiment",
+      "ja": "実験",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an experiment.",
+      "exampleJa": "これは実験です。"
+    },
+    {
+      "id": "n5-61",
+      "en": "expert",
+      "ja": "専門家",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an expert.",
+      "exampleJa": "これは専門家です。"
+    },
+    {
+      "id": "n5-62",
+      "en": "explanation",
+      "ja": "説明",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an explanation.",
+      "exampleJa": "これは説明です。"
+    },
+    {
+      "id": "n5-63",
+      "en": "exploration",
+      "ja": "探検",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an exploration.",
+      "exampleJa": "これは探検です。"
+    },
+    {
+      "id": "n5-64",
+      "en": "export",
+      "ja": "輸出",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an export.",
+      "exampleJa": "これは輸出です。"
+    },
+    {
+      "id": "n5-65",
+      "en": "expression",
+      "ja": "表現",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an expression.",
+      "exampleJa": "これは表現です。"
+    },
+    {
+      "id": "n5-66",
+      "en": "extent",
+      "ja": "程度・範囲",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is an extent.",
+      "exampleJa": "これは程度・範囲です。"
+    },
+    {
+      "id": "n5-67",
+      "en": "facility",
+      "ja": "施設",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a facility.",
+      "exampleJa": "これは施設です。"
+    },
+    {
+      "id": "n5-68",
+      "en": "factor",
+      "ja": "要因",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a factor.",
+      "exampleJa": "これは要因です。"
+    },
+    {
+      "id": "n5-69",
+      "en": "failure",
+      "ja": "失敗",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a failure.",
+      "exampleJa": "これは失敗です。"
+    },
+    {
+      "id": "n5-70",
+      "en": "fame",
+      "ja": "名声",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a fame.",
+      "exampleJa": "これは名声です。"
+    },
+    {
+      "id": "n5-71",
+      "en": "fashion",
+      "ja": "ファッション",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a fashion.",
+      "exampleJa": "これはファッションです。"
+    },
+    {
+      "id": "n5-72",
+      "en": "feature",
+      "ja": "特徴",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a feature.",
+      "exampleJa": "これは特徴です。"
+    },
+    {
+      "id": "n5-73",
+      "en": "fee",
+      "ja": "料金",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a fee.",
+      "exampleJa": "これは料金です。"
+    },
+    {
+      "id": "n5-74",
+      "en": "feedback",
+      "ja": "フィードバック",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a feedback.",
+      "exampleJa": "これはフィードバックです。"
+    },
+    {
+      "id": "n5-75",
+      "en": "figure",
+      "ja": "数字・人物",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a figure.",
+      "exampleJa": "これは数字・人物です。"
+    },
+    {
+      "id": "n5-76",
+      "en": "finance",
+      "ja": "財政",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a finance.",
+      "exampleJa": "これは財政です。"
+    },
+    {
+      "id": "n5-77",
+      "en": "finding",
+      "ja": "発見・所見",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a finding.",
+      "exampleJa": "これは発見・所見です。"
+    },
+    {
+      "id": "n5-78",
+      "en": "focus",
+      "ja": "焦点",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a focus.",
+      "exampleJa": "これは焦点です。"
+    },
+    {
+      "id": "n5-79",
+      "en": "force",
+      "ja": "力",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a force.",
+      "exampleJa": "これは力です。"
+    },
+    {
+      "id": "n5-80",
+      "en": "form",
+      "ja": "形・用紙",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a form.",
+      "exampleJa": "これは形・用紙です。"
+    },
+    {
+      "id": "n5-81",
+      "en": "formation",
+      "ja": "形成",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a formation.",
+      "exampleJa": "これは形成です。"
+    },
+    {
+      "id": "n5-82",
+      "en": "formula",
+      "ja": "公式",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a formula.",
+      "exampleJa": "これは公式です。"
+    },
+    {
+      "id": "n5-83",
+      "en": "foundation",
+      "ja": "基礎・財団",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a foundation.",
+      "exampleJa": "これは基礎・財団です。"
+    },
+    {
+      "id": "n5-84",
+      "en": "framework",
+      "ja": "枠組み",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a framework.",
+      "exampleJa": "これは枠組みです。"
+    },
+    {
+      "id": "n5-85",
+      "en": "freedom",
+      "ja": "自由",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a freedom.",
+      "exampleJa": "これは自由です。"
+    },
+    {
+      "id": "n5-86",
+      "en": "frequency",
+      "ja": "頻度",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a frequency.",
+      "exampleJa": "これは頻度です。"
+    },
+    {
+      "id": "n5-87",
+      "en": "friendship",
+      "ja": "友情",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a friendship.",
+      "exampleJa": "これは友情です。"
+    },
+    {
+      "id": "n5-88",
+      "en": "function",
+      "ja": "機能・関数",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a function.",
+      "exampleJa": "これは機能・関数です。"
+    },
+    {
+      "id": "n5-89",
+      "en": "fund",
+      "ja": "資金",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a fund.",
+      "exampleJa": "これは資金です。"
+    },
+    {
+      "id": "n5-90",
+      "en": "gallery",
+      "ja": "美術館",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a gallery.",
+      "exampleJa": "これは美術館です。"
+    },
+    {
+      "id": "n5-91",
+      "en": "garage",
+      "ja": "車庫",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a garage.",
+      "exampleJa": "これは車庫です。"
+    },
+    {
+      "id": "n5-92",
+      "en": "gasoline",
+      "ja": "ガソリン",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a gasoline.",
+      "exampleJa": "これはガソリンです。"
+    },
+    {
+      "id": "n5-93",
+      "en": "gate",
+      "ja": "門",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a gate.",
+      "exampleJa": "これは門です。"
+    },
+    {
+      "id": "n5-94",
+      "en": "gene",
+      "ja": "遺伝子",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a gene.",
+      "exampleJa": "これは遺伝子です。"
+    },
+    {
+      "id": "n5-95",
+      "en": "genius",
+      "ja": "天才",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a genius.",
+      "exampleJa": "これは天才です。"
+    },
+    {
+      "id": "n5-96",
+      "en": "geography",
+      "ja": "地理",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a geography.",
+      "exampleJa": "これは地理です。"
+    },
+    {
+      "id": "n5-97",
+      "en": "gesture",
+      "ja": "身ぶり",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a gesture.",
+      "exampleJa": "これは身ぶりです。"
+    },
+    {
+      "id": "n5-98",
+      "en": "globe",
+      "ja": "地球儀",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a globe.",
+      "exampleJa": "これは地球儀です。"
+    },
+    {
+      "id": "n5-99",
+      "en": "glory",
+      "ja": "栄光",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a glory.",
+      "exampleJa": "これは栄光です。"
+    },
+    {
+      "id": "n5-100",
+      "en": "glucose",
+      "ja": "ブドウ糖",
+      "pos": "noun",
+      "level": "5",
+      "exampleEn": "This is a glucose.",
+      "exampleJa": "これはブドウ糖です。"
+    },
+    {
+      "id": "n6-1",
+      "en": "furniture",
+      "ja": "家具",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "We bought new furniture.",
+      "exampleJa": "新しい家具を買った。"
+    },
+    {
+      "id": "n6-2",
+      "en": "gain",
+      "ja": "利益・獲得",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a gain.",
+      "exampleJa": "これは利益・獲得です。"
+    },
+    {
+      "id": "n6-3",
+      "en": "gap",
+      "ja": "隙間・格差",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a gap.",
+      "exampleJa": "これは隙間・格差です。"
+    },
+    {
+      "id": "n6-4",
+      "en": "generation",
+      "ja": "世代",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a generation.",
+      "exampleJa": "これは世代です。"
+    },
+    {
+      "id": "n6-5",
+      "en": "glance",
+      "ja": "一目",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a glance.",
+      "exampleJa": "これは一目です。"
+    },
+    {
+      "id": "n6-6",
+      "en": "globalization",
+      "ja": "グローバリゼーション",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a globalization.",
+      "exampleJa": "これはグローバリゼーションです。"
+    },
+    {
+      "id": "n6-7",
+      "en": "goods",
+      "ja": "商品",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a goods.",
+      "exampleJa": "これは商品です。"
+    },
+    {
+      "id": "n6-8",
+      "en": "grade",
+      "ja": "学年・等級",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a grade.",
+      "exampleJa": "これは学年・等級です。"
+    },
+    {
+      "id": "n6-9",
+      "en": "grant",
+      "ja": "助成金",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a grant.",
+      "exampleJa": "これは助成金です。"
+    },
+    {
+      "id": "n6-10",
+      "en": "growth",
+      "ja": "成長",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a growth.",
+      "exampleJa": "これは成長です。"
+    },
+    {
+      "id": "n6-11",
+      "en": "guarantee",
+      "ja": "保証",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a guarantee.",
+      "exampleJa": "これは保証です。"
+    },
+    {
+      "id": "n6-12",
+      "en": "guidance",
+      "ja": "指導",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a guidance.",
+      "exampleJa": "これは指導です。"
+    },
+    {
+      "id": "n6-13",
+      "en": "guideline",
+      "ja": "指針",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a guideline.",
+      "exampleJa": "これは指針です。"
+    },
+    {
+      "id": "n6-14",
+      "en": "guilt",
+      "ja": "罪悪感",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a guilt.",
+      "exampleJa": "これは罪悪感です。"
+    },
+    {
+      "id": "n6-15",
+      "en": "habitat",
+      "ja": "生息地",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a habitat.",
+      "exampleJa": "これは生息地です。"
+    },
+    {
+      "id": "n6-16",
+      "en": "harm",
+      "ja": "害",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a harm.",
+      "exampleJa": "これは害です。"
+    },
+    {
+      "id": "n6-17",
+      "en": "headline",
+      "ja": "見出し",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a headline.",
+      "exampleJa": "これは見出しです。"
+    },
+    {
+      "id": "n6-18",
+      "en": "height",
+      "ja": "高さ",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a height.",
+      "exampleJa": "これは高さです。"
+    },
+    {
+      "id": "n6-19",
+      "en": "heritage",
+      "ja": "遺産",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a heritage.",
+      "exampleJa": "これは遺産です。"
+    },
+    {
+      "id": "n6-20",
+      "en": "highway",
+      "ja": "幹線道路",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a highway.",
+      "exampleJa": "これは幹線道路です。"
+    },
+    {
+      "id": "n6-21",
+      "en": "hint",
+      "ja": "ヒント",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a hint.",
+      "exampleJa": "これはヒントです。"
+    },
+    {
+      "id": "n6-22",
+      "en": "household",
+      "ja": "世帯",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a household.",
+      "exampleJa": "これは世帯です。"
+    },
+    {
+      "id": "n6-23",
+      "en": "housing",
+      "ja": "住宅",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a housing.",
+      "exampleJa": "これは住宅です。"
+    },
+    {
+      "id": "n6-24",
+      "en": "humor",
+      "ja": "ユーモア",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a humor.",
+      "exampleJa": "これはユーモアです。"
+    },
+    {
+      "id": "n6-25",
+      "en": "identity",
+      "ja": "同一性・身元",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an identity.",
+      "exampleJa": "これは同一性・身元です。"
+    },
+    {
+      "id": "n6-26",
+      "en": "illusion",
+      "ja": "錯覚",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an illusion.",
+      "exampleJa": "これは錯覚です。"
+    },
+    {
+      "id": "n6-27",
+      "en": "image",
+      "ja": "イメージ",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an image.",
+      "exampleJa": "これはイメージです。"
+    },
+    {
+      "id": "n6-28",
+      "en": "imagination",
+      "ja": "想像力",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an imagination.",
+      "exampleJa": "これは想像力です。"
+    },
+    {
+      "id": "n6-29",
+      "en": "impact",
+      "ja": "影響",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an impact.",
+      "exampleJa": "これは影響です。"
+    },
+    {
+      "id": "n6-30",
+      "en": "implication",
+      "ja": "含意",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an implication.",
+      "exampleJa": "これは含意です。"
+    },
+    {
+      "id": "n6-31",
+      "en": "import",
+      "ja": "輸入",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an import.",
+      "exampleJa": "これは輸入です。"
+    },
+    {
+      "id": "n6-32",
+      "en": "impression",
+      "ja": "印象",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an impression.",
+      "exampleJa": "これは印象です。"
+    },
+    {
+      "id": "n6-33",
+      "en": "improvement",
+      "ja": "改善",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an improvement.",
+      "exampleJa": "これは改善です。"
+    },
+    {
+      "id": "n6-34",
+      "en": "incentive",
+      "ja": "動機づけ",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an incentive.",
+      "exampleJa": "これは動機づけです。"
+    },
+    {
+      "id": "n6-35",
+      "en": "incident",
+      "ja": "出来事・事件",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an incident.",
+      "exampleJa": "これは出来事・事件です。"
+    },
+    {
+      "id": "n6-36",
+      "en": "income",
+      "ja": "収入",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an income.",
+      "exampleJa": "これは収入です。"
+    },
+    {
+      "id": "n6-37",
+      "en": "independence",
+      "ja": "独立",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an independence.",
+      "exampleJa": "これは独立です。"
+    },
+    {
+      "id": "n6-38",
+      "en": "index",
+      "ja": "指数・索引",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an index.",
+      "exampleJa": "これは指数・索引です。"
+    },
+    {
+      "id": "n6-39",
+      "en": "indication",
+      "ja": "兆候",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an indication.",
+      "exampleJa": "これは兆候です。"
+    },
+    {
+      "id": "n6-40",
+      "en": "individual",
+      "ja": "個人",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an individual.",
+      "exampleJa": "これは個人です。"
+    },
+    {
+      "id": "n6-41",
+      "en": "inflation",
+      "ja": "インフレ",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an inflation.",
+      "exampleJa": "これはインフレです。"
+    },
+    {
+      "id": "n6-42",
+      "en": "influence",
+      "ja": "影響",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an influence.",
+      "exampleJa": "これは影響です。"
+    },
+    {
+      "id": "n6-43",
+      "en": "initiative",
+      "ja": "主導権・施策",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an initiative.",
+      "exampleJa": "これは主導権・施策です。"
+    },
+    {
+      "id": "n6-44",
+      "en": "injury",
+      "ja": "けが",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an injury.",
+      "exampleJa": "これはけがです。"
+    },
+    {
+      "id": "n6-45",
+      "en": "innovation",
+      "ja": "革新",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an innovation.",
+      "exampleJa": "これは革新です。"
+    },
+    {
+      "id": "n6-46",
+      "en": "inquiry",
+      "ja": "問い合わせ",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an inquiry.",
+      "exampleJa": "これは問い合わせです。"
+    },
+    {
+      "id": "n6-47",
+      "en": "insight",
+      "ja": "洞察",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an insight.",
+      "exampleJa": "これは洞察です。"
+    },
+    {
+      "id": "n6-48",
+      "en": "instance",
+      "ja": "例",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an instance.",
+      "exampleJa": "これは例です。"
+    },
+    {
+      "id": "n6-49",
+      "en": "institution",
+      "ja": "機関",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an institution.",
+      "exampleJa": "これは機関です。"
+    },
+    {
+      "id": "n6-50",
+      "en": "instruction",
+      "ja": "指示",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an instruction.",
+      "exampleJa": "これは指示です。"
+    },
+    {
+      "id": "n6-51",
+      "en": "instrument",
+      "ja": "器具・楽器",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an instrument.",
+      "exampleJa": "これは器具・楽器です。"
+    },
+    {
+      "id": "n6-52",
+      "en": "insurance",
+      "ja": "保険",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an insurance.",
+      "exampleJa": "これは保険です。"
+    },
+    {
+      "id": "n6-53",
+      "en": "intention",
+      "ja": "意図",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an intention.",
+      "exampleJa": "これは意図です。"
+    },
+    {
+      "id": "n6-54",
+      "en": "interaction",
+      "ja": "相互作用",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an interaction.",
+      "exampleJa": "これは相互作用です。"
+    },
+    {
+      "id": "n6-55",
+      "en": "interpretation",
+      "ja": "解釈",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an interpretation.",
+      "exampleJa": "これは解釈です。"
+    },
+    {
+      "id": "n6-56",
+      "en": "interview",
+      "ja": "面接・インタビュー",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an interview.",
+      "exampleJa": "これは面接・インタビューです。"
+    },
+    {
+      "id": "n6-57",
+      "en": "introduction",
+      "ja": "導入・紹介",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an introduction.",
+      "exampleJa": "これは導入・紹介です。"
+    },
+    {
+      "id": "n6-58",
+      "en": "invasion",
+      "ja": "侵略",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an invasion.",
+      "exampleJa": "これは侵略です。"
+    },
+    {
+      "id": "n6-59",
+      "en": "invention",
+      "ja": "発明",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an invention.",
+      "exampleJa": "これは発明です。"
+    },
+    {
+      "id": "n6-60",
+      "en": "investigation",
+      "ja": "調査",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an investigation.",
+      "exampleJa": "これは調査です。"
+    },
+    {
+      "id": "n6-61",
+      "en": "investment",
+      "ja": "投資",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an investment.",
+      "exampleJa": "これは投資です。"
+    },
+    {
+      "id": "n6-62",
+      "en": "invitation",
+      "ja": "招待",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an invitation.",
+      "exampleJa": "これは招待です。"
+    },
+    {
+      "id": "n6-63",
+      "en": "issue",
+      "ja": "問題・号",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an issue.",
+      "exampleJa": "これは問題・号です。"
+    },
+    {
+      "id": "n6-64",
+      "en": "item",
+      "ja": "項目",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is an item.",
+      "exampleJa": "これは項目です。"
+    },
+    {
+      "id": "n6-65",
+      "en": "journey",
+      "ja": "旅",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a journey.",
+      "exampleJa": "これは旅です。"
+    },
+    {
+      "id": "n6-66",
+      "en": "judgment",
+      "ja": "判断",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a judgment.",
+      "exampleJa": "これは判断です。"
+    },
+    {
+      "id": "n6-67",
+      "en": "justice",
+      "ja": "正義",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a justice.",
+      "exampleJa": "これは正義です。"
+    },
+    {
+      "id": "n6-68",
+      "en": "label",
+      "ja": "ラベル",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a label.",
+      "exampleJa": "これはラベルです。"
+    },
+    {
+      "id": "n6-69",
+      "en": "labor",
+      "ja": "労働",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a labor.",
+      "exampleJa": "これは労働です。"
+    },
+    {
+      "id": "n6-70",
+      "en": "lack",
+      "ja": "不足",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a lack.",
+      "exampleJa": "これは不足です。"
+    },
+    {
+      "id": "n6-71",
+      "en": "landscape",
+      "ja": "風景",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a landscape.",
+      "exampleJa": "これは風景です。"
+    },
+    {
+      "id": "n6-72",
+      "en": "layer",
+      "ja": "層",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a layer.",
+      "exampleJa": "これは層です。"
+    },
+    {
+      "id": "n6-73",
+      "en": "league",
+      "ja": "連盟",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a league.",
+      "exampleJa": "これは連盟です。"
+    },
+    {
+      "id": "n6-74",
+      "en": "lecture",
+      "ja": "講義",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a lecture.",
+      "exampleJa": "これは講義です。"
+    },
+    {
+      "id": "n6-75",
+      "en": "length",
+      "ja": "長さ",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a length.",
+      "exampleJa": "これは長さです。"
+    },
+    {
+      "id": "n6-76",
+      "en": "level",
+      "ja": "水準",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a level.",
+      "exampleJa": "これは水準です。"
+    },
+    {
+      "id": "n6-77",
+      "en": "liability",
+      "ja": "責任・負債",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a liability.",
+      "exampleJa": "これは責任・負債です。"
+    },
+    {
+      "id": "n6-78",
+      "en": "license",
+      "ja": "免許",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a license.",
+      "exampleJa": "これは免許です。"
+    },
+    {
+      "id": "n6-79",
+      "en": "lifestyle",
+      "ja": "生活様式",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a lifestyle.",
+      "exampleJa": "これは生活様式です。"
+    },
+    {
+      "id": "n6-80",
+      "en": "limitation",
+      "ja": "制限",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a limitation.",
+      "exampleJa": "これは制限です。"
+    },
+    {
+      "id": "n6-81",
+      "en": "link",
+      "ja": "つながり",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a link.",
+      "exampleJa": "これはつながりです。"
+    },
+    {
+      "id": "n6-82",
+      "en": "literature",
+      "ja": "文学",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a literature.",
+      "exampleJa": "これは文学です。"
+    },
+    {
+      "id": "n6-83",
+      "en": "loan",
+      "ja": "融資",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a loan.",
+      "exampleJa": "これは融資です。"
+    },
+    {
+      "id": "n6-84",
+      "en": "location",
+      "ja": "場所",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a location.",
+      "exampleJa": "これは場所です。"
+    },
+    {
+      "id": "n6-85",
+      "en": "logic",
+      "ja": "論理",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a logic.",
+      "exampleJa": "これは論理です。"
+    },
+    {
+      "id": "n6-86",
+      "en": "loss",
+      "ja": "損失",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a loss.",
+      "exampleJa": "これは損失です。"
+    },
+    {
+      "id": "n6-87",
+      "en": "loyalty",
+      "ja": "忠誠",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a loyalty.",
+      "exampleJa": "これは忠誠です。"
+    },
+    {
+      "id": "n6-88",
+      "en": "luxury",
+      "ja": "贅沢",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a luxury.",
+      "exampleJa": "これは贅沢です。"
+    },
+    {
+      "id": "n6-89",
+      "en": "majority",
+      "ja": "過半数",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a majority.",
+      "exampleJa": "これは過半数です。"
+    },
+    {
+      "id": "n6-90",
+      "en": "makeup",
+      "ja": "化粧",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a makeup.",
+      "exampleJa": "これは化粧です。"
+    },
+    {
+      "id": "n6-91",
+      "en": "manual",
+      "ja": "手引き",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a manual.",
+      "exampleJa": "これは手引きです。"
+    },
+    {
+      "id": "n6-92",
+      "en": "marble",
+      "ja": "大理石",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a marble.",
+      "exampleJa": "これは大理石です。"
+    },
+    {
+      "id": "n6-93",
+      "en": "marine",
+      "ja": "海の生き物・海運",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a marine.",
+      "exampleJa": "これは海の生き物・海運です。"
+    },
+    {
+      "id": "n6-94",
+      "en": "mask",
+      "ja": "マスク",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a mask.",
+      "exampleJa": "これはマスクです。"
+    },
+    {
+      "id": "n6-95",
+      "en": "matrix",
+      "ja": "行列・母体",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a matrix.",
+      "exampleJa": "これは行列・母体です。"
+    },
+    {
+      "id": "n6-96",
+      "en": "mayor",
+      "ja": "市長",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a mayor.",
+      "exampleJa": "これは市長です。"
+    },
+    {
+      "id": "n6-97",
+      "en": "melody",
+      "ja": "メロディー",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a melody.",
+      "exampleJa": "これはメロディーです。"
+    },
+    {
+      "id": "n6-98",
+      "en": "memo",
+      "ja": "メモ",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a memo.",
+      "exampleJa": "これはメモです。"
+    },
+    {
+      "id": "n6-99",
+      "en": "menu",
+      "ja": "メニュー",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a menu.",
+      "exampleJa": "これはメニューです。"
+    },
+    {
+      "id": "n6-100",
+      "en": "mercy",
+      "ja": "慈悲",
+      "pos": "noun",
+      "level": "6",
+      "exampleEn": "This is a mercy.",
+      "exampleJa": "これは慈悲です。"
+    },
+    {
+      "id": "n7-1",
+      "en": "management",
+      "ja": "経営・管理",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "Good management is important.",
+      "exampleJa": "良い経営は大切だ。"
+    },
+    {
+      "id": "n7-2",
+      "en": "manner",
+      "ja": "作法・方法",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a manner.",
+      "exampleJa": "これは作法・方法です。"
+    },
+    {
+      "id": "n7-3",
+      "en": "manufacture",
+      "ja": "製造",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a manufacture.",
+      "exampleJa": "これは製造です。"
+    },
+    {
+      "id": "n7-4",
+      "en": "margin",
+      "ja": "余白・差",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a margin.",
+      "exampleJa": "これは余白・差です。"
+    },
+    {
+      "id": "n7-5",
+      "en": "mark",
+      "ja": "印・点",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a mark.",
+      "exampleJa": "これは印・点です。"
+    },
+    {
+      "id": "n7-6",
+      "en": "mass",
+      "ja": "塊・大衆",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a mass.",
+      "exampleJa": "これは塊・大衆です。"
+    },
+    {
+      "id": "n7-7",
+      "en": "master",
+      "ja": "達人・主人",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a master.",
+      "exampleJa": "これは達人・主人です。"
+    },
+    {
+      "id": "n7-8",
+      "en": "matter",
+      "ja": "事柄・物質",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a matter.",
+      "exampleJa": "これは事柄・物質です。"
+    },
+    {
+      "id": "n7-9",
+      "en": "measure",
+      "ja": "対策・測定",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a measure.",
+      "exampleJa": "これは対策・測定です。"
+    },
+    {
+      "id": "n7-10",
+      "en": "mechanism",
+      "ja": "仕組み",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a mechanism.",
+      "exampleJa": "これは仕組みです。"
+    },
+    {
+      "id": "n7-11",
+      "en": "media",
+      "ja": "メディア",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a media.",
+      "exampleJa": "これはメディアです。"
+    },
+    {
+      "id": "n7-12",
+      "en": "medium",
+      "ja": "媒体",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a medium.",
+      "exampleJa": "これは媒体です。"
+    },
+    {
+      "id": "n7-13",
+      "en": "membership",
+      "ja": "会員資格",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a membership.",
+      "exampleJa": "これは会員資格です。"
+    },
+    {
+      "id": "n7-14",
+      "en": "mention",
+      "ja": "言及",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a mention.",
+      "exampleJa": "これは言及です。"
+    },
+    {
+      "id": "n7-15",
+      "en": "merchant",
+      "ja": "商人",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a merchant.",
+      "exampleJa": "これは商人です。"
+    },
+    {
+      "id": "n7-16",
+      "en": "merit",
+      "ja": "長所",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a merit.",
+      "exampleJa": "これは長所です。"
+    },
+    {
+      "id": "n7-17",
+      "en": "metal",
+      "ja": "金属",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a metal.",
+      "exampleJa": "これは金属です。"
+    },
+    {
+      "id": "n7-18",
+      "en": "migration",
+      "ja": "移住",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a migration.",
+      "exampleJa": "これは移住です。"
+    },
+    {
+      "id": "n7-19",
+      "en": "minority",
+      "ja": "少数派",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a minority.",
+      "exampleJa": "これは少数派です。"
+    },
+    {
+      "id": "n7-20",
+      "en": "miracle",
+      "ja": "奇跡",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a miracle.",
+      "exampleJa": "これは奇跡です。"
+    },
+    {
+      "id": "n7-21",
+      "en": "mission",
+      "ja": "使命",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a mission.",
+      "exampleJa": "これは使命です。"
+    },
+    {
+      "id": "n7-22",
+      "en": "mistake",
+      "ja": "間違い",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a mistake.",
+      "exampleJa": "これは間違いです。"
+    },
+    {
+      "id": "n7-23",
+      "en": "mixture",
+      "ja": "混合物",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a mixture.",
+      "exampleJa": "これは混合物です。"
+    },
+    {
+      "id": "n7-24",
+      "en": "mode",
+      "ja": "様式・モード",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a mode.",
+      "exampleJa": "これは様式・モードです。"
+    },
+    {
+      "id": "n7-25",
+      "en": "model",
+      "ja": "模型・手本",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a model.",
+      "exampleJa": "これは模型・手本です。"
+    },
+    {
+      "id": "n7-26",
+      "en": "modification",
+      "ja": "修正",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a modification.",
+      "exampleJa": "これは修正です。"
+    },
+    {
+      "id": "n7-27",
+      "en": "molecule",
+      "ja": "分子",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a molecule.",
+      "exampleJa": "これは分子です。"
+    },
+    {
+      "id": "n7-28",
+      "en": "momentum",
+      "ja": "勢い",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a momentum.",
+      "exampleJa": "これは勢いです。"
+    },
+    {
+      "id": "n7-29",
+      "en": "monitor",
+      "ja": "監視・画面",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a monitor.",
+      "exampleJa": "これは監視・画面です。"
+    },
+    {
+      "id": "n7-30",
+      "en": "mood",
+      "ja": "気分",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a mood.",
+      "exampleJa": "これは気分です。"
+    },
+    {
+      "id": "n7-31",
+      "en": "mortgage",
+      "ja": "住宅ローン",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a mortgage.",
+      "exampleJa": "これは住宅ローンです。"
+    },
+    {
+      "id": "n7-32",
+      "en": "motion",
+      "ja": "動き",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a motion.",
+      "exampleJa": "これは動きです。"
+    },
+    {
+      "id": "n7-33",
+      "en": "motivation",
+      "ja": "動機",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a motivation.",
+      "exampleJa": "これは動機です。"
+    },
+    {
+      "id": "n7-34",
+      "en": "movement",
+      "ja": "運動・動き",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a movement.",
+      "exampleJa": "これは運動・動きです。"
+    },
+    {
+      "id": "n7-35",
+      "en": "myth",
+      "ja": "神話",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a myth.",
+      "exampleJa": "これは神話です。"
+    },
+    {
+      "id": "n7-36",
+      "en": "narrative",
+      "ja": "物語",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a narrative.",
+      "exampleJa": "これは物語です。"
+    },
+    {
+      "id": "n7-37",
+      "en": "nation",
+      "ja": "国家",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a nation.",
+      "exampleJa": "これは国家です。"
+    },
+    {
+      "id": "n7-38",
+      "en": "necessity",
+      "ja": "必要性",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a necessity.",
+      "exampleJa": "これは必要性です。"
+    },
+    {
+      "id": "n7-39",
+      "en": "negotiation",
+      "ja": "交渉",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a negotiation.",
+      "exampleJa": "これは交渉です。"
+    },
+    {
+      "id": "n7-40",
+      "en": "network",
+      "ja": "ネットワーク",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a network.",
+      "exampleJa": "これはネットワークです。"
+    },
+    {
+      "id": "n7-41",
+      "en": "nightmare",
+      "ja": "悪夢",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a nightmare.",
+      "exampleJa": "これは悪夢です。"
+    },
+    {
+      "id": "n7-42",
+      "en": "notion",
+      "ja": "考え",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a notion.",
+      "exampleJa": "これは考えです。"
+    },
+    {
+      "id": "n7-43",
+      "en": "novel",
+      "ja": "小説",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a novel.",
+      "exampleJa": "これは小説です。"
+    },
+    {
+      "id": "n7-44",
+      "en": "obligation",
+      "ja": "義務",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is an obligation.",
+      "exampleJa": "これは義務です。"
+    },
+    {
+      "id": "n7-45",
+      "en": "observation",
+      "ja": "観察",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is an observation.",
+      "exampleJa": "これは観察です。"
+    },
+    {
+      "id": "n7-46",
+      "en": "obstacle",
+      "ja": "障害",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is an obstacle.",
+      "exampleJa": "これは障害です。"
+    },
+    {
+      "id": "n7-47",
+      "en": "occasion",
+      "ja": "機会・行事",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is an occasion.",
+      "exampleJa": "これは機会・行事です。"
+    },
+    {
+      "id": "n7-48",
+      "en": "occupation",
+      "ja": "職業・占領",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is an occupation.",
+      "exampleJa": "これは職業・占領です。"
+    },
+    {
+      "id": "n7-49",
+      "en": "offense",
+      "ja": "違反・攻撃",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is an offense.",
+      "exampleJa": "これは違反・攻撃です。"
+    },
+    {
+      "id": "n7-50",
+      "en": "offer",
+      "ja": "申し出",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is an offer.",
+      "exampleJa": "これは申し出です。"
+    },
+    {
+      "id": "n7-51",
+      "en": "official",
+      "ja": "役人",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is an official.",
+      "exampleJa": "これは役人です。"
+    },
+    {
+      "id": "n7-52",
+      "en": "operation",
+      "ja": "手術・運用",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is an operation.",
+      "exampleJa": "これは手術・運用です。"
+    },
+    {
+      "id": "n7-53",
+      "en": "opponent",
+      "ja": "相手",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is an opponent.",
+      "exampleJa": "これは相手です。"
+    },
+    {
+      "id": "n7-54",
+      "en": "opportunity",
+      "ja": "機会",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a great opportunity.",
+      "exampleJa": "これは素晴らしい機会だ。"
+    },
+    {
+      "id": "n7-55",
+      "en": "option",
+      "ja": "選択肢",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is an option.",
+      "exampleJa": "これは選択肢です。"
+    },
+    {
+      "id": "n7-56",
+      "en": "orbit",
+      "ja": "軌道",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is an orbit.",
+      "exampleJa": "これは軌道です。"
+    },
+    {
+      "id": "n7-57",
+      "en": "organism",
+      "ja": "有機体",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is an organism.",
+      "exampleJa": "これは有機体です。"
+    },
+    {
+      "id": "n7-58",
+      "en": "organization",
+      "ja": "組織",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is an organization.",
+      "exampleJa": "これは組織です。"
+    },
+    {
+      "id": "n7-59",
+      "en": "origin",
+      "ja": "起源",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is an origin.",
+      "exampleJa": "これは起源です。"
+    },
+    {
+      "id": "n7-60",
+      "en": "outcome",
+      "ja": "結果",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is an outcome.",
+      "exampleJa": "これは結果です。"
+    },
+    {
+      "id": "n7-61",
+      "en": "outline",
+      "ja": "概要",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is an outline.",
+      "exampleJa": "これは概要です。"
+    },
+    {
+      "id": "n7-62",
+      "en": "output",
+      "ja": "産出",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is an output.",
+      "exampleJa": "これは産出です。"
+    },
+    {
+      "id": "n7-63",
+      "en": "ownership",
+      "ja": "所有権",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is an ownership.",
+      "exampleJa": "これは所有権です。"
+    },
+    {
+      "id": "n7-64",
+      "en": "pace",
+      "ja": "ペース",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a pace.",
+      "exampleJa": "これはペースです。"
+    },
+    {
+      "id": "n7-65",
+      "en": "package",
+      "ja": "小包",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a package.",
+      "exampleJa": "これは小包です。"
+    },
+    {
+      "id": "n7-66",
+      "en": "pain",
+      "ja": "痛み",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a pain.",
+      "exampleJa": "これは痛みです。"
+    },
+    {
+      "id": "n7-67",
+      "en": "panel",
+      "ja": "委員会・パネル",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a panel.",
+      "exampleJa": "これは委員会・パネルです。"
+    },
+    {
+      "id": "n7-68",
+      "en": "parameter",
+      "ja": "パラメータ",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a parameter.",
+      "exampleJa": "これはパラメータです。"
+    },
+    {
+      "id": "n7-69",
+      "en": "participant",
+      "ja": "参加者",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a participant.",
+      "exampleJa": "これは参加者です。"
+    },
+    {
+      "id": "n7-70",
+      "en": "participation",
+      "ja": "参加",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a participation.",
+      "exampleJa": "これは参加です。"
+    },
+    {
+      "id": "n7-71",
+      "en": "partner",
+      "ja": "相棒",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a partner.",
+      "exampleJa": "これは相棒です。"
+    },
+    {
+      "id": "n7-72",
+      "en": "passage",
+      "ja": "通路・一節",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a passage.",
+      "exampleJa": "これは通路・一節です。"
+    },
+    {
+      "id": "n7-73",
+      "en": "passion",
+      "ja": "情熱",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a passion.",
+      "exampleJa": "これは情熱です。"
+    },
+    {
+      "id": "n7-74",
+      "en": "patience",
+      "ja": "忍耐",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a patience.",
+      "exampleJa": "これは忍耐です。"
+    },
+    {
+      "id": "n7-75",
+      "en": "pattern",
+      "ja": "模様・型",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a pattern.",
+      "exampleJa": "これは模様・型です。"
+    },
+    {
+      "id": "n7-76",
+      "en": "payment",
+      "ja": "支払い",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a payment.",
+      "exampleJa": "これは支払いです。"
+    },
+    {
+      "id": "n7-77",
+      "en": "penalty",
+      "ja": "罰・ペナルティ",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a penalty.",
+      "exampleJa": "これは罰・ペナルティです。"
+    },
+    {
+      "id": "n7-78",
+      "en": "pension",
+      "ja": "年金",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a pension.",
+      "exampleJa": "これは年金です。"
+    },
+    {
+      "id": "n7-79",
+      "en": "percentage",
+      "ja": "パーセント",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a percentage.",
+      "exampleJa": "これはパーセントです。"
+    },
+    {
+      "id": "n7-80",
+      "en": "perception",
+      "ja": "認識",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a perception.",
+      "exampleJa": "これは認識です。"
+    },
+    {
+      "id": "n7-81",
+      "en": "performance",
+      "ja": "演技・成績",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a performance.",
+      "exampleJa": "これは演技・成績です。"
+    },
+    {
+      "id": "n7-82",
+      "en": "period",
+      "ja": "期間",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a period.",
+      "exampleJa": "これは期間です。"
+    },
+    {
+      "id": "n7-83",
+      "en": "permission",
+      "ja": "許可",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a permission.",
+      "exampleJa": "これは許可です。"
+    },
+    {
+      "id": "n7-84",
+      "en": "perspective",
+      "ja": "視点",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a perspective.",
+      "exampleJa": "これは視点です。"
+    },
+    {
+      "id": "n7-85",
+      "en": "phase",
+      "ja": "段階",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a phase.",
+      "exampleJa": "これは段階です。"
+    },
+    {
+      "id": "n7-86",
+      "en": "phenomenon",
+      "ja": "現象",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a natural phenomenon.",
+      "exampleJa": "これは自然現象です。"
+    },
+    {
+      "id": "n7-87",
+      "en": "philosophy",
+      "ja": "哲学",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a philosophy.",
+      "exampleJa": "これは哲学です。"
+    },
+    {
+      "id": "n7-88",
+      "en": "phrase",
+      "ja": "句",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a phrase.",
+      "exampleJa": "これは句です。"
+    },
+    {
+      "id": "n7-89",
+      "en": "pilot",
+      "ja": "パイロット",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a pilot.",
+      "exampleJa": "これはパイロットです。"
+    },
+    {
+      "id": "n7-90",
+      "en": "pipeline",
+      "ja": "パイプライン",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a pipeline.",
+      "exampleJa": "これはパイプラインです。"
+    },
+    {
+      "id": "n7-91",
+      "en": "planet",
+      "ja": "惑星",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a planet.",
+      "exampleJa": "これは惑星です。"
+    },
+    {
+      "id": "n7-92",
+      "en": "plastic",
+      "ja": "プラスチック",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a plastic.",
+      "exampleJa": "これはプラスチックです。"
+    },
+    {
+      "id": "n7-93",
+      "en": "plot",
+      "ja": "筋書き",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a plot.",
+      "exampleJa": "これは筋書きです。"
+    },
+    {
+      "id": "n7-94",
+      "en": "poem",
+      "ja": "詩",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a poem.",
+      "exampleJa": "これは詩です。"
+    },
+    {
+      "id": "n7-95",
+      "en": "poet",
+      "ja": "詩人",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a poet.",
+      "exampleJa": "これは詩人です。"
+    },
+    {
+      "id": "n7-96",
+      "en": "poison",
+      "ja": "毒",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a poison.",
+      "exampleJa": "これは毒です。"
+    },
+    {
+      "id": "n7-97",
+      "en": "pole",
+      "ja": "棒・極",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a pole.",
+      "exampleJa": "これは棒・極です。"
+    },
+    {
+      "id": "n7-98",
+      "en": "poll",
+      "ja": "世論調査",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a poll.",
+      "exampleJa": "これは世論調査です。"
+    },
+    {
+      "id": "n7-99",
+      "en": "portal",
+      "ja": "入口",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a portal.",
+      "exampleJa": "これは入口です。"
+    },
+    {
+      "id": "n7-100",
+      "en": "poster",
+      "ja": "ポスター",
+      "pos": "noun",
+      "level": "7",
+      "exampleEn": "This is a poster.",
+      "exampleJa": "これはポスターです。"
+    },
+    {
+      "id": "n8-1",
+      "en": "platform",
+      "ja": "台・方針",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "The train is at the platform.",
+      "exampleJa": "電車はホームに着いている。"
+    },
+    {
+      "id": "n8-2",
+      "en": "policy",
+      "ja": "政策",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a policy.",
+      "exampleJa": "これは政策です。"
+    },
+    {
+      "id": "n8-3",
+      "en": "politics",
+      "ja": "政治",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a politics.",
+      "exampleJa": "これは政治です。"
+    },
+    {
+      "id": "n8-4",
+      "en": "pollution",
+      "ja": "汚染",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a pollution.",
+      "exampleJa": "これは汚染です。"
+    },
+    {
+      "id": "n8-5",
+      "en": "population",
+      "ja": "人口",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a population.",
+      "exampleJa": "これは人口です。"
+    },
+    {
+      "id": "n8-6",
+      "en": "portion",
+      "ja": "部分",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a portion.",
+      "exampleJa": "これは部分です。"
+    },
+    {
+      "id": "n8-7",
+      "en": "portrait",
+      "ja": "肖像",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a portrait.",
+      "exampleJa": "これは肖像です。"
+    },
+    {
+      "id": "n8-8",
+      "en": "position",
+      "ja": "位置・立場",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a position.",
+      "exampleJa": "これは位置・立場です。"
+    },
+    {
+      "id": "n8-9",
+      "en": "possibility",
+      "ja": "可能性",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a possibility.",
+      "exampleJa": "これは可能性です。"
+    },
+    {
+      "id": "n8-10",
+      "en": "potential",
+      "ja": "潜在能力",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a potential.",
+      "exampleJa": "これは潜在能力です。"
+    },
+    {
+      "id": "n8-11",
+      "en": "poverty",
+      "ja": "貧困",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a poverty.",
+      "exampleJa": "これは貧困です。"
+    },
+    {
+      "id": "n8-12",
+      "en": "power",
+      "ja": "力・権力",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a power.",
+      "exampleJa": "これは力・権力です。"
+    },
+    {
+      "id": "n8-13",
+      "en": "practice",
+      "ja": "練習・慣行",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a practice.",
+      "exampleJa": "これは練習・慣行です。"
+    },
+    {
+      "id": "n8-14",
+      "en": "praise",
+      "ja": "称賛",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a praise.",
+      "exampleJa": "これは称賛です。"
+    },
+    {
+      "id": "n8-15",
+      "en": "prayer",
+      "ja": "祈り",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a prayer.",
+      "exampleJa": "これは祈りです。"
+    },
+    {
+      "id": "n8-16",
+      "en": "precaution",
+      "ja": "予防策",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a precaution.",
+      "exampleJa": "これは予防策です。"
+    },
+    {
+      "id": "n8-17",
+      "en": "precision",
+      "ja": "精密さ",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a precision.",
+      "exampleJa": "これは精密さです。"
+    },
+    {
+      "id": "n8-18",
+      "en": "prediction",
+      "ja": "予測",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a prediction.",
+      "exampleJa": "これは予測です。"
+    },
+    {
+      "id": "n8-19",
+      "en": "preference",
+      "ja": "好み",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a preference.",
+      "exampleJa": "これは好みです。"
+    },
+    {
+      "id": "n8-20",
+      "en": "prejudice",
+      "ja": "偏見",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a prejudice.",
+      "exampleJa": "これは偏見です。"
+    },
+    {
+      "id": "n8-21",
+      "en": "presence",
+      "ja": "存在",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a presence.",
+      "exampleJa": "これは存在です。"
+    },
+    {
+      "id": "n8-22",
+      "en": "presentation",
+      "ja": "発表",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a presentation.",
+      "exampleJa": "これは発表です。"
+    },
+    {
+      "id": "n8-23",
+      "en": "preservation",
+      "ja": "保存",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a preservation.",
+      "exampleJa": "これは保存です。"
+    },
+    {
+      "id": "n8-24",
+      "en": "president",
+      "ja": "大統領・社長",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a president.",
+      "exampleJa": "これは大統領・社長です。"
+    },
+    {
+      "id": "n8-25",
+      "en": "pressure",
+      "ja": "圧力",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a pressure.",
+      "exampleJa": "これは圧力です。"
+    },
+    {
+      "id": "n8-26",
+      "en": "prestige",
+      "ja": "名声",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a prestige.",
+      "exampleJa": "これは名声です。"
+    },
+    {
+      "id": "n8-27",
+      "en": "prevention",
+      "ja": "予防",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a prevention.",
+      "exampleJa": "これは予防です。"
+    },
+    {
+      "id": "n8-28",
+      "en": "pride",
+      "ja": "誇り",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a pride.",
+      "exampleJa": "これは誇りです。"
+    },
+    {
+      "id": "n8-29",
+      "en": "principle",
+      "ja": "原則",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a principle.",
+      "exampleJa": "これは原則です。"
+    },
+    {
+      "id": "n8-30",
+      "en": "priority",
+      "ja": "優先事項",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a priority.",
+      "exampleJa": "これは優先事項です。"
+    },
+    {
+      "id": "n8-31",
+      "en": "privacy",
+      "ja": "プライバシー",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a privacy.",
+      "exampleJa": "これはプライバシーです。"
+    },
+    {
+      "id": "n8-32",
+      "en": "privilege",
+      "ja": "特権",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a privilege.",
+      "exampleJa": "これは特権です。"
+    },
+    {
+      "id": "n8-33",
+      "en": "probability",
+      "ja": "確率",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a probability.",
+      "exampleJa": "これは確率です。"
+    },
+    {
+      "id": "n8-34",
+      "en": "procedure",
+      "ja": "手続き",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a procedure.",
+      "exampleJa": "これは手続きです。"
+    },
+    {
+      "id": "n8-35",
+      "en": "process",
+      "ja": "過程",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a process.",
+      "exampleJa": "これは過程です。"
+    },
+    {
+      "id": "n8-36",
+      "en": "product",
+      "ja": "製品",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a product.",
+      "exampleJa": "これは製品です。"
+    },
+    {
+      "id": "n8-37",
+      "en": "production",
+      "ja": "生産",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a production.",
+      "exampleJa": "これは生産です。"
+    },
+    {
+      "id": "n8-38",
+      "en": "profession",
+      "ja": "専門職",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a profession.",
+      "exampleJa": "これは専門職です。"
+    },
+    {
+      "id": "n8-39",
+      "en": "professor",
+      "ja": "教授",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a professor.",
+      "exampleJa": "これは教授です。"
+    },
+    {
+      "id": "n8-40",
+      "en": "profile",
+      "ja": "プロフィール",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a profile.",
+      "exampleJa": "これはプロフィールです。"
+    },
+    {
+      "id": "n8-41",
+      "en": "profit",
+      "ja": "利益",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a profit.",
+      "exampleJa": "これは利益です。"
+    },
+    {
+      "id": "n8-42",
+      "en": "progress",
+      "ja": "進歩",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a progress.",
+      "exampleJa": "これは進歩です。"
+    },
+    {
+      "id": "n8-43",
+      "en": "project",
+      "ja": "計画・プロジェクト",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a project.",
+      "exampleJa": "これは計画・プロジェクトです。"
+    },
+    {
+      "id": "n8-44",
+      "en": "promise",
+      "ja": "約束",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a promise.",
+      "exampleJa": "これは約束です。"
+    },
+    {
+      "id": "n8-45",
+      "en": "promotion",
+      "ja": "昇進・宣伝",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a promotion.",
+      "exampleJa": "これは昇進・宣伝です。"
+    },
+    {
+      "id": "n8-46",
+      "en": "proof",
+      "ja": "証拠",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a proof.",
+      "exampleJa": "これは証拠です。"
+    },
+    {
+      "id": "n8-47",
+      "en": "property",
+      "ja": "財産・性質",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a property.",
+      "exampleJa": "これは財産・性質です。"
+    },
+    {
+      "id": "n8-48",
+      "en": "proportion",
+      "ja": "割合",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a proportion.",
+      "exampleJa": "これは割合です。"
+    },
+    {
+      "id": "n8-49",
+      "en": "proposal",
+      "ja": "提案",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a proposal.",
+      "exampleJa": "これは提案です。"
+    },
+    {
+      "id": "n8-50",
+      "en": "prospect",
+      "ja": "見通し",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a prospect.",
+      "exampleJa": "これは見通しです。"
+    },
+    {
+      "id": "n8-51",
+      "en": "protection",
+      "ja": "保護",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a protection.",
+      "exampleJa": "これは保護です。"
+    },
+    {
+      "id": "n8-52",
+      "en": "protest",
+      "ja": "抗議",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a protest.",
+      "exampleJa": "これは抗議です。"
+    },
+    {
+      "id": "n8-53",
+      "en": "provision",
+      "ja": "供給・規定",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a provision.",
+      "exampleJa": "これは供給・規定です。"
+    },
+    {
+      "id": "n8-54",
+      "en": "psychology",
+      "ja": "心理学",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a psychology.",
+      "exampleJa": "これは心理学です。"
+    },
+    {
+      "id": "n8-55",
+      "en": "publication",
+      "ja": "出版物",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a publication.",
+      "exampleJa": "これは出版物です。"
+    },
+    {
+      "id": "n8-56",
+      "en": "publicity",
+      "ja": "宣伝",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a publicity.",
+      "exampleJa": "これは宣伝です。"
+    },
+    {
+      "id": "n8-57",
+      "en": "punishment",
+      "ja": "罰",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a punishment.",
+      "exampleJa": "これは罰です。"
+    },
+    {
+      "id": "n8-58",
+      "en": "purchase",
+      "ja": "購入",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a purchase.",
+      "exampleJa": "これは購入です。"
+    },
+    {
+      "id": "n8-59",
+      "en": "purpose",
+      "ja": "目的",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a purpose.",
+      "exampleJa": "これは目的です。"
+    },
+    {
+      "id": "n8-60",
+      "en": "pursuit",
+      "ja": "追求",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a pursuit.",
+      "exampleJa": "これは追求です。"
+    },
+    {
+      "id": "n8-61",
+      "en": "quality",
+      "ja": "質",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a quality.",
+      "exampleJa": "これは質です。"
+    },
+    {
+      "id": "n8-62",
+      "en": "quantity",
+      "ja": "量",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a quantity.",
+      "exampleJa": "これは量です。"
+    },
+    {
+      "id": "n8-63",
+      "en": "quarter",
+      "ja": "四半期・地区",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a quarter.",
+      "exampleJa": "これは四半期・地区です。"
+    },
+    {
+      "id": "n8-64",
+      "en": "race",
+      "ja": "人種・競争",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a race.",
+      "exampleJa": "これは人種・競争です。"
+    },
+    {
+      "id": "n8-65",
+      "en": "range",
+      "ja": "範囲",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a range.",
+      "exampleJa": "これは範囲です。"
+    },
+    {
+      "id": "n8-66",
+      "en": "rank",
+      "ja": "順位",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a rank.",
+      "exampleJa": "これは順位です。"
+    },
+    {
+      "id": "n8-67",
+      "en": "rate",
+      "ja": "率・料金",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a rate.",
+      "exampleJa": "これは率・料金です。"
+    },
+    {
+      "id": "n8-68",
+      "en": "ratio",
+      "ja": "比率",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a ratio.",
+      "exampleJa": "これは比率です。"
+    },
+    {
+      "id": "n8-69",
+      "en": "reaction",
+      "ja": "反応",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a reaction.",
+      "exampleJa": "これは反応です。"
+    },
+    {
+      "id": "n8-70",
+      "en": "reality",
+      "ja": "現実",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a reality.",
+      "exampleJa": "これは現実です。"
+    },
+    {
+      "id": "n8-71",
+      "en": "recognition",
+      "ja": "認識・評価",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a recognition.",
+      "exampleJa": "これは認識・評価です。"
+    },
+    {
+      "id": "n8-72",
+      "en": "recommendation",
+      "ja": "推薦",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a recommendation.",
+      "exampleJa": "これは推薦です。"
+    },
+    {
+      "id": "n8-73",
+      "en": "record",
+      "ja": "記録",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a record.",
+      "exampleJa": "これは記録です。"
+    },
+    {
+      "id": "n8-74",
+      "en": "recovery",
+      "ja": "回復",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a recovery.",
+      "exampleJa": "これは回復です。"
+    },
+    {
+      "id": "n8-75",
+      "en": "reduction",
+      "ja": "削減",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a reduction.",
+      "exampleJa": "これは削減です。"
+    },
+    {
+      "id": "n8-76",
+      "en": "reference",
+      "ja": "参照・推薦状",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a reference.",
+      "exampleJa": "これは参照・推薦状です。"
+    },
+    {
+      "id": "n8-77",
+      "en": "reflection",
+      "ja": "反射・考察",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a reflection.",
+      "exampleJa": "これは反射・考察です。"
+    },
+    {
+      "id": "n8-78",
+      "en": "reform",
+      "ja": "改革",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a reform.",
+      "exampleJa": "これは改革です。"
+    },
+    {
+      "id": "n8-79",
+      "en": "refuge",
+      "ja": "避難所",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a refuge.",
+      "exampleJa": "これは避難所です。"
+    },
+    {
+      "id": "n8-80",
+      "en": "regard",
+      "ja": "考慮・敬意",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a regard.",
+      "exampleJa": "これは考慮・敬意です。"
+    },
+    {
+      "id": "n8-81",
+      "en": "region",
+      "ja": "地域",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a region.",
+      "exampleJa": "これは地域です。"
+    },
+    {
+      "id": "n8-82",
+      "en": "register",
+      "ja": "登録簿",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a register.",
+      "exampleJa": "これは登録簿です。"
+    },
+    {
+      "id": "n8-83",
+      "en": "regulation",
+      "ja": "規制",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a regulation.",
+      "exampleJa": "これは規制です。"
+    },
+    {
+      "id": "n8-84",
+      "en": "relation",
+      "ja": "関係",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a relation.",
+      "exampleJa": "これは関係です。"
+    },
+    {
+      "id": "n8-85",
+      "en": "relationship",
+      "ja": "人間関係",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a relationship.",
+      "exampleJa": "これは人間関係です。"
+    },
+    {
+      "id": "n8-86",
+      "en": "relief",
+      "ja": "安堵・救援",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a relief.",
+      "exampleJa": "これは安堵・救援です。"
+    },
+    {
+      "id": "n8-87",
+      "en": "religion",
+      "ja": "宗教",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a religion.",
+      "exampleJa": "これは宗教です。"
+    },
+    {
+      "id": "n8-88",
+      "en": "reputation",
+      "ja": "評判",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a reputation.",
+      "exampleJa": "これは評判です。"
+    },
+    {
+      "id": "n8-89",
+      "en": "request",
+      "ja": "依頼",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a request.",
+      "exampleJa": "これは依頼です。"
+    },
+    {
+      "id": "n8-90",
+      "en": "requirement",
+      "ja": "必要条件",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a requirement.",
+      "exampleJa": "これは必要条件です。"
+    },
+    {
+      "id": "n8-91",
+      "en": "research",
+      "ja": "研究",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a research.",
+      "exampleJa": "これは研究です。"
+    },
+    {
+      "id": "n8-92",
+      "en": "reserve",
+      "ja": "予備・保護区",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a reserve.",
+      "exampleJa": "これは予備・保護区です。"
+    },
+    {
+      "id": "n8-93",
+      "en": "residence",
+      "ja": "住居",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a residence.",
+      "exampleJa": "これは住居です。"
+    },
+    {
+      "id": "n8-94",
+      "en": "resident",
+      "ja": "住民",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a resident.",
+      "exampleJa": "これは住民です。"
+    },
+    {
+      "id": "n8-95",
+      "en": "resource",
+      "ja": "資源",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a resource.",
+      "exampleJa": "これは資源です。"
+    },
+    {
+      "id": "n8-96",
+      "en": "respect",
+      "ja": "尊敬",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a respect.",
+      "exampleJa": "これは尊敬です。"
+    },
+    {
+      "id": "n8-97",
+      "en": "response",
+      "ja": "反応",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a response.",
+      "exampleJa": "これは反応です。"
+    },
+    {
+      "id": "n8-98",
+      "en": "responsibility",
+      "ja": "責任",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a responsibility.",
+      "exampleJa": "これは責任です。"
+    },
+    {
+      "id": "n8-99",
+      "en": "restriction",
+      "ja": "制限",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a restriction.",
+      "exampleJa": "これは制限です。"
+    },
+    {
+      "id": "n8-100",
+      "en": "retail",
+      "ja": "小売",
+      "pos": "noun",
+      "level": "8",
+      "exampleEn": "This is a retail.",
+      "exampleJa": "これは小売です。"
+    }
+  ]
+}

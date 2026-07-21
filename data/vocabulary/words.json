@@ -1,140 +1,2796 @@
 {
   "partsOfSpeech": [
-    { "id": "noun", "labelJa": "名詞", "labelEn": "Noun", "emoji": "📦" },
-    { "id": "verb", "labelJa": "動詞", "labelEn": "Verb", "emoji": "🏃" },
-    { "id": "adjective", "labelJa": "形容詞", "labelEn": "Adjective", "emoji": "✨" },
-    { "id": "adverb", "labelJa": "副詞", "labelEn": "Adverb", "emoji": "💨" },
-    { "id": "other", "labelJa": "その他", "labelEn": "Other", "emoji": "📎" }
+    {
+      "id": "noun",
+      "labelJa": "名詞",
+      "labelEn": "Noun",
+      "emoji": "📦"
+    },
+    {
+      "id": "verb",
+      "labelJa": "動詞",
+      "labelEn": "Verb",
+      "emoji": "🏃"
+    },
+    {
+      "id": "adjective",
+      "labelJa": "形容詞",
+      "labelEn": "Adjective",
+      "emoji": "✨"
+    },
+    {
+      "id": "adverb",
+      "labelJa": "副詞",
+      "labelEn": "Adverb",
+      "emoji": "💨"
+    },
+    {
+      "id": "other",
+      "labelJa": "その他",
+      "labelEn": "Other",
+      "emoji": "📎"
+    }
   ],
   "levels": [
-    { "id": "1", "labelJa": "レベル 1", "descriptionJa": "超基本・日常でよく使う" },
-    { "id": "2", "labelJa": "レベル 2", "descriptionJa": "基本を少し広げる" },
-    { "id": "3", "labelJa": "レベル 3", "descriptionJa": "もう一段ステップアップ" }
+    {
+      "id": "1",
+      "labelJa": "レベル 1",
+      "descriptionJa": "超基本・日常でよく使う"
+    },
+    {
+      "id": "2",
+      "labelJa": "レベル 2",
+      "descriptionJa": "基本を少し広げる"
+    },
+    {
+      "id": "3",
+      "labelJa": "レベル 3",
+      "descriptionJa": "もう一段ステップアップ"
+    },
+    {
+      "id": "4",
+      "labelJa": "レベル 4",
+      "descriptionJa": "中級の入り口"
+    },
+    {
+      "id": "5",
+      "labelJa": "レベル 5",
+      "descriptionJa": "中級・実用語彙"
+    },
+    {
+      "id": "6",
+      "labelJa": "レベル 6",
+      "descriptionJa": "やや高度な語彙"
+    },
+    {
+      "id": "7",
+      "labelJa": "レベル 7",
+      "descriptionJa": "上級寄りの語彙"
+    },
+    {
+      "id": "8",
+      "labelJa": "レベル 8",
+      "descriptionJa": "学術・抽象寄り"
+    }
   ],
   "words": [
-    { "id": "n1-1", "en": "apple", "ja": "りんご", "pos": "noun", "level": "1", "exampleEn": "I eat an apple every day.", "exampleJa": "私は毎日りんごを食べます。" },
-    { "id": "n1-2", "en": "book", "ja": "本", "pos": "noun", "level": "1", "exampleEn": "This book is interesting.", "exampleJa": "この本は面白い。" },
-    { "id": "n1-3", "en": "water", "ja": "水", "pos": "noun", "level": "1", "exampleEn": "Please drink more water.", "exampleJa": "もっと水を飲んでください。" },
-    { "id": "n1-4", "en": "friend", "ja": "友達", "pos": "noun", "level": "1", "exampleEn": "She is my best friend.", "exampleJa": "彼女は私の親友です。" },
-    { "id": "n2-1", "en": "environment", "ja": "環境", "pos": "noun", "level": "2", "exampleEn": "We must protect the environment.", "exampleJa": "私たちは環境を守らなければならない。" },
-    { "id": "n2-2", "en": "opportunity", "ja": "機会", "pos": "noun", "level": "2", "exampleEn": "This is a great opportunity.", "exampleJa": "これは素晴らしい機会だ。" },
-    { "id": "n3-1", "en": "phenomenon", "ja": "現象", "pos": "noun", "level": "3", "exampleEn": "This is a natural phenomenon.", "exampleJa": "これは自然現象です。" },
-
-    { "id": "v1-1", "en": "be", "ja": "～である", "pos": "verb", "level": "1", "exampleEn": "She is a teacher.", "exampleJa": "彼女は先生です。" },
-    { "id": "v1-2", "en": "have", "ja": "持つ", "pos": "verb", "level": "1", "exampleEn": "I have two cats.", "exampleJa": "私は猫を2匹飼っています。" },
-    { "id": "v1-3", "en": "do", "ja": "する", "pos": "verb", "level": "1", "exampleEn": "What do you do on weekends?", "exampleJa": "週末は何をしますか？" },
-    { "id": "v1-4", "en": "say", "ja": "言う", "pos": "verb", "level": "1", "exampleEn": "What did she say?", "exampleJa": "彼女は何と言いましたか？" },
-    { "id": "v1-5", "en": "get", "ja": "手に入れる・～になる", "pos": "verb", "level": "1", "exampleEn": "I got a new phone yesterday.", "exampleJa": "昨日新しいスマホを手に入れた。" },
-    { "id": "v1-6", "en": "make", "ja": "作る", "pos": "verb", "level": "1", "exampleEn": "She made a cake for me.", "exampleJa": "彼女が私にケーキを作ってくれた。" },
-    { "id": "v1-7", "en": "go", "ja": "行く", "pos": "verb", "level": "1", "exampleEn": "I go to school by bus.", "exampleJa": "私はバスで学校に行きます。" },
-    { "id": "v1-8", "en": "know", "ja": "知っている", "pos": "verb", "level": "1", "exampleEn": "Do you know his name?", "exampleJa": "彼の名前を知っていますか？" },
-    { "id": "v1-9", "en": "think", "ja": "思う", "pos": "verb", "level": "1", "exampleEn": "I think it's a good idea.", "exampleJa": "それは良い考えだと思う。" },
-    { "id": "v1-10", "en": "take", "ja": "取る・連れていく", "pos": "verb", "level": "1", "exampleEn": "Please take a seat.", "exampleJa": "どうぞ席にお座りください。" },
-    { "id": "v1-11", "en": "see", "ja": "見る・会う", "pos": "verb", "level": "1", "exampleEn": "I saw a movie last night.", "exampleJa": "昨夜映画を見た。" },
-    { "id": "v1-12", "en": "come", "ja": "来る", "pos": "verb", "level": "1", "exampleEn": "Can you come to my house?", "exampleJa": "うちに来られますか？" },
-    { "id": "v1-13", "en": "want", "ja": "欲しい・したい", "pos": "verb", "level": "1", "exampleEn": "I want to learn English.", "exampleJa": "英語を学びたい。" },
-    { "id": "v1-14", "en": "look", "ja": "見る", "pos": "verb", "level": "1", "exampleEn": "Look at this picture.", "exampleJa": "この写真を見て。" },
-    { "id": "v1-15", "en": "use", "ja": "使う", "pos": "verb", "level": "1", "exampleEn": "I use this app every day.", "exampleJa": "このアプリを毎日使います。" },
-    { "id": "v1-16", "en": "find", "ja": "見つける", "pos": "verb", "level": "1", "exampleEn": "I can't find my keys.", "exampleJa": "鍵が見つからない。" },
-    { "id": "v1-17", "en": "give", "ja": "与える", "pos": "verb", "level": "1", "exampleEn": "Please give me a hand.", "exampleJa": "手伝ってください。" },
-    { "id": "v1-18", "en": "tell", "ja": "伝える・教える", "pos": "verb", "level": "1", "exampleEn": "Tell me the truth.", "exampleJa": "本当のことを教えて。" },
-    { "id": "v1-19", "en": "work", "ja": "働く", "pos": "verb", "level": "1", "exampleEn": "He works in Tokyo.", "exampleJa": "彼は東京で働いている。" },
-    { "id": "v1-20", "en": "call", "ja": "呼ぶ・電話する", "pos": "verb", "level": "1", "exampleEn": "I'll call you later.", "exampleJa": "あとで電話するね。" },
-    { "id": "v1-21", "en": "try", "ja": "試す", "pos": "verb", "level": "1", "exampleEn": "Please try again.", "exampleJa": "もう一度試してください。" },
-    { "id": "v1-22", "en": "ask", "ja": "尋ねる・頼む", "pos": "verb", "level": "1", "exampleEn": "Can I ask a question?", "exampleJa": "質問してもいいですか？" },
-    { "id": "v1-23", "en": "need", "ja": "必要とする", "pos": "verb", "level": "1", "exampleEn": "I need your help.", "exampleJa": "あなたの助けが必要です。" },
-    { "id": "v1-24", "en": "feel", "ja": "感じる", "pos": "verb", "level": "1", "exampleEn": "I feel happy today.", "exampleJa": "今日は幸せな気分だ。" },
-    { "id": "v1-25", "en": "become", "ja": "～になる", "pos": "verb", "level": "1", "exampleEn": "She became a doctor.", "exampleJa": "彼女は医者になった。" },
-    { "id": "v1-26", "en": "leave", "ja": "去る・置いていく", "pos": "verb", "level": "1", "exampleEn": "I leave home at eight.", "exampleJa": "8時に家を出ます。" },
-    { "id": "v1-27", "en": "put", "ja": "置く", "pos": "verb", "level": "1", "exampleEn": "Put the book on the table.", "exampleJa": "本をテーブルに置いて。" },
-    { "id": "v1-28", "en": "keep", "ja": "保つ・続ける", "pos": "verb", "level": "1", "exampleEn": "Keep this secret.", "exampleJa": "この秘密は守ってね。" },
-    { "id": "v1-29", "en": "let", "ja": "～させる", "pos": "verb", "level": "1", "exampleEn": "Let me help you.", "exampleJa": "手伝わせて。" },
-    { "id": "v1-30", "en": "begin", "ja": "始める", "pos": "verb", "level": "1", "exampleEn": "The class begins at nine.", "exampleJa": "授業は9時に始まります。" },
-    { "id": "v1-31", "en": "seem", "ja": "～のように見える", "pos": "verb", "level": "1", "exampleEn": "You seem tired today.", "exampleJa": "今日は疲れて見えるね。" },
-    { "id": "v1-32", "en": "help", "ja": "助ける", "pos": "verb", "level": "1", "exampleEn": "Can you help me with this?", "exampleJa": "これ手伝ってくれる？" },
-    { "id": "v1-33", "en": "talk", "ja": "話す", "pos": "verb", "level": "1", "exampleEn": "Let's talk about it later.", "exampleJa": "それについてはあとで話そう。" },
-    { "id": "v1-34", "en": "turn", "ja": "回る・変える", "pos": "verb", "level": "1", "exampleEn": "Turn left at the corner.", "exampleJa": "角を左に曲がって。" },
-    { "id": "v1-35", "en": "start", "ja": "始める", "pos": "verb", "level": "1", "exampleEn": "Let's start the meeting.", "exampleJa": "会議を始めましょう。" },
-    { "id": "v1-36", "en": "show", "ja": "見せる", "pos": "verb", "level": "1", "exampleEn": "Show me your passport.", "exampleJa": "パスポートを見せてください。" },
-    { "id": "v1-37", "en": "hear", "ja": "聞こえる・聞く", "pos": "verb", "level": "1", "exampleEn": "I can hear music.", "exampleJa": "音楽が聞こえる。" },
-    { "id": "v1-38", "en": "play", "ja": "遊ぶ・演奏する", "pos": "verb", "level": "1", "exampleEn": "The children play in the park.", "exampleJa": "子供たちは公園で遊んでいる。" },
-    { "id": "v1-39", "en": "run", "ja": "走る", "pos": "verb", "level": "1", "exampleEn": "I run every morning.", "exampleJa": "毎朝走ります。" },
-    { "id": "v1-40", "en": "move", "ja": "動く・引っ越す", "pos": "verb", "level": "1", "exampleEn": "We moved to Osaka last year.", "exampleJa": "去年大阪に引っ越した。" },
-    { "id": "v1-41", "en": "live", "ja": "住む・生きる", "pos": "verb", "level": "1", "exampleEn": "I live in Tokyo.", "exampleJa": "東京に住んでいます。" },
-    { "id": "v1-42", "en": "believe", "ja": "信じる", "pos": "verb", "level": "1", "exampleEn": "I believe you.", "exampleJa": "あなたを信じます。" },
-    { "id": "v1-43", "en": "bring", "ja": "持ってくる", "pos": "verb", "level": "1", "exampleEn": "Please bring your laptop.", "exampleJa": "ノートPCを持ってきてください。" },
-    { "id": "v1-44", "en": "happen", "ja": "起こる", "pos": "verb", "level": "1", "exampleEn": "What happened yesterday?", "exampleJa": "昨日何が起こったの？" },
-    { "id": "v1-45", "en": "write", "ja": "書く", "pos": "verb", "level": "1", "exampleEn": "Please write your name here.", "exampleJa": "ここに名前を書いてください。" },
-    { "id": "v1-46", "en": "sit", "ja": "座る", "pos": "verb", "level": "1", "exampleEn": "Please sit down.", "exampleJa": "どうぞ座ってください。" },
-    { "id": "v1-47", "en": "stand", "ja": "立つ", "pos": "verb", "level": "1", "exampleEn": "Please stand in line.", "exampleJa": "列に並んでください。" },
-    { "id": "v1-48", "en": "lose", "ja": "失う・負ける", "pos": "verb", "level": "1", "exampleEn": "Don't lose your ticket.", "exampleJa": "切符をなくさないで。" },
-    { "id": "v1-49", "en": "pay", "ja": "支払う", "pos": "verb", "level": "1", "exampleEn": "How much did you pay?", "exampleJa": "いくら払いましたか？" },
-    { "id": "v1-50", "en": "meet", "ja": "会う", "pos": "verb", "level": "1", "exampleEn": "Nice to meet you.", "exampleJa": "はじめまして。" },
-    { "id": "v1-51", "en": "include", "ja": "含む", "pos": "verb", "level": "1", "exampleEn": "The price includes tax.", "exampleJa": "価格には税が含まれています。" },
-    { "id": "v1-52", "en": "continue", "ja": "続ける", "pos": "verb", "level": "1", "exampleEn": "Please continue your work.", "exampleJa": "作業を続けてください。" },
-    { "id": "v1-53", "en": "set", "ja": "置く・設定する", "pos": "verb", "level": "1", "exampleEn": "Set the alarm for six.", "exampleJa": "アラームを6時にセットして。" },
-    { "id": "v1-54", "en": "learn", "ja": "学ぶ", "pos": "verb", "level": "1", "exampleEn": "I learn English every day.", "exampleJa": "毎日英語を学んでいます。" },
-    { "id": "v1-55", "en": "change", "ja": "変える・変わる", "pos": "verb", "level": "1", "exampleEn": "I need to change my plans.", "exampleJa": "予定を変える必要がある。" },
-    { "id": "v1-56", "en": "lead", "ja": "導く", "pos": "verb", "level": "1", "exampleEn": "She leads the team well.", "exampleJa": "彼女はチームをうまく導いている。" },
-    { "id": "v1-57", "en": "understand", "ja": "理解する", "pos": "verb", "level": "1", "exampleEn": "Do you understand this?", "exampleJa": "これはわかりますか？" },
-    { "id": "v1-58", "en": "watch", "ja": "じっと見る・観る", "pos": "verb", "level": "1", "exampleEn": "I watch TV at night.", "exampleJa": "夜にテレビを見ます。" },
-    { "id": "v1-59", "en": "follow", "ja": "従う・ついていく", "pos": "verb", "level": "1", "exampleEn": "Please follow me.", "exampleJa": "私についてきてください。" },
-    { "id": "v1-60", "en": "stop", "ja": "止める・止まる", "pos": "verb", "level": "1", "exampleEn": "The bus stopped suddenly.", "exampleJa": "バスが急に止まった。" },
-    { "id": "v1-61", "en": "create", "ja": "作り出す", "pos": "verb", "level": "1", "exampleEn": "She created a new design.", "exampleJa": "彼女は新しいデザインを作り出した。" },
-    { "id": "v1-62", "en": "speak", "ja": "話す（言語）", "pos": "verb", "level": "1", "exampleEn": "Do you speak English?", "exampleJa": "英語を話せますか？" },
-    { "id": "v1-63", "en": "read", "ja": "読む", "pos": "verb", "level": "1", "exampleEn": "I read a book every week.", "exampleJa": "毎週本を読みます。" },
-    { "id": "v1-64", "en": "allow", "ja": "許可する", "pos": "verb", "level": "1", "exampleEn": "My parents allow me to go out.", "exampleJa": "親は外出を許可してくれる。" },
-    { "id": "v1-65", "en": "add", "ja": "加える", "pos": "verb", "level": "1", "exampleEn": "Add some sugar to the tea.", "exampleJa": "お茶に砂糖を少し加えて。" },
-    { "id": "v1-66", "en": "spend", "ja": "費やす", "pos": "verb", "level": "1", "exampleEn": "I spend a lot of time studying.", "exampleJa": "勉強に多くの時間を使う。" },
-    { "id": "v1-67", "en": "grow", "ja": "育つ・育てる", "pos": "verb", "level": "1", "exampleEn": "Children grow quickly.", "exampleJa": "子供はすぐに大きくなる。" },
-    { "id": "v1-68", "en": "open", "ja": "開ける・開く", "pos": "verb", "level": "1", "exampleEn": "Please open the window.", "exampleJa": "窓を開けてください。" },
-    { "id": "v1-69", "en": "walk", "ja": "歩く", "pos": "verb", "level": "1", "exampleEn": "I walk to the station.", "exampleJa": "駅まで歩きます。" },
-    { "id": "v1-70", "en": "win", "ja": "勝つ", "pos": "verb", "level": "1", "exampleEn": "Our team won the game.", "exampleJa": "うちのチームが試合に勝った。" },
-    { "id": "v1-71", "en": "offer", "ja": "申し出る", "pos": "verb", "level": "1", "exampleEn": "He offered me a job.", "exampleJa": "彼が仕事を申し出てくれた。" },
-    { "id": "v1-72", "en": "remember", "ja": "覚えている", "pos": "verb", "level": "1", "exampleEn": "I remember your name.", "exampleJa": "あなたの名前を覚えています。" },
-    { "id": "v1-73", "en": "love", "ja": "愛する・大好き", "pos": "verb", "level": "1", "exampleEn": "I love this song.", "exampleJa": "この曲が大好きだ。" },
-    { "id": "v1-74", "en": "consider", "ja": "考慮する", "pos": "verb", "level": "1", "exampleEn": "Please consider my idea.", "exampleJa": "私の案を検討してください。" },
-    { "id": "v1-75", "en": "appear", "ja": "現れる", "pos": "verb", "level": "1", "exampleEn": "A rainbow appeared in the sky.", "exampleJa": "空に虹が現れた。" },
-    { "id": "v1-76", "en": "buy", "ja": "買う", "pos": "verb", "level": "1", "exampleEn": "I bought a new bag.", "exampleJa": "新しいバッグを買った。" },
-    { "id": "v1-77", "en": "wait", "ja": "待つ", "pos": "verb", "level": "1", "exampleEn": "Please wait a moment.", "exampleJa": "少々お待ちください。" },
-    { "id": "v1-78", "en": "serve", "ja": "仕える・提供する", "pos": "verb", "level": "1", "exampleEn": "Breakfast is served at seven.", "exampleJa": "朝食は7時に出されます。" },
-    { "id": "v1-79", "en": "die", "ja": "死ぬ", "pos": "verb", "level": "1", "exampleEn": "The plant died without water.", "exampleJa": "水がなくて植物が枯れた。" },
-    { "id": "v1-80", "en": "send", "ja": "送る", "pos": "verb", "level": "1", "exampleEn": "I'll send you an email.", "exampleJa": "メールを送ります。" },
-    { "id": "v1-81", "en": "expect", "ja": "期待する", "pos": "verb", "level": "1", "exampleEn": "I expect good results.", "exampleJa": "良い結果を期待している。" },
-    { "id": "v1-82", "en": "build", "ja": "建てる・築く", "pos": "verb", "level": "1", "exampleEn": "They built a new school.", "exampleJa": "彼らは新しい学校を建てた。" },
-    { "id": "v1-83", "en": "stay", "ja": "滞在する", "pos": "verb", "level": "1", "exampleEn": "I stayed at a hotel.", "exampleJa": "ホテルに泊まった。" },
-    { "id": "v1-84", "en": "fall", "ja": "落ちる", "pos": "verb", "level": "1", "exampleEn": "Leaves fall in autumn.", "exampleJa": "秋には葉が落ちる。" },
-    { "id": "v1-85", "en": "cut", "ja": "切る", "pos": "verb", "level": "1", "exampleEn": "Please cut the paper.", "exampleJa": "紙を切ってください。" },
-    { "id": "v1-86", "en": "reach", "ja": "着く・届く", "pos": "verb", "level": "1", "exampleEn": "We reached the station at noon.", "exampleJa": "正午に駅に着いた。" },
-    { "id": "v1-87", "en": "kill", "ja": "殺す", "pos": "verb", "level": "1", "exampleEn": "Don't kill mosquitoes indoors.", "exampleJa": "室内で蚊を殺さないで。" },
-    { "id": "v1-88", "en": "remain", "ja": "残る", "pos": "verb", "level": "1", "exampleEn": "Only two seats remain.", "exampleJa": "席はあと2つだけ残っている。" },
-    { "id": "v1-89", "en": "suggest", "ja": "提案する", "pos": "verb", "level": "1", "exampleEn": "I suggest we leave early.", "exampleJa": "早めに出発することを提案します。" },
-    { "id": "v1-90", "en": "raise", "ja": "上げる・育てる", "pos": "verb", "level": "1", "exampleEn": "Please raise your hand.", "exampleJa": "手を挙げてください。" },
-    { "id": "v1-91", "en": "pass", "ja": "通る・合格する", "pos": "verb", "level": "1", "exampleEn": "I passed the exam.", "exampleJa": "試験に合格した。" },
-    { "id": "v1-92", "en": "sell", "ja": "売る", "pos": "verb", "level": "1", "exampleEn": "They sell fresh fruit here.", "exampleJa": "ここでは新鮮な果物を売っている。" },
-    { "id": "v1-93", "en": "require", "ja": "必要とする", "pos": "verb", "level": "1", "exampleEn": "This job requires experience.", "exampleJa": "この仕事は経験が必要です。" },
-    { "id": "v1-94", "en": "report", "ja": "報告する", "pos": "verb", "level": "1", "exampleEn": "Please report the problem.", "exampleJa": "問題を報告してください。" },
-    { "id": "v1-95", "en": "decide", "ja": "決める", "pos": "verb", "level": "1", "exampleEn": "I decided to stay home.", "exampleJa": "家にいることに決めた。" },
-    { "id": "v1-96", "en": "return", "ja": "戻る・返す", "pos": "verb", "level": "1", "exampleEn": "Please return the book tomorrow.", "exampleJa": "本は明日返してください。" },
-    { "id": "v1-97", "en": "explain", "ja": "説明する", "pos": "verb", "level": "1", "exampleEn": "Can you explain this word?", "exampleJa": "この単語を説明してくれますか？" },
-    { "id": "v1-98", "en": "hope", "ja": "願う・望む", "pos": "verb", "level": "1", "exampleEn": "I hope you feel better soon.", "exampleJa": "早く良くなるといいね。" },
-    { "id": "v1-99", "en": "carry", "ja": "運ぶ", "pos": "verb", "level": "1", "exampleEn": "Can you carry this bag?", "exampleJa": "このバッグ運んでくれる？" },
-    { "id": "v1-100", "en": "break", "ja": "壊す・壊れる", "pos": "verb", "level": "1", "exampleEn": "Don't break the glass.", "exampleJa": "ガラスを壊さないで。" },
-
-    { "id": "v2-1", "en": "improve", "ja": "改善する", "pos": "verb", "level": "2", "exampleEn": "I want to improve my English.", "exampleJa": "英語力を上げたい。" },
-    { "id": "v2-2", "en": "consider", "ja": "考慮する", "pos": "verb", "level": "2", "exampleEn": "We will consider your request.", "exampleJa": "ご要望を検討します。" },
-    { "id": "v3-1", "en": "acknowledge", "ja": "認める", "pos": "verb", "level": "3", "exampleEn": "He acknowledged his mistake.", "exampleJa": "彼は自分の過ちを認めた。" },
-
-    { "id": "a1-1", "en": "happy", "ja": "幸せな", "pos": "adjective", "level": "1", "exampleEn": "I am happy to see you.", "exampleJa": "会えて嬉しいです。" },
-    { "id": "a1-2", "en": "big", "ja": "大きい", "pos": "adjective", "level": "1", "exampleEn": "That is a big house.", "exampleJa": "あれは大きな家だ。" },
-    { "id": "a2-1", "en": "reliable", "ja": "信頼できる", "pos": "adjective", "level": "2", "exampleEn": "She is a reliable friend.", "exampleJa": "彼女は信頼できる友達だ。" },
-    { "id": "a3-1", "en": "ambiguous", "ja": "曖昧な", "pos": "adjective", "level": "3", "exampleEn": "His answer was ambiguous.", "exampleJa": "彼の答えは曖昧だった。" },
-
-    { "id": "d1-1", "en": "quickly", "ja": "素早く", "pos": "adverb", "level": "1", "exampleEn": "Please finish this quickly.", "exampleJa": "これを素早く終わらせてください。" },
-    { "id": "d1-2", "en": "always", "ja": "いつも", "pos": "adverb", "level": "1", "exampleEn": "She always arrives early.", "exampleJa": "彼女はいつも早めに着く。" },
-    { "id": "d2-1", "en": "gradually", "ja": "徐々に", "pos": "adverb", "level": "2", "exampleEn": "The weather gradually improved.", "exampleJa": "天気は徐々に良くなった。" },
-
-    { "id": "o1-1", "en": "because", "ja": "なぜなら", "pos": "other", "level": "1", "exampleEn": "I stayed home because it was raining.", "exampleJa": "雨だったので家にいた。" },
-    { "id": "o1-2", "en": "however", "ja": "しかし", "pos": "other", "level": "1", "exampleEn": "It was hard. However, I finished it.", "exampleJa": "大変だった。しかし、やり終えた。" }
+    {
+      "id": "v1-1",
+      "en": "be",
+      "ja": "～である",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "She is a teacher.",
+      "exampleJa": "彼女は先生です。"
+    },
+    {
+      "id": "v1-2",
+      "en": "have",
+      "ja": "持つ",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I have two cats.",
+      "exampleJa": "私は猫を2匹飼っています。"
+    },
+    {
+      "id": "v1-3",
+      "en": "do",
+      "ja": "する",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "What do you do on weekends?",
+      "exampleJa": "週末は何をしますか？"
+    },
+    {
+      "id": "v1-4",
+      "en": "say",
+      "ja": "言う",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "What did she say?",
+      "exampleJa": "彼女は何と言いましたか？"
+    },
+    {
+      "id": "v1-5",
+      "en": "get",
+      "ja": "手に入れる・～になる",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I got a new phone yesterday.",
+      "exampleJa": "昨日新しいスマホを手に入れた。"
+    },
+    {
+      "id": "v1-6",
+      "en": "make",
+      "ja": "作る",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "She made a cake for me.",
+      "exampleJa": "彼女が私にケーキを作ってくれた。"
+    },
+    {
+      "id": "v1-7",
+      "en": "go",
+      "ja": "行く",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I go to school by bus.",
+      "exampleJa": "私はバスで学校に行きます。"
+    },
+    {
+      "id": "v1-8",
+      "en": "know",
+      "ja": "知っている",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Do you know his name?",
+      "exampleJa": "彼の名前を知っていますか？"
+    },
+    {
+      "id": "v1-9",
+      "en": "think",
+      "ja": "思う",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I think it's a good idea.",
+      "exampleJa": "それは良い考えだと思う。"
+    },
+    {
+      "id": "v1-10",
+      "en": "take",
+      "ja": "取る・連れていく",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Please take a seat.",
+      "exampleJa": "どうぞ席にお座りください。"
+    },
+    {
+      "id": "v1-11",
+      "en": "see",
+      "ja": "見る・会う",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I saw a movie last night.",
+      "exampleJa": "昨夜映画を見た。"
+    },
+    {
+      "id": "v1-12",
+      "en": "come",
+      "ja": "来る",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Can you come to my house?",
+      "exampleJa": "うちに来られますか？"
+    },
+    {
+      "id": "v1-13",
+      "en": "want",
+      "ja": "欲しい・したい",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I want to learn English.",
+      "exampleJa": "英語を学びたい。"
+    },
+    {
+      "id": "v1-14",
+      "en": "look",
+      "ja": "見る",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Look at this picture.",
+      "exampleJa": "この写真を見て。"
+    },
+    {
+      "id": "v1-15",
+      "en": "use",
+      "ja": "使う",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I use this app every day.",
+      "exampleJa": "このアプリを毎日使います。"
+    },
+    {
+      "id": "v1-16",
+      "en": "find",
+      "ja": "見つける",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I can't find my keys.",
+      "exampleJa": "鍵が見つからない。"
+    },
+    {
+      "id": "v1-17",
+      "en": "give",
+      "ja": "与える",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Please give me a hand.",
+      "exampleJa": "手伝ってください。"
+    },
+    {
+      "id": "v1-18",
+      "en": "tell",
+      "ja": "伝える・教える",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Tell me the truth.",
+      "exampleJa": "本当のことを教えて。"
+    },
+    {
+      "id": "v1-19",
+      "en": "work",
+      "ja": "働く",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "He works in Tokyo.",
+      "exampleJa": "彼は東京で働いている。"
+    },
+    {
+      "id": "v1-20",
+      "en": "call",
+      "ja": "呼ぶ・電話する",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I'll call you later.",
+      "exampleJa": "あとで電話するね。"
+    },
+    {
+      "id": "v1-21",
+      "en": "try",
+      "ja": "試す",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Please try again.",
+      "exampleJa": "もう一度試してください。"
+    },
+    {
+      "id": "v1-22",
+      "en": "ask",
+      "ja": "尋ねる・頼む",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Can I ask a question?",
+      "exampleJa": "質問してもいいですか？"
+    },
+    {
+      "id": "v1-23",
+      "en": "need",
+      "ja": "必要とする",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I need your help.",
+      "exampleJa": "あなたの助けが必要です。"
+    },
+    {
+      "id": "v1-24",
+      "en": "feel",
+      "ja": "感じる",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I feel happy today.",
+      "exampleJa": "今日は幸せな気分だ。"
+    },
+    {
+      "id": "v1-25",
+      "en": "become",
+      "ja": "～になる",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "She became a doctor.",
+      "exampleJa": "彼女は医者になった。"
+    },
+    {
+      "id": "v1-26",
+      "en": "leave",
+      "ja": "去る・置いていく",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I leave home at eight.",
+      "exampleJa": "8時に家を出ます。"
+    },
+    {
+      "id": "v1-27",
+      "en": "put",
+      "ja": "置く",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Put the book on the table.",
+      "exampleJa": "本をテーブルに置いて。"
+    },
+    {
+      "id": "v1-28",
+      "en": "keep",
+      "ja": "保つ・続ける",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Keep this secret.",
+      "exampleJa": "この秘密は守ってね。"
+    },
+    {
+      "id": "v1-29",
+      "en": "let",
+      "ja": "～させる",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Let me help you.",
+      "exampleJa": "手伝わせて。"
+    },
+    {
+      "id": "v1-30",
+      "en": "begin",
+      "ja": "始める",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "The class begins at nine.",
+      "exampleJa": "授業は9時に始まります。"
+    },
+    {
+      "id": "v1-31",
+      "en": "seem",
+      "ja": "～のように見える",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "You seem tired today.",
+      "exampleJa": "今日は疲れて見えるね。"
+    },
+    {
+      "id": "v1-32",
+      "en": "help",
+      "ja": "助ける",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Can you help me with this?",
+      "exampleJa": "これ手伝ってくれる？"
+    },
+    {
+      "id": "v1-33",
+      "en": "talk",
+      "ja": "話す",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Let's talk about it later.",
+      "exampleJa": "それについてはあとで話そう。"
+    },
+    {
+      "id": "v1-34",
+      "en": "turn",
+      "ja": "回る・変える",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Turn left at the corner.",
+      "exampleJa": "角を左に曲がって。"
+    },
+    {
+      "id": "v1-35",
+      "en": "start",
+      "ja": "始める",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Let's start the meeting.",
+      "exampleJa": "会議を始めましょう。"
+    },
+    {
+      "id": "v1-36",
+      "en": "show",
+      "ja": "見せる",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Show me your passport.",
+      "exampleJa": "パスポートを見せてください。"
+    },
+    {
+      "id": "v1-37",
+      "en": "hear",
+      "ja": "聞こえる・聞く",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I can hear music.",
+      "exampleJa": "音楽が聞こえる。"
+    },
+    {
+      "id": "v1-38",
+      "en": "play",
+      "ja": "遊ぶ・演奏する",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "The children play in the park.",
+      "exampleJa": "子供たちは公園で遊んでいる。"
+    },
+    {
+      "id": "v1-39",
+      "en": "run",
+      "ja": "走る",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I run every morning.",
+      "exampleJa": "毎朝走ります。"
+    },
+    {
+      "id": "v1-40",
+      "en": "move",
+      "ja": "動く・引っ越す",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "We moved to Osaka last year.",
+      "exampleJa": "去年大阪に引っ越した。"
+    },
+    {
+      "id": "v1-41",
+      "en": "live",
+      "ja": "住む・生きる",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I live in Tokyo.",
+      "exampleJa": "東京に住んでいます。"
+    },
+    {
+      "id": "v1-42",
+      "en": "believe",
+      "ja": "信じる",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I believe you.",
+      "exampleJa": "あなたを信じます。"
+    },
+    {
+      "id": "v1-43",
+      "en": "bring",
+      "ja": "持ってくる",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Please bring your laptop.",
+      "exampleJa": "ノートPCを持ってきてください。"
+    },
+    {
+      "id": "v1-44",
+      "en": "happen",
+      "ja": "起こる",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "What happened yesterday?",
+      "exampleJa": "昨日何が起こったの？"
+    },
+    {
+      "id": "v1-45",
+      "en": "write",
+      "ja": "書く",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Please write your name here.",
+      "exampleJa": "ここに名前を書いてください。"
+    },
+    {
+      "id": "v1-46",
+      "en": "sit",
+      "ja": "座る",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Please sit down.",
+      "exampleJa": "どうぞ座ってください。"
+    },
+    {
+      "id": "v1-47",
+      "en": "stand",
+      "ja": "立つ",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Please stand in line.",
+      "exampleJa": "列に並んでください。"
+    },
+    {
+      "id": "v1-48",
+      "en": "lose",
+      "ja": "失う・負ける",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Don't lose your ticket.",
+      "exampleJa": "切符をなくさないで。"
+    },
+    {
+      "id": "v1-49",
+      "en": "pay",
+      "ja": "支払う",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "How much did you pay?",
+      "exampleJa": "いくら払いましたか？"
+    },
+    {
+      "id": "v1-50",
+      "en": "meet",
+      "ja": "会う",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Nice to meet you.",
+      "exampleJa": "はじめまして。"
+    },
+    {
+      "id": "v1-51",
+      "en": "include",
+      "ja": "含む",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "The price includes tax.",
+      "exampleJa": "価格には税が含まれています。"
+    },
+    {
+      "id": "v1-52",
+      "en": "continue",
+      "ja": "続ける",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Please continue your work.",
+      "exampleJa": "作業を続けてください。"
+    },
+    {
+      "id": "v1-53",
+      "en": "set",
+      "ja": "置く・設定する",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Set the alarm for six.",
+      "exampleJa": "アラームを6時にセットして。"
+    },
+    {
+      "id": "v1-54",
+      "en": "learn",
+      "ja": "学ぶ",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I learn English every day.",
+      "exampleJa": "毎日英語を学んでいます。"
+    },
+    {
+      "id": "v1-55",
+      "en": "change",
+      "ja": "変える・変わる",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I need to change my plans.",
+      "exampleJa": "予定を変える必要がある。"
+    },
+    {
+      "id": "v1-56",
+      "en": "lead",
+      "ja": "導く",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "She leads the team well.",
+      "exampleJa": "彼女はチームをうまく導いている。"
+    },
+    {
+      "id": "v1-57",
+      "en": "understand",
+      "ja": "理解する",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Do you understand this?",
+      "exampleJa": "これはわかりますか？"
+    },
+    {
+      "id": "v1-58",
+      "en": "watch",
+      "ja": "じっと見る・観る",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I watch TV at night.",
+      "exampleJa": "夜にテレビを見ます。"
+    },
+    {
+      "id": "v1-59",
+      "en": "follow",
+      "ja": "従う・ついていく",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Please follow me.",
+      "exampleJa": "私についてきてください。"
+    },
+    {
+      "id": "v1-60",
+      "en": "stop",
+      "ja": "止める・止まる",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "The bus stopped suddenly.",
+      "exampleJa": "バスが急に止まった。"
+    },
+    {
+      "id": "v1-61",
+      "en": "create",
+      "ja": "作り出す",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "She created a new design.",
+      "exampleJa": "彼女は新しいデザインを作り出した。"
+    },
+    {
+      "id": "v1-62",
+      "en": "speak",
+      "ja": "話す（言語）",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Do you speak English?",
+      "exampleJa": "英語を話せますか？"
+    },
+    {
+      "id": "v1-63",
+      "en": "read",
+      "ja": "読む",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I read a book every week.",
+      "exampleJa": "毎週本を読みます。"
+    },
+    {
+      "id": "v1-64",
+      "en": "allow",
+      "ja": "許可する",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "My parents allow me to go out.",
+      "exampleJa": "親は外出を許可してくれる。"
+    },
+    {
+      "id": "v1-65",
+      "en": "add",
+      "ja": "加える",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Add some sugar to the tea.",
+      "exampleJa": "お茶に砂糖を少し加えて。"
+    },
+    {
+      "id": "v1-66",
+      "en": "spend",
+      "ja": "費やす",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I spend a lot of time studying.",
+      "exampleJa": "勉強に多くの時間を使う。"
+    },
+    {
+      "id": "v1-67",
+      "en": "grow",
+      "ja": "育つ・育てる",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Children grow quickly.",
+      "exampleJa": "子供はすぐに大きくなる。"
+    },
+    {
+      "id": "v1-68",
+      "en": "open",
+      "ja": "開ける・開く",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Please open the window.",
+      "exampleJa": "窓を開けてください。"
+    },
+    {
+      "id": "v1-69",
+      "en": "walk",
+      "ja": "歩く",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I walk to the station.",
+      "exampleJa": "駅まで歩きます。"
+    },
+    {
+      "id": "v1-70",
+      "en": "win",
+      "ja": "勝つ",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Our team won the game.",
+      "exampleJa": "うちのチームが試合に勝った。"
+    },
+    {
+      "id": "v1-71",
+      "en": "offer",
+      "ja": "申し出る",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "He offered me a job.",
+      "exampleJa": "彼が仕事を申し出てくれた。"
+    },
+    {
+      "id": "v1-72",
+      "en": "remember",
+      "ja": "覚えている",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I remember your name.",
+      "exampleJa": "あなたの名前を覚えています。"
+    },
+    {
+      "id": "v1-73",
+      "en": "love",
+      "ja": "愛する・大好き",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I love this song.",
+      "exampleJa": "この曲が大好きだ。"
+    },
+    {
+      "id": "v1-74",
+      "en": "consider",
+      "ja": "考慮する",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Please consider my idea.",
+      "exampleJa": "私の案を検討してください。"
+    },
+    {
+      "id": "v1-75",
+      "en": "appear",
+      "ja": "現れる",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "A rainbow appeared in the sky.",
+      "exampleJa": "空に虹が現れた。"
+    },
+    {
+      "id": "v1-76",
+      "en": "buy",
+      "ja": "買う",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I bought a new bag.",
+      "exampleJa": "新しいバッグを買った。"
+    },
+    {
+      "id": "v1-77",
+      "en": "wait",
+      "ja": "待つ",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Please wait a moment.",
+      "exampleJa": "少々お待ちください。"
+    },
+    {
+      "id": "v1-78",
+      "en": "serve",
+      "ja": "仕える・提供する",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Breakfast is served at seven.",
+      "exampleJa": "朝食は7時に出されます。"
+    },
+    {
+      "id": "v1-79",
+      "en": "die",
+      "ja": "死ぬ",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "The plant died without water.",
+      "exampleJa": "水がなくて植物が枯れた。"
+    },
+    {
+      "id": "v1-80",
+      "en": "send",
+      "ja": "送る",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I'll send you an email.",
+      "exampleJa": "メールを送ります。"
+    },
+    {
+      "id": "v1-81",
+      "en": "expect",
+      "ja": "期待する",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I expect good results.",
+      "exampleJa": "良い結果を期待している。"
+    },
+    {
+      "id": "v1-82",
+      "en": "build",
+      "ja": "建てる・築く",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "They built a new school.",
+      "exampleJa": "彼らは新しい学校を建てた。"
+    },
+    {
+      "id": "v1-83",
+      "en": "stay",
+      "ja": "滞在する",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I stayed at a hotel.",
+      "exampleJa": "ホテルに泊まった。"
+    },
+    {
+      "id": "v1-84",
+      "en": "fall",
+      "ja": "落ちる",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Leaves fall in autumn.",
+      "exampleJa": "秋には葉が落ちる。"
+    },
+    {
+      "id": "v1-85",
+      "en": "cut",
+      "ja": "切る",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Please cut the paper.",
+      "exampleJa": "紙を切ってください。"
+    },
+    {
+      "id": "v1-86",
+      "en": "reach",
+      "ja": "着く・届く",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "We reached the station at noon.",
+      "exampleJa": "正午に駅に着いた。"
+    },
+    {
+      "id": "v1-87",
+      "en": "kill",
+      "ja": "殺す",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Don't kill mosquitoes indoors.",
+      "exampleJa": "室内で蚊を殺さないで。"
+    },
+    {
+      "id": "v1-88",
+      "en": "remain",
+      "ja": "残る",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Only two seats remain.",
+      "exampleJa": "席はあと2つだけ残っている。"
+    },
+    {
+      "id": "v1-89",
+      "en": "suggest",
+      "ja": "提案する",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I suggest we leave early.",
+      "exampleJa": "早めに出発することを提案します。"
+    },
+    {
+      "id": "v1-90",
+      "en": "raise",
+      "ja": "上げる・育てる",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Please raise your hand.",
+      "exampleJa": "手を挙げてください。"
+    },
+    {
+      "id": "v1-91",
+      "en": "pass",
+      "ja": "通る・合格する",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I passed the exam.",
+      "exampleJa": "試験に合格した。"
+    },
+    {
+      "id": "v1-92",
+      "en": "sell",
+      "ja": "売る",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "They sell fresh fruit here.",
+      "exampleJa": "ここでは新鮮な果物を売っている。"
+    },
+    {
+      "id": "v1-93",
+      "en": "require",
+      "ja": "必要とする",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "This job requires experience.",
+      "exampleJa": "この仕事は経験が必要です。"
+    },
+    {
+      "id": "v1-94",
+      "en": "report",
+      "ja": "報告する",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Please report the problem.",
+      "exampleJa": "問題を報告してください。"
+    },
+    {
+      "id": "v1-95",
+      "en": "decide",
+      "ja": "決める",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I decided to stay home.",
+      "exampleJa": "家にいることに決めた。"
+    },
+    {
+      "id": "v1-96",
+      "en": "return",
+      "ja": "戻る・返す",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Please return the book tomorrow.",
+      "exampleJa": "本は明日返してください。"
+    },
+    {
+      "id": "v1-97",
+      "en": "explain",
+      "ja": "説明する",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Can you explain this word?",
+      "exampleJa": "この単語を説明してくれますか？"
+    },
+    {
+      "id": "v1-98",
+      "en": "hope",
+      "ja": "願う・望む",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "I hope you feel better soon.",
+      "exampleJa": "早く良くなるといいね。"
+    },
+    {
+      "id": "v1-99",
+      "en": "carry",
+      "ja": "運ぶ",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Can you carry this bag?",
+      "exampleJa": "このバッグ運んでくれる？"
+    },
+    {
+      "id": "v1-100",
+      "en": "break",
+      "ja": "壊す・壊れる",
+      "pos": "verb",
+      "level": "1",
+      "exampleEn": "Don't break the glass.",
+      "exampleJa": "ガラスを壊さないで。"
+    },
+    {
+      "id": "v2-1",
+      "en": "accept",
+      "ja": "受け入れる",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I accept your apology.",
+      "exampleJa": "あなたの謝罪を受け入れます。"
+    },
+    {
+      "id": "v2-2",
+      "en": "achieve",
+      "ja": "達成する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "She achieved her goal.",
+      "exampleJa": "彼女は目標を達成した。"
+    },
+    {
+      "id": "v2-3",
+      "en": "act",
+      "ja": "行動する・演じる",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "We need to act quickly.",
+      "exampleJa": "素早く行動する必要がある。"
+    },
+    {
+      "id": "v2-4",
+      "en": "admit",
+      "ja": "認める",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "He admitted his mistake.",
+      "exampleJa": "彼は自分の過ちを認めた。"
+    },
+    {
+      "id": "v2-5",
+      "en": "advise",
+      "ja": "助言する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I advise you to rest.",
+      "exampleJa": "休むことを勧めます。"
+    },
+    {
+      "id": "v2-6",
+      "en": "agree",
+      "ja": "同意する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I agree with you.",
+      "exampleJa": "あなたに同意します。"
+    },
+    {
+      "id": "v2-7",
+      "en": "announce",
+      "ja": "発表する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "They announced the winner.",
+      "exampleJa": "彼らは勝者を発表した。"
+    },
+    {
+      "id": "v2-8",
+      "en": "answer",
+      "ja": "答える",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Please answer the question.",
+      "exampleJa": "質問に答えてください。"
+    },
+    {
+      "id": "v2-9",
+      "en": "argue",
+      "ja": "言い争う・主張する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Don't argue with your parents.",
+      "exampleJa": "親と言い争わないで。"
+    },
+    {
+      "id": "v2-10",
+      "en": "arrive",
+      "ja": "到着する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "The train arrived on time.",
+      "exampleJa": "電車は時間通りに到着した。"
+    },
+    {
+      "id": "v2-11",
+      "en": "avoid",
+      "ja": "避ける",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Try to avoid junk food.",
+      "exampleJa": "ジャンクフードは避けるようにして。"
+    },
+    {
+      "id": "v2-12",
+      "en": "bake",
+      "ja": "焼く",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "She baked a chocolate cake.",
+      "exampleJa": "彼女はチョコケーキを焼いた。"
+    },
+    {
+      "id": "v2-13",
+      "en": "borrow",
+      "ja": "借りる",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Can I borrow your pen?",
+      "exampleJa": "ペンを借りてもいい？"
+    },
+    {
+      "id": "v2-14",
+      "en": "cancel",
+      "ja": "取り消す",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I had to cancel the meeting.",
+      "exampleJa": "会議をキャンセルしなければならなかった。"
+    },
+    {
+      "id": "v2-15",
+      "en": "care",
+      "ja": "気にする",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I care about my family.",
+      "exampleJa": "家族のことを大切に思っている。"
+    },
+    {
+      "id": "v2-16",
+      "en": "catch",
+      "ja": "捕まえる・間に合う",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I caught the last train.",
+      "exampleJa": "終電に間に合った。"
+    },
+    {
+      "id": "v2-17",
+      "en": "celebrate",
+      "ja": "祝う",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Let's celebrate your birthday.",
+      "exampleJa": "誕生日を祝おう。"
+    },
+    {
+      "id": "v2-18",
+      "en": "choose",
+      "ja": "選ぶ",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Choose the best option.",
+      "exampleJa": "一番良い選択肢を選んで。"
+    },
+    {
+      "id": "v2-19",
+      "en": "clean",
+      "ja": "掃除する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I clean my room every week.",
+      "exampleJa": "毎週部屋を掃除します。"
+    },
+    {
+      "id": "v2-20",
+      "en": "climb",
+      "ja": "登る",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "They climbed the mountain.",
+      "exampleJa": "彼らは山に登った。"
+    },
+    {
+      "id": "v2-21",
+      "en": "close",
+      "ja": "閉める",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Please close the door.",
+      "exampleJa": "ドアを閉めてください。"
+    },
+    {
+      "id": "v2-22",
+      "en": "collect",
+      "ja": "集める",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "He collects stamps.",
+      "exampleJa": "彼は切手を集めている。"
+    },
+    {
+      "id": "v2-23",
+      "en": "compare",
+      "ja": "比較する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Compare these two products.",
+      "exampleJa": "この2つの商品を比較して。"
+    },
+    {
+      "id": "v2-24",
+      "en": "complain",
+      "ja": "不満を言う",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Don't complain about the weather.",
+      "exampleJa": "天気のことで文句を言わないで。"
+    },
+    {
+      "id": "v2-25",
+      "en": "complete",
+      "ja": "完成させる",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Please complete this form.",
+      "exampleJa": "この用紙に記入してください。"
+    },
+    {
+      "id": "v2-26",
+      "en": "cook",
+      "ja": "料理する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I cook dinner for my family.",
+      "exampleJa": "家族のために夕食を作ります。"
+    },
+    {
+      "id": "v2-27",
+      "en": "copy",
+      "ja": "コピーする",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Please copy this file.",
+      "exampleJa": "このファイルをコピーしてください。"
+    },
+    {
+      "id": "v2-28",
+      "en": "count",
+      "ja": "数える",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Count from one to ten.",
+      "exampleJa": "1から10まで数えて。"
+    },
+    {
+      "id": "v2-29",
+      "en": "cover",
+      "ja": "覆う",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Snow covered the ground.",
+      "exampleJa": "雪が地面を覆った。"
+    },
+    {
+      "id": "v2-30",
+      "en": "cross",
+      "ja": "渡る・横切る",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Cross the street carefully.",
+      "exampleJa": "気をつけて道路を渡って。"
+    },
+    {
+      "id": "v2-31",
+      "en": "cry",
+      "ja": "泣く",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "The baby started to cry.",
+      "exampleJa": "赤ちゃんが泣き始めた。"
+    },
+    {
+      "id": "v2-32",
+      "en": "dance",
+      "ja": "踊る",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "They danced all night.",
+      "exampleJa": "彼らは一晩中踊った。"
+    },
+    {
+      "id": "v2-33",
+      "en": "deliver",
+      "ja": "届ける",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "The package was delivered today.",
+      "exampleJa": "荷物は今日配達された。"
+    },
+    {
+      "id": "v2-34",
+      "en": "depend",
+      "ja": "頼る・依存する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "It depends on the weather.",
+      "exampleJa": "それは天気次第です。"
+    },
+    {
+      "id": "v2-35",
+      "en": "describe",
+      "ja": "説明する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Can you describe the man?",
+      "exampleJa": "その男性を説明できますか？"
+    },
+    {
+      "id": "v2-36",
+      "en": "design",
+      "ja": "設計する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "She designed this logo.",
+      "exampleJa": "彼女がこのロゴをデザインした。"
+    },
+    {
+      "id": "v2-37",
+      "en": "develop",
+      "ja": "発展させる",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "They developed a new app.",
+      "exampleJa": "彼らは新しいアプリを開発した。"
+    },
+    {
+      "id": "v2-38",
+      "en": "discover",
+      "ja": "発見する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Scientists discovered a new star.",
+      "exampleJa": "科学者たちが新しい星を発見した。"
+    },
+    {
+      "id": "v2-39",
+      "en": "draw",
+      "ja": "描く",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "He drew a picture of a cat.",
+      "exampleJa": "彼は猫の絵を描いた。"
+    },
+    {
+      "id": "v2-40",
+      "en": "dream",
+      "ja": "夢を見る",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I dreamed about flying.",
+      "exampleJa": "飛ぶ夢を見た。"
+    },
+    {
+      "id": "v2-41",
+      "en": "drive",
+      "ja": "運転する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "She drives to work every day.",
+      "exampleJa": "彼女は毎日車で通勤する。"
+    },
+    {
+      "id": "v2-42",
+      "en": "drop",
+      "ja": "落とす・落ちる",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Don't drop your phone.",
+      "exampleJa": "スマホを落とさないで。"
+    },
+    {
+      "id": "v2-43",
+      "en": "earn",
+      "ja": "稼ぐ",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "He earns a good salary.",
+      "exampleJa": "彼は良い給料を稼いでいる。"
+    },
+    {
+      "id": "v2-44",
+      "en": "encourage",
+      "ja": "励ます",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Teachers encourage their students.",
+      "exampleJa": "先生は生徒を励ます。"
+    },
+    {
+      "id": "v2-45",
+      "en": "enjoy",
+      "ja": "楽しむ",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I enjoy reading books.",
+      "exampleJa": "本を読むのが楽しい。"
+    },
+    {
+      "id": "v2-46",
+      "en": "enter",
+      "ja": "入る",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Please enter your password.",
+      "exampleJa": "パスワードを入力してください。"
+    },
+    {
+      "id": "v2-47",
+      "en": "escape",
+      "ja": "逃げる",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "The bird escaped from the cage.",
+      "exampleJa": "鳥がかごから逃げた。"
+    },
+    {
+      "id": "v2-48",
+      "en": "exercise",
+      "ja": "運動する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I exercise three times a week.",
+      "exampleJa": "週に3回運動します。"
+    },
+    {
+      "id": "v2-49",
+      "en": "exist",
+      "ja": "存在する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Do ghosts really exist?",
+      "exampleJa": "幽霊は本当に存在するの？"
+    },
+    {
+      "id": "v2-50",
+      "en": "fail",
+      "ja": "失敗する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Don't be afraid to fail.",
+      "exampleJa": "失敗を恐れないで。"
+    },
+    {
+      "id": "v2-51",
+      "en": "fight",
+      "ja": "戦う",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "They fought for their rights.",
+      "exampleJa": "彼らは自分たちの権利のために戦った。"
+    },
+    {
+      "id": "v2-52",
+      "en": "finish",
+      "ja": "終える",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I finished my homework.",
+      "exampleJa": "宿題を終えた。"
+    },
+    {
+      "id": "v2-53",
+      "en": "fix",
+      "ja": "修理する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Can you fix this bike?",
+      "exampleJa": "この自転車を修理できる？"
+    },
+    {
+      "id": "v2-54",
+      "en": "fly",
+      "ja": "飛ぶ",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Birds fly in the sky.",
+      "exampleJa": "鳥は空を飛ぶ。"
+    },
+    {
+      "id": "v2-55",
+      "en": "forget",
+      "ja": "忘れる",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Don't forget your keys.",
+      "exampleJa": "鍵を忘れないで。"
+    },
+    {
+      "id": "v2-56",
+      "en": "forgive",
+      "ja": "許す",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Please forgive me.",
+      "exampleJa": "どうか許してください。"
+    },
+    {
+      "id": "v2-57",
+      "en": "guess",
+      "ja": "推測する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Can you guess the answer?",
+      "exampleJa": "答えを推測できる？"
+    },
+    {
+      "id": "v2-58",
+      "en": "hang",
+      "ja": "掛ける",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Hang your coat on the hook.",
+      "exampleJa": "コートをフックに掛けて。"
+    },
+    {
+      "id": "v2-59",
+      "en": "hate",
+      "ja": "嫌う",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I hate getting up early.",
+      "exampleJa": "早起きは嫌いだ。"
+    },
+    {
+      "id": "v2-60",
+      "en": "hide",
+      "ja": "隠れる・隠す",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "The cat hid under the bed.",
+      "exampleJa": "猫はベッドの下に隠れた。"
+    },
+    {
+      "id": "v2-61",
+      "en": "hit",
+      "ja": "打つ",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "He hit the ball hard.",
+      "exampleJa": "彼はボールを強く打った。"
+    },
+    {
+      "id": "v2-62",
+      "en": "hold",
+      "ja": "持つ",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Please hold my bag.",
+      "exampleJa": "バッグを持っていてください。"
+    },
+    {
+      "id": "v2-63",
+      "en": "hug",
+      "ja": "抱きしめる",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "She hugged her mother.",
+      "exampleJa": "彼女は母親を抱きしめた。"
+    },
+    {
+      "id": "v2-64",
+      "en": "hunt",
+      "ja": "狩りをする",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Lions hunt at night.",
+      "exampleJa": "ライオンは夜に狩りをする。"
+    },
+    {
+      "id": "v2-65",
+      "en": "hurry",
+      "ja": "急ぐ",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Hurry, or we'll be late.",
+      "exampleJa": "急いで、さもないと遅れるよ。"
+    },
+    {
+      "id": "v2-66",
+      "en": "imagine",
+      "ja": "想像する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Imagine a world without war.",
+      "exampleJa": "戦争のない世界を想像して。"
+    },
+    {
+      "id": "v2-67",
+      "en": "improve",
+      "ja": "改善する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I want to improve my English.",
+      "exampleJa": "英語力を上げたい。"
+    },
+    {
+      "id": "v2-68",
+      "en": "invite",
+      "ja": "招待する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I invited my friends to dinner.",
+      "exampleJa": "友達を夕食に招待した。"
+    },
+    {
+      "id": "v2-69",
+      "en": "join",
+      "ja": "参加する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Would you like to join us?",
+      "exampleJa": "私たちに参加しませんか？"
+    },
+    {
+      "id": "v2-70",
+      "en": "jump",
+      "ja": "跳ぶ",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "The dog jumped over the fence.",
+      "exampleJa": "犬が塀を飛び越えた。"
+    },
+    {
+      "id": "v2-71",
+      "en": "kick",
+      "ja": "蹴る",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "He kicked the ball into the goal.",
+      "exampleJa": "彼はボールをゴールに蹴り込んだ。"
+    },
+    {
+      "id": "v2-72",
+      "en": "kiss",
+      "ja": "キスする",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "She kissed her baby goodnight.",
+      "exampleJa": "彼女は赤ちゃんにおやすみのキスをした。"
+    },
+    {
+      "id": "v2-73",
+      "en": "knock",
+      "ja": "ノックする",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Please knock before you enter.",
+      "exampleJa": "入る前にノックしてください。"
+    },
+    {
+      "id": "v2-74",
+      "en": "laugh",
+      "ja": "笑う",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "The joke made everyone laugh.",
+      "exampleJa": "その冗談でみんな笑った。"
+    },
+    {
+      "id": "v2-75",
+      "en": "lend",
+      "ja": "貸す",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Can you lend me some money?",
+      "exampleJa": "お金を少し貸してくれる？"
+    },
+    {
+      "id": "v2-76",
+      "en": "lift",
+      "ja": "持ち上げる",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "He lifted the heavy box.",
+      "exampleJa": "彼は重い箱を持ち上げた。"
+    },
+    {
+      "id": "v2-77",
+      "en": "listen",
+      "ja": "聞く（耳を傾ける）",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Please listen carefully.",
+      "exampleJa": "よく聞いてください。"
+    },
+    {
+      "id": "v2-78",
+      "en": "lock",
+      "ja": "鍵をかける",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Don't forget to lock the door.",
+      "exampleJa": "ドアに鍵をかけるのを忘れないで。"
+    },
+    {
+      "id": "v2-79",
+      "en": "manage",
+      "ja": "管理する・何とかやる",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "She manages a small team.",
+      "exampleJa": "彼女は小さなチームを管理している。"
+    },
+    {
+      "id": "v2-80",
+      "en": "marry",
+      "ja": "結婚する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "They got married last year.",
+      "exampleJa": "彼らは去年結婚した。"
+    },
+    {
+      "id": "v2-81",
+      "en": "match",
+      "ja": "一致する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Your socks don't match.",
+      "exampleJa": "靴下の色が合っていないよ。"
+    },
+    {
+      "id": "v2-82",
+      "en": "miss",
+      "ja": "逃す・恋しく思う",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I miss my hometown.",
+      "exampleJa": "故郷が恋しい。"
+    },
+    {
+      "id": "v2-83",
+      "en": "notice",
+      "ja": "気づく",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Did you notice the change?",
+      "exampleJa": "変化に気づいた？"
+    },
+    {
+      "id": "v2-84",
+      "en": "obtain",
+      "ja": "手に入れる",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "How did you obtain this information?",
+      "exampleJa": "どうやってこの情報を手に入れたの？"
+    },
+    {
+      "id": "v2-85",
+      "en": "occur",
+      "ja": "起こる",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "The accident occurred at noon.",
+      "exampleJa": "事故は正午に起こった。"
+    },
+    {
+      "id": "v2-86",
+      "en": "own",
+      "ja": "所有する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "They own a small shop.",
+      "exampleJa": "彼らは小さな店を所有している。"
+    },
+    {
+      "id": "v2-87",
+      "en": "pack",
+      "ja": "荷造りする",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I need to pack my suitcase.",
+      "exampleJa": "スーツケースに荷物を詰める必要がある。"
+    },
+    {
+      "id": "v2-88",
+      "en": "paint",
+      "ja": "描く・塗る",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "We painted the wall white.",
+      "exampleJa": "壁を白く塗った。"
+    },
+    {
+      "id": "v2-89",
+      "en": "park",
+      "ja": "駐車する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "You can't park here.",
+      "exampleJa": "ここに駐車できません。"
+    },
+    {
+      "id": "v2-90",
+      "en": "perform",
+      "ja": "演じる・実行する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "The band performed on stage.",
+      "exampleJa": "バンドがステージで演奏した。"
+    },
+    {
+      "id": "v2-91",
+      "en": "pick",
+      "ja": "選ぶ・摘む",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "She picked a red flower.",
+      "exampleJa": "彼女は赤い花を摘んだ。"
+    },
+    {
+      "id": "v2-92",
+      "en": "plan",
+      "ja": "計画する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Let's plan our trip.",
+      "exampleJa": "旅行の計画を立てよう。"
+    },
+    {
+      "id": "v2-93",
+      "en": "practice",
+      "ja": "練習する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I practice piano every day.",
+      "exampleJa": "毎日ピアノを練習します。"
+    },
+    {
+      "id": "v2-94",
+      "en": "prefer",
+      "ja": "～の方を好む",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I prefer tea to coffee.",
+      "exampleJa": "コーヒーよりお茶の方が好きです。"
+    },
+    {
+      "id": "v2-95",
+      "en": "prepare",
+      "ja": "準備する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Please prepare for the test.",
+      "exampleJa": "テストの準備をしてください。"
+    },
+    {
+      "id": "v2-96",
+      "en": "press",
+      "ja": "押す",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Press the red button.",
+      "exampleJa": "赤いボタンを押して。"
+    },
+    {
+      "id": "v2-97",
+      "en": "promise",
+      "ja": "約束する",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "I promise to help you.",
+      "exampleJa": "手伝うと約束します。"
+    },
+    {
+      "id": "v2-98",
+      "en": "protect",
+      "ja": "守る",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Wear a helmet to protect your head.",
+      "exampleJa": "頭を守るためにヘルメットをかぶって。"
+    },
+    {
+      "id": "v2-99",
+      "en": "pull",
+      "ja": "引く",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Pull the door to open it.",
+      "exampleJa": "ドアを引いて開けて。"
+    },
+    {
+      "id": "v2-100",
+      "en": "push",
+      "ja": "押す",
+      "pos": "verb",
+      "level": "2",
+      "exampleEn": "Please push the cart.",
+      "exampleJa": "カートを押してください。"
+    },
+    {
+      "id": "v3-1",
+      "en": "recognize",
+      "ja": "認識する・気づく",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I didn't recognize her at first.",
+      "exampleJa": "最初は彼女だとわからなかった。"
+    },
+    {
+      "id": "v3-2",
+      "en": "realize",
+      "ja": "気づく・理解する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I realized I left my phone at home.",
+      "exampleJa": "スマホを家に忘れたことに気づいた。"
+    },
+    {
+      "id": "v3-3",
+      "en": "receive",
+      "ja": "受け取る",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I received your email yesterday.",
+      "exampleJa": "昨日あなたのメールを受け取りました。"
+    },
+    {
+      "id": "v3-4",
+      "en": "recommend",
+      "ja": "勧める",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I recommend this restaurant.",
+      "exampleJa": "このレストランをお勧めします。"
+    },
+    {
+      "id": "v3-5",
+      "en": "reduce",
+      "ja": "減らす",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "We need to reduce plastic waste.",
+      "exampleJa": "プラスチックごみを減らす必要がある。"
+    },
+    {
+      "id": "v3-6",
+      "en": "refuse",
+      "ja": "断る",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "He refused my offer.",
+      "exampleJa": "彼は私の申し出を断った。"
+    },
+    {
+      "id": "v3-7",
+      "en": "regret",
+      "ja": "後悔する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I regret saying that.",
+      "exampleJa": "あれを言ったことを後悔している。"
+    },
+    {
+      "id": "v3-8",
+      "en": "relax",
+      "ja": "くつろぐ",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I like to relax on weekends.",
+      "exampleJa": "週末はのんびりするのが好きだ。"
+    },
+    {
+      "id": "v3-9",
+      "en": "release",
+      "ja": "解放する・発売する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "They released a new album.",
+      "exampleJa": "彼らは新しいアルバムを発売した。"
+    },
+    {
+      "id": "v3-10",
+      "en": "rely",
+      "ja": "頼る",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "You can rely on me.",
+      "exampleJa": "私を頼っていいよ。"
+    },
+    {
+      "id": "v3-11",
+      "en": "recover",
+      "ja": "回復する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "She recovered from a bad cold.",
+      "exampleJa": "彼女はひどい風邪から回復した。"
+    },
+    {
+      "id": "v3-12",
+      "en": "remove",
+      "ja": "取り除く",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Please remove your shoes.",
+      "exampleJa": "靴を脱いでください。"
+    },
+    {
+      "id": "v3-13",
+      "en": "repair",
+      "ja": "修理する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Can you repair my watch?",
+      "exampleJa": "時計を修理してもらえますか？"
+    },
+    {
+      "id": "v3-14",
+      "en": "replace",
+      "ja": "取り替える",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I need to replace the battery.",
+      "exampleJa": "電池を取り替える必要がある。"
+    },
+    {
+      "id": "v3-15",
+      "en": "reply",
+      "ja": "返事をする",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Please reply as soon as possible.",
+      "exampleJa": "できるだけ早く返事してください。"
+    },
+    {
+      "id": "v3-16",
+      "en": "represent",
+      "ja": "表す・代表する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "This flag represents our country.",
+      "exampleJa": "この旗は私たちの国を表している。"
+    },
+    {
+      "id": "v3-17",
+      "en": "request",
+      "ja": "依頼する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I requested a day off.",
+      "exampleJa": "休みを申請した。"
+    },
+    {
+      "id": "v3-18",
+      "en": "rescue",
+      "ja": "救助する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Firefighters rescued the cat.",
+      "exampleJa": "消防士が猫を救助した。"
+    },
+    {
+      "id": "v3-19",
+      "en": "respect",
+      "ja": "尊敬する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I respect your opinion.",
+      "exampleJa": "あなたの意見を尊重します。"
+    },
+    {
+      "id": "v3-20",
+      "en": "respond",
+      "ja": "返答する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "She didn't respond to my message.",
+      "exampleJa": "彼女は私のメッセージに返事をしなかった。"
+    },
+    {
+      "id": "v3-21",
+      "en": "rest",
+      "ja": "休む",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "You should rest for a while.",
+      "exampleJa": "しばらく休んだ方がいいよ。"
+    },
+    {
+      "id": "v3-22",
+      "en": "risk",
+      "ja": "危険を冒す",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I don't want to risk my job.",
+      "exampleJa": "仕事を危険にさらしたくない。"
+    },
+    {
+      "id": "v3-23",
+      "en": "roll",
+      "ja": "転がる・転がす",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "The ball rolled under the sofa.",
+      "exampleJa": "ボールがソファの下に転がった。"
+    },
+    {
+      "id": "v3-24",
+      "en": "save",
+      "ja": "救う・貯める",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I'm saving money for a trip.",
+      "exampleJa": "旅行のためにお金を貯めている。"
+    },
+    {
+      "id": "v3-25",
+      "en": "search",
+      "ja": "探す",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I searched for my keys everywhere.",
+      "exampleJa": "鍵をあちこち探した。"
+    },
+    {
+      "id": "v3-26",
+      "en": "share",
+      "ja": "共有する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Let's share this pizza.",
+      "exampleJa": "このピザを分けよう。"
+    },
+    {
+      "id": "v3-27",
+      "en": "shoot",
+      "ja": "撃つ・撮影する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "They shot a movie here.",
+      "exampleJa": "ここで映画を撮影した。"
+    },
+    {
+      "id": "v3-28",
+      "en": "shout",
+      "ja": "叫ぶ",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Don't shout in the library.",
+      "exampleJa": "図書館で叫ばないで。"
+    },
+    {
+      "id": "v3-29",
+      "en": "smile",
+      "ja": "微笑む",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "She smiled at me.",
+      "exampleJa": "彼女は私に微笑んだ。"
+    },
+    {
+      "id": "v3-30",
+      "en": "solve",
+      "ja": "解決する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "We need to solve this problem.",
+      "exampleJa": "この問題を解決する必要がある。"
+    },
+    {
+      "id": "v3-31",
+      "en": "sort",
+      "ja": "分類する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Please sort these papers.",
+      "exampleJa": "これらの書類を分類してください。"
+    },
+    {
+      "id": "v3-32",
+      "en": "sound",
+      "ja": "～のように聞こえる",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "That sounds like a good idea.",
+      "exampleJa": "それは良い考えに聞こえる。"
+    },
+    {
+      "id": "v3-33",
+      "en": "spread",
+      "ja": "広がる・広げる",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "The news spread quickly.",
+      "exampleJa": "そのニュースはすぐに広がった。"
+    },
+    {
+      "id": "v3-34",
+      "en": "steal",
+      "ja": "盗む",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Someone stole my bicycle.",
+      "exampleJa": "誰かが私の自転車を盗んだ。"
+    },
+    {
+      "id": "v3-35",
+      "en": "step",
+      "ja": "一歩踏み出す",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Please step this way.",
+      "exampleJa": "こちらへどうぞ。"
+    },
+    {
+      "id": "v3-36",
+      "en": "stick",
+      "ja": "くっつく・刺す",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "The stamp won't stick.",
+      "exampleJa": "切手がくっつかない。"
+    },
+    {
+      "id": "v3-37",
+      "en": "store",
+      "ja": "保存する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Store the files on your computer.",
+      "exampleJa": "ファイルをパソコンに保存して。"
+    },
+    {
+      "id": "v3-38",
+      "en": "struggle",
+      "ja": "苦戦する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "He struggled with the exam.",
+      "exampleJa": "彼は試験で苦戦した。"
+    },
+    {
+      "id": "v3-39",
+      "en": "succeed",
+      "ja": "成功する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "She succeeded in her career.",
+      "exampleJa": "彼女はキャリアで成功した。"
+    },
+    {
+      "id": "v3-40",
+      "en": "suffer",
+      "ja": "苦しむ",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Many people suffer from stress.",
+      "exampleJa": "多くの人がストレスに苦しんでいる。"
+    },
+    {
+      "id": "v3-41",
+      "en": "support",
+      "ja": "支える・支持する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "My parents support my decision.",
+      "exampleJa": "両親は私の決断を支持してくれる。"
+    },
+    {
+      "id": "v3-42",
+      "en": "suppose",
+      "ja": "思う・仮定する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I suppose you're right.",
+      "exampleJa": "あなたの言う通りだと思う。"
+    },
+    {
+      "id": "v3-43",
+      "en": "surprise",
+      "ja": "驚かせる",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "The gift surprised me.",
+      "exampleJa": "そのプレゼントに驚いた。"
+    },
+    {
+      "id": "v3-44",
+      "en": "survive",
+      "ja": "生き延びる",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "The plant survived the cold winter.",
+      "exampleJa": "その植物は寒い冬を生き延びた。"
+    },
+    {
+      "id": "v3-45",
+      "en": "swim",
+      "ja": "泳ぐ",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I swim twice a week.",
+      "exampleJa": "週に2回泳ぎます。"
+    },
+    {
+      "id": "v3-46",
+      "en": "taste",
+      "ja": "味がする",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "This soup tastes delicious.",
+      "exampleJa": "このスープはおいしい味がする。"
+    },
+    {
+      "id": "v3-47",
+      "en": "teach",
+      "ja": "教える",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "She teaches English at school.",
+      "exampleJa": "彼女は学校で英語を教えている。"
+    },
+    {
+      "id": "v3-48",
+      "en": "thank",
+      "ja": "感謝する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Thank you for your help.",
+      "exampleJa": "助けてくれてありがとう。"
+    },
+    {
+      "id": "v3-49",
+      "en": "throw",
+      "ja": "投げる",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Don't throw trash on the street.",
+      "exampleJa": "道にゴミを捨てないで。"
+    },
+    {
+      "id": "v3-50",
+      "en": "touch",
+      "ja": "触る",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Please don't touch the painting.",
+      "exampleJa": "絵に触らないでください。"
+    },
+    {
+      "id": "v3-51",
+      "en": "train",
+      "ja": "訓練する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Athletes train hard every day.",
+      "exampleJa": "選手たちは毎日ハードに訓練する。"
+    },
+    {
+      "id": "v3-52",
+      "en": "travel",
+      "ja": "旅行する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I love to travel abroad.",
+      "exampleJa": "海外旅行が大好きだ。"
+    },
+    {
+      "id": "v3-53",
+      "en": "treat",
+      "ja": "扱う",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Treat everyone with respect.",
+      "exampleJa": "みんなを敬意をもって扱って。"
+    },
+    {
+      "id": "v3-54",
+      "en": "trust",
+      "ja": "信頼する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I trust my best friend.",
+      "exampleJa": "親友を信頼している。"
+    },
+    {
+      "id": "v3-55",
+      "en": "visit",
+      "ja": "訪れる",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "We visited Kyoto last spring.",
+      "exampleJa": "去年の春に京都を訪れた。"
+    },
+    {
+      "id": "v3-56",
+      "en": "vote",
+      "ja": "投票する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Don't forget to vote.",
+      "exampleJa": "投票を忘れないで。"
+    },
+    {
+      "id": "v3-57",
+      "en": "warn",
+      "ja": "警告する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I warned him about the danger.",
+      "exampleJa": "彼に危険について警告した。"
+    },
+    {
+      "id": "v3-58",
+      "en": "wear",
+      "ja": "身に着ける",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "She wears glasses.",
+      "exampleJa": "彼女はメガネをかけている。"
+    },
+    {
+      "id": "v3-59",
+      "en": "welcome",
+      "ja": "歓迎する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "We welcome new members.",
+      "exampleJa": "新しいメンバーを歓迎します。"
+    },
+    {
+      "id": "v3-60",
+      "en": "wish",
+      "ja": "願う",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I wish you a Happy New Year.",
+      "exampleJa": "良いお年をお迎えください。"
+    },
+    {
+      "id": "v3-61",
+      "en": "wonder",
+      "ja": "～かなと思う",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I wonder if it will rain.",
+      "exampleJa": "雨が降るのかなと思う。"
+    },
+    {
+      "id": "v3-62",
+      "en": "worry",
+      "ja": "心配する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Don't worry about the test.",
+      "exampleJa": "テストのことで心配しないで。"
+    },
+    {
+      "id": "v3-63",
+      "en": "wrap",
+      "ja": "包む",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Please wrap this gift.",
+      "exampleJa": "このプレゼントを包んでください。"
+    },
+    {
+      "id": "v3-64",
+      "en": "yell",
+      "ja": "大声で叫ぶ",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Don't yell at your friends.",
+      "exampleJa": "友達に向かって怒鳴らないで。"
+    },
+    {
+      "id": "v3-65",
+      "en": "admire",
+      "ja": "感心する・憧れる",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I admire her courage.",
+      "exampleJa": "彼女の勇気に感心する。"
+    },
+    {
+      "id": "v3-66",
+      "en": "affect",
+      "ja": "影響を与える",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "The weather affects my mood.",
+      "exampleJa": "天気は気分に影響する。"
+    },
+    {
+      "id": "v3-67",
+      "en": "amaze",
+      "ja": "驚かせる",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "His magic tricks amaze children.",
+      "exampleJa": "彼のマジックは子供たちを驚かせる。"
+    },
+    {
+      "id": "v3-68",
+      "en": "amuse",
+      "ja": "楽しませる",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "The clown amused the kids.",
+      "exampleJa": "ピエロが子供たちを楽しませた。"
+    },
+    {
+      "id": "v3-69",
+      "en": "attack",
+      "ja": "攻撃する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "The virus can attack your computer.",
+      "exampleJa": "そのウイルスはパソコンを攻撃することがある。"
+    },
+    {
+      "id": "v3-70",
+      "en": "blame",
+      "ja": "責める",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Don't blame yourself.",
+      "exampleJa": "自分を責めないで。"
+    },
+    {
+      "id": "v3-71",
+      "en": "breathe",
+      "ja": "呼吸する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Breathe deeply and calm down.",
+      "exampleJa": "深呼吸して落ち着いて。"
+    },
+    {
+      "id": "v3-72",
+      "en": "cheat",
+      "ja": "だます・カンニングする",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Don't cheat on the exam.",
+      "exampleJa": "試験でカンニングしないで。"
+    },
+    {
+      "id": "v3-73",
+      "en": "cheer",
+      "ja": "応援する・元気づける",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "The fans cheered for the team.",
+      "exampleJa": "ファンがチームを応援した。"
+    },
+    {
+      "id": "v3-74",
+      "en": "connect",
+      "ja": "つなぐ",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Connect the cable to the TV.",
+      "exampleJa": "ケーブルをテレビにつないで。"
+    },
+    {
+      "id": "v3-75",
+      "en": "convince",
+      "ja": "納得させる",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I convinced him to join us.",
+      "exampleJa": "彼を説得して参加してもらった。"
+    },
+    {
+      "id": "v3-76",
+      "en": "crash",
+      "ja": "衝突する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "The car crashed into a tree.",
+      "exampleJa": "車が木に衝突した。"
+    },
+    {
+      "id": "v3-77",
+      "en": "destroy",
+      "ja": "破壊する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "The storm destroyed several houses.",
+      "exampleJa": "嵐がいくつかの家を破壊した。"
+    },
+    {
+      "id": "v3-78",
+      "en": "doubt",
+      "ja": "疑う",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I doubt that story is true.",
+      "exampleJa": "その話が本当だとは思えない。"
+    },
+    {
+      "id": "v3-79",
+      "en": "examine",
+      "ja": "調べる",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "The doctor examined my throat.",
+      "exampleJa": "医者が喉を調べた。"
+    },
+    {
+      "id": "v3-80",
+      "en": "exchange",
+      "ja": "交換する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "We exchanged phone numbers.",
+      "exampleJa": "電話番号を交換した。"
+    },
+    {
+      "id": "v3-81",
+      "en": "excuse",
+      "ja": "許す・言い訳する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Excuse me, where is the station?",
+      "exampleJa": "すみません、駅はどこですか？"
+    },
+    {
+      "id": "v3-82",
+      "en": "expand",
+      "ja": "広げる",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "The company expanded overseas.",
+      "exampleJa": "その会社は海外に事業を広げた。"
+    },
+    {
+      "id": "v3-83",
+      "en": "experience",
+      "ja": "経験する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "I experienced culture shock abroad.",
+      "exampleJa": "海外でカルチャーショックを経験した。"
+    },
+    {
+      "id": "v3-84",
+      "en": "fear",
+      "ja": "恐れる",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Many people fear spiders.",
+      "exampleJa": "多くの人がクモを恐れる。"
+    },
+    {
+      "id": "v3-85",
+      "en": "feed",
+      "ja": "餌をやる・食べさせる",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Please feed the dog.",
+      "exampleJa": "犬に餌をやってください。"
+    },
+    {
+      "id": "v3-86",
+      "en": "fit",
+      "ja": "合う・適合する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "These shoes fit perfectly.",
+      "exampleJa": "この靴はぴったり合う。"
+    },
+    {
+      "id": "v3-87",
+      "en": "freeze",
+      "ja": "凍る・凍らせる",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Water freezes at zero degrees.",
+      "exampleJa": "水は0度で凍る。"
+    },
+    {
+      "id": "v3-88",
+      "en": "greet",
+      "ja": "あいさつする",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "She greeted me with a smile.",
+      "exampleJa": "彼女は笑顔であいさつした。"
+    },
+    {
+      "id": "v3-89",
+      "en": "handle",
+      "ja": "対処する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Can you handle this problem?",
+      "exampleJa": "この問題に対処できる？"
+    },
+    {
+      "id": "v3-90",
+      "en": "harm",
+      "ja": "害を与える",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Smoking can harm your health.",
+      "exampleJa": "喫煙は健康を害することがある。"
+    },
+    {
+      "id": "v3-91",
+      "en": "heal",
+      "ja": "治る・治す",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "The wound will heal soon.",
+      "exampleJa": "傷はすぐに治るよ。"
+    },
+    {
+      "id": "v3-92",
+      "en": "identify",
+      "ja": "特定する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Can you identify the suspect?",
+      "exampleJa": "容疑者を特定できますか？"
+    },
+    {
+      "id": "v3-93",
+      "en": "ignore",
+      "ja": "無視する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Don't ignore the warning signs.",
+      "exampleJa": "警告のサインを無視しないで。"
+    },
+    {
+      "id": "v3-94",
+      "en": "impress",
+      "ja": "感動させる",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Her speech impressed everyone.",
+      "exampleJa": "彼女のスピーチはみんなを感動させた。"
+    },
+    {
+      "id": "v3-95",
+      "en": "introduce",
+      "ja": "紹介する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Let me introduce my friend.",
+      "exampleJa": "友達を紹介させてください。"
+    },
+    {
+      "id": "v3-96",
+      "en": "judge",
+      "ja": "判断する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Don't judge people too quickly.",
+      "exampleJa": "人をすぐに判断しないで。"
+    },
+    {
+      "id": "v3-97",
+      "en": "limit",
+      "ja": "制限する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Please limit your speech to five minutes.",
+      "exampleJa": "スピーチは5分以内にしてください。"
+    },
+    {
+      "id": "v3-98",
+      "en": "matter",
+      "ja": "重要である",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Your opinion matters to me.",
+      "exampleJa": "あなたの意見は私にとって大切です。"
+    },
+    {
+      "id": "v3-99",
+      "en": "mention",
+      "ja": "言及する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "She mentioned your name.",
+      "exampleJa": "彼女があなたの名前に言及した。"
+    },
+    {
+      "id": "v3-100",
+      "en": "prove",
+      "ja": "証明する",
+      "pos": "verb",
+      "level": "3",
+      "exampleEn": "Can you prove your idea?",
+      "exampleJa": "あなたの考えを証明できますか？"
+    },
+    {
+      "id": "o1-1",
+      "en": "because",
+      "ja": "なぜなら",
+      "pos": "other",
+      "level": "1",
+      "exampleEn": "I stayed home because it was raining.",
+      "exampleJa": "雨だったので家にいた。"
+    },
+    {
+      "id": "o1-2",
+      "en": "however",
+      "ja": "しかし",
+      "pos": "other",
+      "level": "1",
+      "exampleEn": "It was hard. However, I finished it.",
+      "exampleJa": "大変だった。しかし、やり終えた。"
+    }
   ]
 }

@@ -1,7 +1,10 @@
-import raw from "@/data/vocabulary/words.json";
+import wordsRaw from "@/data/vocabulary/words.json";
+import nounsRaw from "@/data/vocabulary/nouns.json";
+import adjectivesRaw from "@/data/vocabulary/adjectives.json";
+import adverbsRaw from "@/data/vocabulary/adverbs.json";
 
 export type PartOfSpeechId = "noun" | "verb" | "adjective" | "adverb" | "other";
-export type LevelId = "1" | "2" | "3";
+export type LevelId = "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8";
 
 export type PartOfSpeech = {
   id: PartOfSpeechId;
@@ -26,10 +29,15 @@ export type VocabularyWord = {
   exampleJa?: string;
 };
 
-const data = raw as {
-  partsOfSpeech: PartOfSpeech[];
-  levels: Level[];
-  words: VocabularyWord[];
+const data = {
+  partsOfSpeech: (wordsRaw as { partsOfSpeech: PartOfSpeech[] }).partsOfSpeech,
+  levels: (wordsRaw as { levels: Level[] }).levels,
+  words: [
+    ...((nounsRaw as { words: VocabularyWord[] }).words),
+    ...((adjectivesRaw as { words: VocabularyWord[] }).words),
+    ...((adverbsRaw as { words: VocabularyWord[] }).words),
+    ...((wordsRaw as { words: VocabularyWord[] }).words),
+  ],
 };
 
 export function getPartsOfSpeech(): PartOfSpeech[] {

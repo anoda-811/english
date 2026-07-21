@@ -5,7 +5,7 @@ import type { StudyCardItem } from "@/lib/study-types";
 import { speakEnglish, stopSpeaking } from "@/lib/speak-english";
 import { LearnedStarButton } from "@/components/vocabulary/LearnedStarButton";
 
-export type HideSide = "en" | "ja";
+export type HideSide = "en" | "ja" | "none";
 export type OrderMode = "sequential" | "random";
 
 const HIDE_SIDE_KEY = "vocabulary-hide-side";
@@ -46,6 +46,7 @@ export function StudySession({ words, posLabel, levelLabel }: StudySessionProps)
   const deckRef = useRef(deck);
   const indexRef = useRef(index);
   const orderModeRef = useRef(orderMode);
+  const hideSideRef = useRef(hideSide);
   const holdDelayRef = useRef<number | null>(null);
   const holdIntervalRef = useRef<number | null>(null);
   const didHoldRepeatRef = useRef(false);
@@ -55,7 +56,14 @@ export function StudySession({ words, posLabel, levelLabel }: StudySessionProps)
     deckRef.current = deck;
     indexRef.current = index;
     orderModeRef.current = orderMode;
-  }, [deck, index, orderMode]);
+    hideSideRef.current = hideSide;
+  }, [deck, index, orderMode, hideSide]);
+
+  const resetRevealForHideMode = useCallback(() => {
+    const showBoth = hideSideRef.current === "none";
+    setRevealed(showBoth);
+    setExampleRevealed(showBoth);
+  }, []);
 
   const clearNextHold = useCallback(() => {
     if (holdDelayRef.current !== null) {
@@ -74,10 +82,11 @@ export function StudySession({ words, posLabel, levelLabel }: StudySessionProps)
 
   useEffect(() => {
     let mode: OrderMode = "random";
+    let hide: HideSide = "ja";
     try {
       const storedHide = localStorage.getItem(HIDE_SIDE_KEY);
-      if (storedHide === "en" || storedHide === "ja") {
-        setHideSide(storedHide);
+      if (storedHide === "en" || storedHide === "ja" || storedHide === "none") {
+        hide = storedHide;
       }
       const storedOrder = localStorage.getItem(ORDER_MODE_KEY);
       if (storedOrder === "sequential" || storedOrder === "random") {
@@ -86,11 +95,14 @@ export function StudySession({ words, posLabel, levelLabel }: StudySessionProps)
     } catch {
       /* ignore */
     }
+    setHideSide(hide);
+    hideSideRef.current = hide;
     setOrderMode(mode);
     setDeck(buildDeck(words, mode));
     setIndex(0);
-    setRevealed(false);
-    setExampleRevealed(false);
+    const showBoth = hide === "none";
+    setRevealed(showBoth);
+    setExampleRevealed(showBoth);
   }, [words]);
 
   useEffect(() => {
@@ -117,15 +129,14 @@ export function StudySession({ words, posLabel, levelLabel }: StudySessionProps)
       setOrderMode(mode);
       setDeck(buildDeck(words, mode));
       setIndex(0);
-      setRevealed(false);
-      setExampleRevealed(false);
+      resetRevealForHideMode();
       try {
         localStorage.setItem(ORDER_MODE_KEY, mode);
       } catch {
         /* ignore */
       }
     },
-    [words],
+    [words, resetRevealForHideMode],
   );
 
   const reshuffle = () => {
@@ -135,8 +146,7 @@ export function StudySession({ words, posLabel, levelLabel }: StudySessionProps)
     setSpeakError(false);
     setDeck(buildDeck(words, "random"));
     setIndex(0);
-    setRevealed(false);
-    setExampleRevealed(false);
+    resetRevealForHideMode();
   };
 
   const current = deck[index];
@@ -152,8 +162,7 @@ export function StudySession({ words, posLabel, levelLabel }: StudySessionProps)
 
   const advanceNext = useCallback(() => {
     stopSpeech();
-    setRevealed(false);
-    setExampleRevealed(false);
+    resetRevealForHideMode();
 
     const i = indexRef.current;
     const d = deckRef.current;
@@ -167,14 +176,13 @@ export function StudySession({ words, posLabel, levelLabel }: StudySessionProps)
       indexRef.current = i + 1;
       setIndex(i + 1);
     }
-  }, [words]);
+  }, [words, resetRevealForHideMode]);
 
   const goPrev = () => {
     stopSpeech();
     if (index > 0) {
       setIndex((i) => i - 1);
-      setRevealed(false);
-      setExampleRevealed(false);
+      resetRevealForHideMode();
     }
   };
 
@@ -258,7 +266,7 @@ export function StudySession({ words, posLabel, levelLabel }: StudySessionProps)
         <LearnedStarButton wordId={current.id} size="sm" />
       </div>
 
-      <div className="grid grid-cols-2 gap-2">
+      <div className="flex flex-col gap-2">
         <div className="flex rounded-lg bg-zinc-100 p-0.5 dark:bg-zinc-800/80">
           <button
             type="button"
@@ -313,6 +321,21 @@ export function StudySession({ words, posLabel, levelLabel }: StudySessionProps)
             }`}
           >
             英を隠す
+          </button>
+          <button
+            type="button"
+            onClick={() => {
+              persistHideSide("none");
+              setRevealed(true);
+              setExampleRevealed(true);
+            }}
+            className={`flex-1 rounded-md py-1.5 text-[11px] font-medium transition ${
+              hideSide === "none"
+                ? "bg-white text-indigo-700 shadow-sm dark:bg-zinc-900 dark:text-indigo-300"
+                : "text-zinc-600 dark:text-zinc-400"
+            }`}
+          >
+            隠さない
           </button>
         </div>
       </div>

@@ -1,0 +1,2704 @@
+{
+  "words": [
+    {
+      "id": "a1-1",
+      "en": "happy",
+      "ja": "幸せな",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "She looks happy today.",
+      "exampleJa": "彼女は今日は幸せそうだ。"
+    },
+    {
+      "id": "a1-2",
+      "en": "sad",
+      "ja": "悲しい",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "He felt sad after the news.",
+      "exampleJa": "彼はその知らせを聞いて悲しくなった。"
+    },
+    {
+      "id": "a1-3",
+      "en": "big",
+      "ja": "大きい",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "They live in a big house.",
+      "exampleJa": "彼らは大きい家に住んでいる。"
+    },
+    {
+      "id": "a1-4",
+      "en": "small",
+      "ja": "小さい",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "I found a small cafe nearby.",
+      "exampleJa": "近くに小さいカフェを見つけた。"
+    },
+    {
+      "id": "a1-5",
+      "en": "good",
+      "ja": "良い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "This is a good idea.",
+      "exampleJa": "これは良いあるいだ。"
+    },
+    {
+      "id": "a1-6",
+      "en": "bad",
+      "ja": "悪い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The weather turned bad overnight.",
+      "exampleJa": "夜のうちに天気が悪くなった。"
+    },
+    {
+      "id": "a1-7",
+      "en": "new",
+      "ja": "新しい",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "She bought a new phone.",
+      "exampleJa": "彼女は新しいスマホを買った。"
+    },
+    {
+      "id": "a1-8",
+      "en": "old",
+      "ja": "古い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "This is an old church.",
+      "exampleJa": "これは古い教会だ。"
+    },
+    {
+      "id": "a1-9",
+      "en": "young",
+      "ja": "若い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The young teacher smiled.",
+      "exampleJa": "若い先生が笑った。"
+    },
+    {
+      "id": "a1-10",
+      "en": "hot",
+      "ja": "暑い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "It was hot yesterday.",
+      "exampleJa": "昨日は暑かった。"
+    },
+    {
+      "id": "a1-11",
+      "en": "cold",
+      "ja": "寒い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The water feels cold.",
+      "exampleJa": "水が寒く感じる。"
+    },
+    {
+      "id": "a1-12",
+      "en": "warm",
+      "ja": "暖かい",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The soup is warm and tasty.",
+      "exampleJa": "スープは暖かくておいしい。"
+    },
+    {
+      "id": "a1-13",
+      "en": "cool",
+      "ja": "涼しい",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "A cool breeze came through the window.",
+      "exampleJa": "窓から涼しい風が入ってきた。"
+    },
+    {
+      "id": "a1-14",
+      "en": "long",
+      "ja": "長い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "We took a long walk.",
+      "exampleJa": "私たちは長い散歩をした。"
+    },
+    {
+      "id": "a1-15",
+      "en": "short",
+      "ja": "短い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Her hair is short now.",
+      "exampleJa": "彼女の髪は今短い。"
+    },
+    {
+      "id": "a1-16",
+      "en": "tall",
+      "ja": "背が高い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "He is tall for his age.",
+      "exampleJa": "彼は年齢のわりに背が高い。"
+    },
+    {
+      "id": "a1-17",
+      "en": "fast",
+      "ja": "速い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "This train is very fast.",
+      "exampleJa": "この電車はとても速い。"
+    },
+    {
+      "id": "a1-18",
+      "en": "slow",
+      "ja": "遅い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The internet is slow today.",
+      "exampleJa": "今日はネットが遅い。"
+    },
+    {
+      "id": "a1-19",
+      "en": "high",
+      "ja": "高い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The mountain is very high.",
+      "exampleJa": "その山はとても高い。"
+    },
+    {
+      "id": "a1-20",
+      "en": "low",
+      "ja": "低い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Prices are low this week.",
+      "exampleJa": "今週は価格が低い。"
+    },
+    {
+      "id": "a1-21",
+      "en": "easy",
+      "ja": "簡単な",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The test was easy.",
+      "exampleJa": "テストは簡単だった。"
+    },
+    {
+      "id": "a1-22",
+      "en": "hard",
+      "ja": "難しい",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Learning kanji is hard.",
+      "exampleJa": "漢字を覚えるのは難しい。"
+    },
+    {
+      "id": "a1-23",
+      "en": "soft",
+      "ja": "柔らかい",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The pillow is soft.",
+      "exampleJa": "枕は柔らかい。"
+    },
+    {
+      "id": "a1-24",
+      "en": "strong",
+      "ja": "強い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Coffee tastes strong today.",
+      "exampleJa": "今日のコーヒーは味が濃い。"
+    },
+    {
+      "id": "a1-25",
+      "en": "weak",
+      "ja": "弱い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "I feel weak after the flu.",
+      "exampleJa": "インフルのあとで体が弱い。"
+    },
+    {
+      "id": "a1-26",
+      "en": "rich",
+      "ja": "金持ちの",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "He became rich through work.",
+      "exampleJa": "彼は労働で金持ちになった。"
+    },
+    {
+      "id": "a1-27",
+      "en": "poor",
+      "ja": "貧しい",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The poor family needed help.",
+      "exampleJa": "その貧しい家族は支援を必要としていた。"
+    },
+    {
+      "id": "a1-28",
+      "en": "clean",
+      "ja": "清潔な",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Keep your room clean.",
+      "exampleJa": "部屋を清潔にしておいて。"
+    },
+    {
+      "id": "a1-29",
+      "en": "dirty",
+      "ja": "汚い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "My shoes got dirty.",
+      "exampleJa": "靴が汚れてしまった。"
+    },
+    {
+      "id": "a1-30",
+      "en": "full",
+      "ja": "いっぱいな",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The bus was full.",
+      "exampleJa": "バスはいっぱいだった。"
+    },
+    {
+      "id": "a1-31",
+      "en": "empty",
+      "ja": "空の",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The bottle is empty.",
+      "exampleJa": "ボトルは空だ。"
+    },
+    {
+      "id": "a1-32",
+      "en": "open",
+      "ja": "開いている",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The store is open until nine.",
+      "exampleJa": "店は9時まで開いている。"
+    },
+    {
+      "id": "a1-33",
+      "en": "closed",
+      "ja": "閉まっている",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The gate is closed now.",
+      "exampleJa": "門は今閉まっている。"
+    },
+    {
+      "id": "a1-34",
+      "en": "busy",
+      "ja": "忙しい",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "I am busy this afternoon.",
+      "exampleJa": "今日の午後は忙しい。"
+    },
+    {
+      "id": "a1-35",
+      "en": "free",
+      "ja": "暇な・無料の",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Are you free on Friday?",
+      "exampleJa": "金曜日は暇ですか。"
+    },
+    {
+      "id": "a1-36",
+      "en": "early",
+      "ja": "早い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "She arrived early for class.",
+      "exampleJa": "彼女は授業に早く着いた。"
+    },
+    {
+      "id": "a1-37",
+      "en": "late",
+      "ja": "遅い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Sorry I am late.",
+      "exampleJa": "遅れてすみません。"
+    },
+    {
+      "id": "a1-38",
+      "en": "right",
+      "ja": "正しい",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Your answer is right.",
+      "exampleJa": "あなたの答えは正しい。"
+    },
+    {
+      "id": "a1-39",
+      "en": "wrong",
+      "ja": "間違った",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Something went wrong.",
+      "exampleJa": "何かが間違った。"
+    },
+    {
+      "id": "a1-40",
+      "en": "true",
+      "ja": "本当の",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "That story is true.",
+      "exampleJa": "それは本当の話だ。"
+    },
+    {
+      "id": "a1-41",
+      "en": "false",
+      "ja": "偽の",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The rumor was false.",
+      "exampleJa": "そのうわさは偽だった。"
+    },
+    {
+      "id": "a1-42",
+      "en": "real",
+      "ja": "本物の",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Is this diamond real?",
+      "exampleJa": "このダイヤは本物ですか。"
+    },
+    {
+      "id": "a1-43",
+      "en": "nice",
+      "ja": "素敵な",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "What a nice day!",
+      "exampleJa": "なんて素敵な日だろう。"
+    },
+    {
+      "id": "a1-44",
+      "en": "kind",
+      "ja": "親切な",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "She is kind to everyone.",
+      "exampleJa": "彼女は誰にでも親切だ。"
+    },
+    {
+      "id": "a1-45",
+      "en": "funny",
+      "ja": "面白い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "He told a funny joke.",
+      "exampleJa": "彼は面白い冗談を話した。"
+    },
+    {
+      "id": "a1-46",
+      "en": "beautiful",
+      "ja": "美しい",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The sunset looks beautiful.",
+      "exampleJa": "夕日が美しい。"
+    },
+    {
+      "id": "a1-47",
+      "en": "ugly",
+      "ja": "醜い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The building is ugly.",
+      "exampleJa": "その建物は醜い。"
+    },
+    {
+      "id": "a1-48",
+      "en": "pretty",
+      "ja": "可愛い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "She wore a pretty dress.",
+      "exampleJa": "彼女は可愛いドレスを着た。"
+    },
+    {
+      "id": "a1-49",
+      "en": "handsome",
+      "ja": "ハンサムな",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "He is a handsome actor.",
+      "exampleJa": "彼はハンサムな優しい。"
+    },
+    {
+      "id": "a1-50",
+      "en": "cute",
+      "ja": "かわいい",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The puppy looks cute.",
+      "exampleJa": "子犬がかわいい。"
+    },
+    {
+      "id": "a1-51",
+      "en": "smart",
+      "ja": "頭がいい",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "My sister is very smart.",
+      "exampleJa": "妹はとても頭がいい。"
+    },
+    {
+      "id": "a1-52",
+      "en": "stupid",
+      "ja": "ばかな",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "That was a stupid mistake.",
+      "exampleJa": "それはばかなミスだった。"
+    },
+    {
+      "id": "a1-53",
+      "en": "clever",
+      "ja": "賢い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "That was a clever solution.",
+      "exampleJa": "それは賢い解決法だった。"
+    },
+    {
+      "id": "a1-54",
+      "en": "quiet",
+      "ja": "静かな",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The library stays quiet.",
+      "exampleJa": "图書館は静かだ。"
+    },
+    {
+      "id": "a1-55",
+      "en": "loud",
+      "ja": "うるさい",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The music is too loud.",
+      "exampleJa": "音楽がうるさすぎる。"
+    },
+    {
+      "id": "a1-56",
+      "en": "noisy",
+      "ja": "騒がしい",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The street is noisy at night.",
+      "exampleJa": "夜の道は騒がしい。"
+    },
+    {
+      "id": "a1-57",
+      "en": "bright",
+      "ja": "明るい",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The room is bright and airy.",
+      "exampleJa": "部屋は明るくて通風が良い。"
+    },
+    {
+      "id": "a1-58",
+      "en": "dark",
+      "ja": "暗い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "It gets dark early in winter.",
+      "exampleJa": "冬は早く暗くなる。"
+    },
+    {
+      "id": "a1-59",
+      "en": "light",
+      "ja": "軽い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "This bag is light.",
+      "exampleJa": "このカバンは軽い。"
+    },
+    {
+      "id": "a1-60",
+      "en": "heavy",
+      "ja": "重い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The box is too heavy.",
+      "exampleJa": "箱が重すぎる。"
+    },
+    {
+      "id": "a1-61",
+      "en": "thick",
+      "ja": "厚い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Wear a thick coat.",
+      "exampleJa": "厚いコートを着て。"
+    },
+    {
+      "id": "a1-62",
+      "en": "thin",
+      "ja": "薄い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "She prefers thin notebooks.",
+      "exampleJa": "彼女は薄いノートを好む。"
+    },
+    {
+      "id": "a1-63",
+      "en": "wide",
+      "ja": "広い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The river is wide here.",
+      "exampleJa": "ここでは河が広い。"
+    },
+    {
+      "id": "a1-64",
+      "en": "narrow",
+      "ja": "狭い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "We walked down a narrow path.",
+      "exampleJa": "狭い道を歩いた。"
+    },
+    {
+      "id": "a1-65",
+      "en": "deep",
+      "ja": "深い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The lake is very deep.",
+      "exampleJa": "湖はとても深い。"
+    },
+    {
+      "id": "a1-66",
+      "en": "shallow",
+      "ja": "浅い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The water is shallow near the shore.",
+      "exampleJa": "岸の近くは水が浅い。"
+    },
+    {
+      "id": "a1-67",
+      "en": "far",
+      "ja": "遠い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The station is far from here.",
+      "exampleJa": "駅はここから遠い。"
+    },
+    {
+      "id": "a1-68",
+      "en": "near",
+      "ja": "近い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Is there a bank near here?",
+      "exampleJa": "この近くに銀行はありますか。"
+    },
+    {
+      "id": "a1-69",
+      "en": "safe",
+      "ja": "安全な",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "This area is safe at night.",
+      "exampleJa": "この地区は夜でも安全だ。"
+    },
+    {
+      "id": "a1-70",
+      "en": "dangerous",
+      "ja": "危険な",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Driving in snow is dangerous.",
+      "exampleJa": "雪で運転するのは危険だ。"
+    },
+    {
+      "id": "a1-71",
+      "en": "healthy",
+      "ja": "健康な",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Eat healthy food every day.",
+      "exampleJa": "毎日健康的な食事をして。"
+    },
+    {
+      "id": "a1-72",
+      "en": "sick",
+      "ja": "病気の",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "He stayed home because he was sick.",
+      "exampleJa": "彼は病気だったので家にいた。"
+    },
+    {
+      "id": "a1-73",
+      "en": "hungry",
+      "ja": "お腹がすいた",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "I am hungry after practice.",
+      "exampleJa": "練習のあとでお腹がすいた。"
+    },
+    {
+      "id": "a1-74",
+      "en": "thirsty",
+      "ja": "喉が渇いた",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Runners get thirsty quickly.",
+      "exampleJa": "走者はすぐに喉が渇いた。"
+    },
+    {
+      "id": "a1-75",
+      "en": "tired",
+      "ja": "疲れた",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "She looks tired today.",
+      "exampleJa": "彼女は今日は疲れている。"
+    },
+    {
+      "id": "a1-76",
+      "en": "sleepy",
+      "ja": "眠い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The baby looks sleepy.",
+      "exampleJa": "赤ちゃんは眠そうだ。"
+    },
+    {
+      "id": "a1-77",
+      "en": "angry",
+      "ja": "怒っている",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "He was angry about the delay.",
+      "exampleJa": "彼は遅れに怒っていた。"
+    },
+    {
+      "id": "a1-78",
+      "en": "afraid",
+      "ja": "怖い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "She is afraid of heights.",
+      "exampleJa": "彼女は高所が怖い。"
+    },
+    {
+      "id": "a1-79",
+      "en": "surprised",
+      "ja": "驚いた",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "We were surprised by the result.",
+      "exampleJa": "結果に驚いた。"
+    },
+    {
+      "id": "a1-80",
+      "en": "excited",
+      "ja": "興奮した",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The kids are excited about the trip.",
+      "exampleJa": "子どもたは旅行に興奮している。"
+    },
+    {
+      "id": "a1-81",
+      "en": "bored",
+      "ja": "退屈した",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "He looked bored in class.",
+      "exampleJa": "彼は授業で退屈していた。"
+    },
+    {
+      "id": "a1-82",
+      "en": "interesting",
+      "ja": "興味深い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "That book sounds interesting.",
+      "exampleJa": "その本は興味深そうだ。"
+    },
+    {
+      "id": "a1-83",
+      "en": "important",
+      "ja": "重要な",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Sleep is important for health.",
+      "exampleJa": "睡眠は健康に重要だ。"
+    },
+    {
+      "id": "a1-84",
+      "en": "useful",
+      "ja": "役に立つ",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "This app is very useful.",
+      "exampleJa": "このアプリはとても役に立つ。"
+    },
+    {
+      "id": "a1-85",
+      "en": "useless",
+      "ja": "役に立たない",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The old tool is useless now.",
+      "exampleJa": "その古い工具はもう役に立たない。"
+    },
+    {
+      "id": "a1-86",
+      "en": "special",
+      "ja": "特別な",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Today is a special day.",
+      "exampleJa": "今日は特別な日だ。"
+    },
+    {
+      "id": "a1-87",
+      "en": "normal",
+      "ja": "普通の",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Everything seems normal again.",
+      "exampleJa": "またすべて普通に見える。"
+    },
+    {
+      "id": "a1-88",
+      "en": "different",
+      "ja": "異なる",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "We have different opinions.",
+      "exampleJa": "私たちは異なる意見を持っている。"
+    },
+    {
+      "id": "a1-89",
+      "en": "same",
+      "ja": "同じ",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "We bought the same shirt.",
+      "exampleJa": "私たちは同じシャツを買った。"
+    },
+    {
+      "id": "a1-90",
+      "en": "similar",
+      "ja": "類似した",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The two plans are similar.",
+      "exampleJa": "二つの計画は類似している。"
+    },
+    {
+      "id": "a1-91",
+      "en": "ready",
+      "ja": "準備ができた",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Dinner is ready.",
+      "exampleJa": "晚飯の準備ができた。"
+    },
+    {
+      "id": "a1-92",
+      "en": "careful",
+      "ja": "注意深い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Be careful on icy roads.",
+      "exampleJa": "冰の道では注意して。"
+    },
+    {
+      "id": "a1-93",
+      "en": "careless",
+      "ja": "不注意な",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "A careless error cost the game.",
+      "exampleJa": "不注意なミスで試合に負けた。"
+    },
+    {
+      "id": "a1-94",
+      "en": "lucky",
+      "ja": "運が良い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "You are lucky to have her help.",
+      "exampleJa": "彼女の助けがあって運が良い。"
+    },
+    {
+      "id": "a1-95",
+      "en": "famous",
+      "ja": "有名な",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Kyoto is famous for temples.",
+      "exampleJa": "京都はお寺で有名だ。"
+    },
+    {
+      "id": "a1-96",
+      "en": "popular",
+      "ja": "人気のある",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "This song is popular now.",
+      "exampleJa": "この歌は今人気がある。"
+    },
+    {
+      "id": "a1-97",
+      "en": "cheap",
+      "ja": "安い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "Lunch here is cheap.",
+      "exampleJa": "ここの昼飯は安い。"
+    },
+    {
+      "id": "a1-98",
+      "en": "expensive",
+      "ja": "高い",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "That watch looks expensive.",
+      "exampleJa": "その時計は高そうだ。"
+    },
+    {
+      "id": "a1-99",
+      "en": "fresh",
+      "ja": "新鮮な",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "We bought fresh bread.",
+      "exampleJa": "新鮮なパンを買った。"
+    },
+    {
+      "id": "a1-100",
+      "en": "dry",
+      "ja": "乾いた",
+      "pos": "adjective",
+      "level": "1",
+      "exampleEn": "The air feels dry in winter.",
+      "exampleJa": "冬は空気が乾い。"
+    },
+    {
+      "id": "a2-1",
+      "en": "able",
+      "ja": "できる",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "She is able to speak three languages.",
+      "exampleJa": "彼女は3つの言葉を話せる。"
+    },
+    {
+      "id": "a2-2",
+      "en": "active",
+      "ja": "活発な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "He leads an active life.",
+      "exampleJa": "彼は活発な生活を送っている。"
+    },
+    {
+      "id": "a2-3",
+      "en": "alone",
+      "ja": "一人の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "She traveled alone last year.",
+      "exampleJa": "彼女は去年一人で旅行した。"
+    },
+    {
+      "id": "a2-4",
+      "en": "amazing",
+      "ja": "素晴らしい",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The view from the top is amazing.",
+      "exampleJa": "頂上からの景色は素晴らしい。"
+    },
+    {
+      "id": "a2-5",
+      "en": "ancient",
+      "ja": "古代の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "They studied ancient history.",
+      "exampleJa": "彼らは古代史を学んだ。"
+    },
+    {
+      "id": "a2-6",
+      "en": "anxious",
+      "ja": "不安な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "He felt anxious before the exam.",
+      "exampleJa": "彼は試験前に不安だった。"
+    },
+    {
+      "id": "a2-7",
+      "en": "asleep",
+      "ja": "眠っている",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The cat is asleep on the sofa.",
+      "exampleJa": "赤ちゃんは眠っている。"
+    },
+    {
+      "id": "a2-8",
+      "en": "available",
+      "ja": "利用できる",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Is this seat available?",
+      "exampleJa": "この座席は空いていますか。"
+    },
+    {
+      "id": "a2-9",
+      "en": "aware",
+      "ja": "気づいている",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Are you aware of the change?",
+      "exampleJa": "変更に気づいていますか。"
+    },
+    {
+      "id": "a2-10",
+      "en": "awful",
+      "ja": "ひどい",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The traffic was awful this morning.",
+      "exampleJa": "今朝の交通はひどかった。"
+    },
+    {
+      "id": "a2-11",
+      "en": "basic",
+      "ja": "基本的な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "We covered basic grammar today.",
+      "exampleJa": "今日は基本文法を学んだ。"
+    },
+    {
+      "id": "a2-12",
+      "en": "bitter",
+      "ja": "苦い",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The coffee tastes bitter.",
+      "exampleJa": "コーヒーが苦い。"
+    },
+    {
+      "id": "a2-13",
+      "en": "blind",
+      "ja": "目の見えない",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Love can make people blind.",
+      "exampleJa": "愛は人を盲目にすることがある。"
+    },
+    {
+      "id": "a2-14",
+      "en": "bold",
+      "ja": "大胆な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "She made a bold decision.",
+      "exampleJa": "彼女は大胆な決断をした。"
+    },
+    {
+      "id": "a2-15",
+      "en": "brave",
+      "ja": "勇敢な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The brave firefighter saved a child.",
+      "exampleJa": "勇敢な消防士が子を救った。"
+    },
+    {
+      "id": "a2-16",
+      "en": "brief",
+      "ja": "短い",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "He gave a brief speech.",
+      "exampleJa": "彼は短い演説をした。"
+    },
+    {
+      "id": "a2-17",
+      "en": "broad",
+      "ja": "広い",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The river has a broad mouth.",
+      "exampleJa": "河の浸は広い。"
+    },
+    {
+      "id": "a2-18",
+      "en": "calm",
+      "ja": "平静な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Stay calm during emergencies.",
+      "exampleJa": "緊急時は平静でいて。"
+    },
+    {
+      "id": "a2-19",
+      "en": "central",
+      "ja": "中央の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The hotel is in a central location.",
+      "exampleJa": "ホテルは中央にある。"
+    },
+    {
+      "id": "a2-20",
+      "en": "certain",
+      "ja": "確かな",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "I am certain he will come.",
+      "exampleJa": "彼は来ると確かだ。"
+    },
+    {
+      "id": "a2-21",
+      "en": "chief",
+      "ja": "主な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Cost was the chief concern.",
+      "exampleJa": "費用が主な問題だった。"
+    },
+    {
+      "id": "a2-22",
+      "en": "clear",
+      "ja": "はっきりした",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The sky is clear tonight.",
+      "exampleJa": "今夜は天気がはっきりしている。"
+    },
+    {
+      "id": "a2-23",
+      "en": "close",
+      "ja": "親しい",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "They are close friends.",
+      "exampleJa": "彼らは親しい友達だ。"
+    },
+    {
+      "id": "a2-24",
+      "en": "common",
+      "ja": "よくある",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Colds are common in spring.",
+      "exampleJa": "春は風邪がよくある。"
+    },
+    {
+      "id": "a2-25",
+      "en": "complete",
+      "ja": "完全な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Please give a complete answer.",
+      "exampleJa": "完全な答えをください。"
+    },
+    {
+      "id": "a2-26",
+      "en": "complex",
+      "ja": "複雑な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The problem is more complex than it looks.",
+      "exampleJa": "問題は見た目より複雑だ。"
+    },
+    {
+      "id": "a2-27",
+      "en": "confident",
+      "ja": "自信のある",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "She sounds confident in interviews.",
+      "exampleJa": "彼女は面接で自信に満ちている。"
+    },
+    {
+      "id": "a2-28",
+      "en": "conscious",
+      "ja": "意識のある",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "He was conscious during the talk.",
+      "exampleJa": "彼は話の間意識があった。"
+    },
+    {
+      "id": "a2-29",
+      "en": "constant",
+      "ja": "絶え間ない",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Constant practice improves skills.",
+      "exampleJa": "絶え間ない練習で技術が進む。"
+    },
+    {
+      "id": "a2-30",
+      "en": "convenient",
+      "ja": "便利な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Online banking is convenient.",
+      "exampleJa": "ネット銀行は便利だ。"
+    },
+    {
+      "id": "a2-31",
+      "en": "correct",
+      "ja": "正しい",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Choose the correct answer.",
+      "exampleJa": "正しい答えを選んで。"
+    },
+    {
+      "id": "a2-32",
+      "en": "crazy",
+      "ja": "狂った",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The schedule is crazy this week.",
+      "exampleJa": "今週の予定は狂っている。"
+    },
+    {
+      "id": "a2-33",
+      "en": "creative",
+      "ja": "創造的な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "She has a creative mind.",
+      "exampleJa": "彼女は創造的な頭を持っている。"
+    },
+    {
+      "id": "a2-34",
+      "en": "critical",
+      "ja": "非常に重要な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Timing is critical for this task.",
+      "exampleJa": "この仕事ではタイミングが非常に重要だ。"
+    },
+    {
+      "id": "a2-35",
+      "en": "curious",
+      "ja": "好奇心のある",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The child is curious about space.",
+      "exampleJa": "子どもは宇宙に好奇心がある。"
+    },
+    {
+      "id": "a2-36",
+      "en": "current",
+      "ja": "現在の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "What is your current address?",
+      "exampleJa": "現在の住所はどこですか。"
+    },
+    {
+      "id": "a2-37",
+      "en": "daily",
+      "ja": "毎日の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Daily exercise keeps you fit.",
+      "exampleJa": "毎日の運動で健康を保つ。"
+    },
+    {
+      "id": "a2-38",
+      "en": "dear",
+      "ja": "親愛な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Dear friends came to visit.",
+      "exampleJa": "親愛な友達が訪ねてくれた。"
+    },
+    {
+      "id": "a2-39",
+      "en": "decent",
+      "ja": "まずまずな",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The hotel was decent for the price.",
+      "exampleJa": "その価格ならホテルはまずまずだった。"
+    },
+    {
+      "id": "a2-40",
+      "en": "definite",
+      "ja": "明確な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "We need a definite plan.",
+      "exampleJa": "明確な計画が必要だ。"
+    },
+    {
+      "id": "a2-41",
+      "en": "delicate",
+      "ja": "繁細な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Handle the delicate glass carefully.",
+      "exampleJa": "繁細なガラスを気をつけて持って。"
+    },
+    {
+      "id": "a2-42",
+      "en": "delicious",
+      "ja": "おいしい",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "This soup smells delicious.",
+      "exampleJa": "このスープはおいしそうだ。"
+    },
+    {
+      "id": "a2-43",
+      "en": "dependent",
+      "ja": "依存した",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Children are dependent on parents.",
+      "exampleJa": "子どもは父母に依存する。"
+    },
+    {
+      "id": "a2-44",
+      "en": "detailed",
+      "ja": "詳しい",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "She wrote a detailed report.",
+      "exampleJa": "彼女は詳しい報告書を書いた。"
+    },
+    {
+      "id": "a2-45",
+      "en": "direct",
+      "ja": "直接の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Take a direct flight to Tokyo.",
+      "exampleJa": "東京行きの直通便を利用して。"
+    },
+    {
+      "id": "a2-46",
+      "en": "distant",
+      "ja": "遠い",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "We heard distant thunder.",
+      "exampleJa": "遠くで雷の音が聞こえた。"
+    },
+    {
+      "id": "a2-47",
+      "en": "double",
+      "ja": "二重の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "I ordered a double espresso.",
+      "exampleJa": "ダブルエスプレッソを注文した。"
+    },
+    {
+      "id": "a2-48",
+      "en": "dramatic",
+      "ja": "劇的な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The game had a dramatic finish.",
+      "exampleJa": "試合は劇的な終わりになった。"
+    },
+    {
+      "id": "a2-49",
+      "en": "due",
+      "ja": "期限の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The report is due tomorrow.",
+      "exampleJa": "報告書の提出期限は明日だ。"
+    },
+    {
+      "id": "a2-50",
+      "en": "dull",
+      "ja": "つまらない",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The lecture was dull.",
+      "exampleJa": "その講義はつまらなかった。"
+    },
+    {
+      "id": "a2-51",
+      "en": "eager",
+      "ja": "熱心な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Students were eager to learn.",
+      "exampleJa": "生徒たちは熱心に学びたがった。"
+    },
+    {
+      "id": "a2-52",
+      "en": "eastern",
+      "ja": "東の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Eastern winds brought rain.",
+      "exampleJa": "東の風が雨を迎えた。"
+    },
+    {
+      "id": "a2-53",
+      "en": "economic",
+      "ja": "経済の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Economic growth slowed last year.",
+      "exampleJa": "去年は経済成長が遅くなった。"
+    },
+    {
+      "id": "a2-54",
+      "en": "effective",
+      "ja": "効果的な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "This method is very effective.",
+      "exampleJa": "この方法はとても効果的だ。"
+    },
+    {
+      "id": "a2-55",
+      "en": "efficient",
+      "ja": "効率的な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "We need a more efficient system.",
+      "exampleJa": "より効率的な組織が必要だ。"
+    },
+    {
+      "id": "a2-56",
+      "en": "electric",
+      "ja": "電気の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "She drives an electric car.",
+      "exampleJa": "彼女は電気自動車に乗っている。"
+    },
+    {
+      "id": "a2-57",
+      "en": "electronic",
+      "ja": "電子の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Electronic tickets are faster.",
+      "exampleJa": "電子チケットの方が速い。"
+    },
+    {
+      "id": "a2-58",
+      "en": "emotional",
+      "ja": "感情的な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "It was an emotional reunion.",
+      "exampleJa": "感情的な再会だった。"
+    },
+    {
+      "id": "a2-59",
+      "en": "entire",
+      "ja": "全体の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "She read the entire book.",
+      "exampleJa": "彼女は全部読んだ。"
+    },
+    {
+      "id": "a2-60",
+      "en": "equal",
+      "ja": "平等な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "All people deserve equal rights.",
+      "exampleJa": "すべての人は平等な权利を持つべきだ。"
+    },
+    {
+      "id": "a2-61",
+      "en": "essential",
+      "ja": "不可欠な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Water is essential for life.",
+      "exampleJa": "水は生命に不可欠だ。"
+    },
+    {
+      "id": "a2-62",
+      "en": "exact",
+      "ja": "正確な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Tell me the exact time.",
+      "exampleJa": "正確な時間を教えて。"
+    },
+    {
+      "id": "a2-63",
+      "en": "excellent",
+      "ja": "優れた",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Your work is excellent.",
+      "exampleJa": "あなたの仕事は優れています。"
+    },
+    {
+      "id": "a2-64",
+      "en": "fair",
+      "ja": "公平な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The judge was fair.",
+      "exampleJa": "裁判官は公平だった。"
+    },
+    {
+      "id": "a2-65",
+      "en": "familiar",
+      "ja": "親しい",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "That song sounds familiar.",
+      "exampleJa": "その歌は親しい音だ。"
+    },
+    {
+      "id": "a2-66",
+      "en": "fantastic",
+      "ja": "素敵な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "We had a fantastic vacation.",
+      "exampleJa": "素敵な休暇を過ごした。"
+    },
+    {
+      "id": "a2-67",
+      "en": "fashionable",
+      "ja": "流行の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "She wears fashionable clothes.",
+      "exampleJa": "彼女は流行の服を着ている。"
+    },
+    {
+      "id": "a2-68",
+      "en": "fatal",
+      "ja": "致命的な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The accident was not fatal.",
+      "exampleJa": "その事故は致命的ではなかった。"
+    },
+    {
+      "id": "a2-69",
+      "en": "favorable",
+      "ja": "有利な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The weather is favorable for hiking.",
+      "exampleJa": "天気はハイキングに有利だ。"
+    },
+    {
+      "id": "a2-70",
+      "en": "federal",
+      "ja": "連邦の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Federal law applies nationwide.",
+      "exampleJa": "連邦法は全国に適用される。"
+    },
+    {
+      "id": "a2-71",
+      "en": "final",
+      "ja": "最終の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "This is the final warning.",
+      "exampleJa": "これが最終の警告だ。"
+    },
+    {
+      "id": "a2-72",
+      "en": "financial",
+      "ja": "金融の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "She sought financial advice.",
+      "exampleJa": "彼女は金融のアドバイスを求めた。"
+    },
+    {
+      "id": "a2-73",
+      "en": "firm",
+      "ja": "堅い",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Press the button with a firm touch.",
+      "exampleJa": "しっかりと按してボタンを押して。"
+    },
+    {
+      "id": "a2-74",
+      "en": "fit",
+      "ja": "健康な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "He stays fit by running.",
+      "exampleJa": "彼は走って健康を保つ。"
+    },
+    {
+      "id": "a2-75",
+      "en": "flat",
+      "ja": "平らな",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The road is flat for miles.",
+      "exampleJa": "道はしばらく平らだ。"
+    },
+    {
+      "id": "a2-76",
+      "en": "flexible",
+      "ja": "柔軟な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Our schedule is flexible.",
+      "exampleJa": "予定は柔軟に変えられる。"
+    },
+    {
+      "id": "a2-77",
+      "en": "foreign",
+      "ja": "外国の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "She loves foreign films.",
+      "exampleJa": "彼女は外国映画が好きだ。"
+    },
+    {
+      "id": "a2-78",
+      "en": "formal",
+      "ja": "正式な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Wear formal clothes to the ceremony.",
+      "exampleJa": "儀式には正装して行って。"
+    },
+    {
+      "id": "a2-79",
+      "en": "former",
+      "ja": "先の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The former captain spoke first.",
+      "exampleJa": "先任隊長が先に発言した。"
+    },
+    {
+      "id": "a2-80",
+      "en": "fortunate",
+      "ja": "幸運な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "We were fortunate to find seats.",
+      "exampleJa": "座席が見つかって幸運だった。"
+    },
+    {
+      "id": "a2-81",
+      "en": "frequent",
+      "ja": "頻繁な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Buses are frequent on this route.",
+      "exampleJa": "この路線はバスが頻繁に来る。"
+    },
+    {
+      "id": "a2-82",
+      "en": "friendly",
+      "ja": "友好的な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The staff were friendly.",
+      "exampleJa": "スタッフは友好的だった。"
+    },
+    {
+      "id": "a2-83",
+      "en": "frightened",
+      "ja": "怖がった",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The frightened dog hid under the bed.",
+      "exampleJa": "怖がった犬はベッドの下に隐れた。"
+    },
+    {
+      "id": "a2-84",
+      "en": "general",
+      "ja": "全般的な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "In general, prices are rising.",
+      "exampleJa": "一般的に物価は上がっている。"
+    },
+    {
+      "id": "a2-85",
+      "en": "generous",
+      "ja": "気前の良い",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "He is generous with his time.",
+      "exampleJa": "彼は時間を気前よく捡う。"
+    },
+    {
+      "id": "a2-86",
+      "en": "gentle",
+      "ja": "優しい",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Use a gentle voice with kids.",
+      "exampleJa": "子どもには優しい声で話して。"
+    },
+    {
+      "id": "a2-87",
+      "en": "giant",
+      "ja": "巨大な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "They saw a giant whale.",
+      "exampleJa": "彼らは巨大なクジラを見た。"
+    },
+    {
+      "id": "a2-88",
+      "en": "glad",
+      "ja": "うれしい",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "I am glad you came.",
+      "exampleJa": "来てくれてうれしい。"
+    },
+    {
+      "id": "a2-89",
+      "en": "global",
+      "ja": "世界的な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Climate change is a global issue.",
+      "exampleJa": "気候変動は世界的な問題だ。"
+    },
+    {
+      "id": "a2-90",
+      "en": "golden",
+      "ja": "金色の",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The fields looked golden at sunset.",
+      "exampleJa": "夕日に田畑が金色に見えた。"
+    },
+    {
+      "id": "a2-91",
+      "en": "gorgeous",
+      "ja": "ごなるほど美しい",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "The garden looks gorgeous in spring.",
+      "exampleJa": "春の庭はごなりほど美しい。"
+    },
+    {
+      "id": "a2-92",
+      "en": "gradual",
+      "ja": "漆々な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "We noticed a gradual improvement.",
+      "exampleJa": "漆々な改善に気づいた。"
+    },
+    {
+      "id": "a2-93",
+      "en": "grand",
+      "ja": "壮大な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "They stayed at a grand hotel.",
+      "exampleJa": "彼らは壮大なホテルに泊まった。"
+    },
+    {
+      "id": "a2-94",
+      "en": "grateful",
+      "ja": "感謝している",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "I am grateful for your help.",
+      "exampleJa": "助けてくれて感謝しています。"
+    },
+    {
+      "id": "a2-95",
+      "en": "great",
+      "ja": "素敵な",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "That was a great concert.",
+      "exampleJa": "素敵なイベントだった。"
+    },
+    {
+      "id": "a2-96",
+      "en": "guilty",
+      "ja": "罪悪感のある",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "He felt guilty about lying.",
+      "exampleJa": "彼は嘘をついたことに罪悪感を感じた。"
+    },
+    {
+      "id": "a2-97",
+      "en": "handy",
+      "ja": "手に取りやすい",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "A pocket knife is handy on trips.",
+      "exampleJa": "旅先ではペンナイフが手に取りやすい。"
+    },
+    {
+      "id": "a2-98",
+      "en": "harsh",
+      "ja": "嚴しい",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Winter wind can feel harsh.",
+      "exampleJa": "冬の風は嚴しく感じることがある。"
+    },
+    {
+      "id": "a2-99",
+      "en": "helpful",
+      "ja": "助けになる",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "Your advice was very helpful.",
+      "exampleJa": "あなたのアドバイスはとても助けになった。"
+    },
+    {
+      "id": "a2-100",
+      "en": "hidden",
+      "ja": "隠れた",
+      "pos": "adjective",
+      "level": "2",
+      "exampleEn": "They found a hidden path.",
+      "exampleJa": "隠れた道を見つけた。"
+    },
+    {
+      "id": "a3-1",
+      "en": "holy",
+      "ja": "神聖な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "This is a holy place.",
+      "exampleJa": "ここは神聖な場所だ。"
+    },
+    {
+      "id": "a3-2",
+      "en": "honest",
+      "ja": "正直な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Please give an honest answer.",
+      "exampleJa": "正直な答えをください。"
+    },
+    {
+      "id": "a3-3",
+      "en": "horrible",
+      "ja": "ひどい",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "We had horrible weather on the trip.",
+      "exampleJa": "旅先ではひどい天気だった。"
+    },
+    {
+      "id": "a3-4",
+      "en": "huge",
+      "ja": "巨大な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "There was a huge crowd downtown.",
+      "exampleJa": "街中に巨大な人だかりがあった。"
+    },
+    {
+      "id": "a3-5",
+      "en": "human",
+      "ja": "人間の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Kindness is a human trait.",
+      "exampleJa": "親切さは人間的な特性だ。"
+    },
+    {
+      "id": "a3-6",
+      "en": "humble",
+      "ja": "謙虚な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Despite fame, she stays humble.",
+      "exampleJa": "有名なのに彼女は謙虚でいる。"
+    },
+    {
+      "id": "a3-7",
+      "en": "ideal",
+      "ja": "理想的な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "This spot is ideal for photos.",
+      "exampleJa": "ここは写真に理想的な場所だ。"
+    },
+    {
+      "id": "a3-8",
+      "en": "identical",
+      "ja": "同一の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "The twins wear identical outfits.",
+      "exampleJa": "双子は同じ服を着ている。"
+    },
+    {
+      "id": "a3-9",
+      "en": "idle",
+      "ja": "怠惰な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "He became idle after losing his job.",
+      "exampleJa": "彼は仕事を失って怠惰になった。"
+    },
+    {
+      "id": "a3-10",
+      "en": "illegal",
+      "ja": "違法な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "It is illegal to park here.",
+      "exampleJa": "ここに馬を止めるのは違法だ。"
+    },
+    {
+      "id": "a3-11",
+      "en": "immediate",
+      "ja": "即座の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "We need immediate action.",
+      "exampleJa": "即座の対応が必要だ。"
+    },
+    {
+      "id": "a3-12",
+      "en": "immense",
+      "ja": "巨大な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "The project requires immense effort.",
+      "exampleJa": "そのプロジェクトは巨大な努力を要する。"
+    },
+    {
+      "id": "a3-13",
+      "en": "immune",
+      "ja": "免疫のある",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "No one is immune to mistakes.",
+      "exampleJa": "誰もがミスを免疫ではない。"
+    },
+    {
+      "id": "a3-14",
+      "en": "imperial",
+      "ja": "皇帝の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "They visited the imperial palace.",
+      "exampleJa": "彼らは皇居を見学した。"
+    },
+    {
+      "id": "a3-15",
+      "en": "impossible",
+      "ja": "不可能な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "The task seemed impossible at first.",
+      "exampleJa": "その仕事は最初は不可能に見えた。"
+    },
+    {
+      "id": "a3-16",
+      "en": "impressive",
+      "ja": "印象的な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Her speech was impressive.",
+      "exampleJa": "彼女の演説は印象的だった。"
+    },
+    {
+      "id": "a3-17",
+      "en": "independent",
+      "ja": "独立した",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "He became financially independent.",
+      "exampleJa": "彼は経済的に独立した。"
+    },
+    {
+      "id": "a3-18",
+      "en": "indirect",
+      "ja": "間接的な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "He gave an indirect answer.",
+      "exampleJa": "彼は間接的な答えをした。"
+    },
+    {
+      "id": "a3-19",
+      "en": "individual",
+      "ja": "個人の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Respect individual choices.",
+      "exampleJa": "個人の選択を尊重して。"
+    },
+    {
+      "id": "a3-20",
+      "en": "indoor",
+      "ja": "室内の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "They planned indoor games.",
+      "exampleJa": "室内での遊びを計画した。"
+    },
+    {
+      "id": "a3-21",
+      "en": "industrial",
+      "ja": "工業の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "The city has an industrial zone.",
+      "exampleJa": "その市には工業地帯がある。"
+    },
+    {
+      "id": "a3-22",
+      "en": "inevitable",
+      "ja": "避けられない",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Change is inevitable.",
+      "exampleJa": "変化は避けられない。"
+    },
+    {
+      "id": "a3-23",
+      "en": "infinite",
+      "ja": "無限の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Space feels infinite.",
+      "exampleJa": "宇宙は無限に見える。"
+    },
+    {
+      "id": "a3-24",
+      "en": "informal",
+      "ja": "非公式の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "The meeting was informal.",
+      "exampleJa": "会議は非公式だった。"
+    },
+    {
+      "id": "a3-25",
+      "en": "initial",
+      "ja": "初期の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "The initial results look good.",
+      "exampleJa": "初期の結果は良さそうだ。"
+    },
+    {
+      "id": "a3-26",
+      "en": "inner",
+      "ja": "内部の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Listen to your inner voice.",
+      "exampleJa": "内の声に耳を傾けて。"
+    },
+    {
+      "id": "a3-27",
+      "en": "innocent",
+      "ja": "無罪な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "The jury found him innocent.",
+      "exampleJa": "陪審団は彼を無罪と判った。"
+    },
+    {
+      "id": "a3-28",
+      "en": "innovative",
+      "ja": "革新的な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "The startup is innovative.",
+      "exampleJa": "そのスタートアップは創造的だ。"
+    },
+    {
+      "id": "a3-29",
+      "en": "instant",
+      "ja": "即座の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Instant noodles cook in minutes.",
+      "exampleJa": "カップ麺は数分で湯できる。"
+    },
+    {
+      "id": "a3-30",
+      "en": "intellectual",
+      "ja": "知的な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Chess is an intellectual game.",
+      "exampleJa": "チェスは知的なゲームだ。"
+    },
+    {
+      "id": "a3-31",
+      "en": "intelligent",
+      "ja": "智慧な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Dolphins are intelligent animals.",
+      "exampleJa": "イルカは智慧な動物だ。"
+    },
+    {
+      "id": "a3-32",
+      "en": "intense",
+      "ja": "激しい",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "The heat was intense yesterday.",
+      "exampleJa": "昨日の暑さは激しかった。"
+    },
+    {
+      "id": "a3-33",
+      "en": "internal",
+      "ja": "内部の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "This is an internal memo.",
+      "exampleJa": "これは社内メモだ。"
+    },
+    {
+      "id": "a3-34",
+      "en": "international",
+      "ja": "国際的な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "The airport handles international flights.",
+      "exampleJa": "その空港は国際線を扱う。"
+    },
+    {
+      "id": "a3-35",
+      "en": "intimate",
+      "ja": "親密な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "They had an intimate conversation.",
+      "exampleJa": "彼らは親密な会話をした。"
+    },
+    {
+      "id": "a3-36",
+      "en": "invisible",
+      "ja": "見えない",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Germs are invisible to the eye.",
+      "exampleJa": "細菌は目に見えない。"
+    },
+    {
+      "id": "a3-37",
+      "en": "involved",
+      "ja": "関係した",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "She is involved in the project.",
+      "exampleJa": "彼女はそのプロジェクトに関係している。"
+    },
+    {
+      "id": "a3-38",
+      "en": "ironic",
+      "ja": "アイラニーな",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "It is ironic that he missed the flight.",
+      "exampleJa": "彼がフライトに間に合わなかったのはアイラニーだ。"
+    },
+    {
+      "id": "a3-39",
+      "en": "irrelevant",
+      "ja": "関係のない",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "That detail is irrelevant now.",
+      "exampleJa": "その細かいは今は関係ない。"
+    },
+    {
+      "id": "a3-40",
+      "en": "jealous",
+      "ja": "嫉妖な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "She felt jealous of his success.",
+      "exampleJa": "彼女は彼の成功に嫉妖した。"
+    },
+    {
+      "id": "a3-41",
+      "en": "joint",
+      "ja": "共同の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "They made a joint decision.",
+      "exampleJa": "共同で決めた。"
+    },
+    {
+      "id": "a3-42",
+      "en": "junior",
+      "ja": "年下の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "She is a junior employee.",
+      "exampleJa": "彼女は年下の社員だ。"
+    },
+    {
+      "id": "a3-43",
+      "en": "keen",
+      "ja": "熱心な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "He is keen to start.",
+      "exampleJa": "彼は始めるのを楽しみにしている。"
+    },
+    {
+      "id": "a3-44",
+      "en": "key",
+      "ja": "重要な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Trust is key in teamwork.",
+      "exampleJa": "信頼はチームワークで重要だ。"
+    },
+    {
+      "id": "a3-45",
+      "en": "known",
+      "ja": "知られている",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "She is a known expert.",
+      "exampleJa": "彼女は知られた専門家だ。"
+    },
+    {
+      "id": "a3-46",
+      "en": "large",
+      "ja": "大きい",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "They ordered a large pizza.",
+      "exampleJa": "大きいピザを注文した。"
+    },
+    {
+      "id": "a3-47",
+      "en": "last",
+      "ja": "最後の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "This is the last train.",
+      "exampleJa": "これが最終電車だ。"
+    },
+    {
+      "id": "a3-48",
+      "en": "latter",
+      "ja": "後者の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "I prefer the latter option.",
+      "exampleJa": "後者の選択の方が好きだ。"
+    },
+    {
+      "id": "a3-49",
+      "en": "legal",
+      "ja": "合法な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Is this contract legal?",
+      "exampleJa": "この契約は合法ですか。"
+    },
+    {
+      "id": "a3-50",
+      "en": "likely",
+      "ja": "おそらく",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Rain is likely tomorrow.",
+      "exampleJa": "明日はおそらく雨が降る。"
+    },
+    {
+      "id": "a3-51",
+      "en": "limited",
+      "ja": "限られた",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Seats are limited.",
+      "exampleJa": "座席は限られている。"
+    },
+    {
+      "id": "a3-52",
+      "en": "liquid",
+      "ja": "液体の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Liquid soap is on the sink.",
+      "exampleJa": "洗面台に液体ソープがある。"
+    },
+    {
+      "id": "a3-53",
+      "en": "literary",
+      "ja": "文学の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "She enjoys literary novels.",
+      "exampleJa": "彼女は文学的な小説が好きだ。"
+    },
+    {
+      "id": "a3-54",
+      "en": "little",
+      "ja": "少ない",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "There is little time left.",
+      "exampleJa": "残り時間があまりない。"
+    },
+    {
+      "id": "a3-55",
+      "en": "live",
+      "ja": "生放送の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "We watched a live broadcast.",
+      "exampleJa": "生放送を見た。"
+    },
+    {
+      "id": "a3-56",
+      "en": "local",
+      "ja": "地元の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Try the local cuisine.",
+      "exampleJa": "地元料理を食べてみて。"
+    },
+    {
+      "id": "a3-57",
+      "en": "logical",
+      "ja": "逻輩的な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "That is a logical conclusion.",
+      "exampleJa": "それは逻輩的な結論だ。"
+    },
+    {
+      "id": "a3-58",
+      "en": "lonely",
+      "ja": "寂しい",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "He felt lonely in the new city.",
+      "exampleJa": "新しい街で寂しく感じた。"
+    },
+    {
+      "id": "a3-59",
+      "en": "loose",
+      "ja": "ゆるい",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "The screw is loose.",
+      "exampleJa": "ネジがゆるい。"
+    },
+    {
+      "id": "a3-60",
+      "en": "lost",
+      "ja": "迷った",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "We got lost in the forest.",
+      "exampleJa": "森で道に迷った。"
+    },
+    {
+      "id": "a3-61",
+      "en": "lovely",
+      "ja": "愛らしい",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "What a lovely morning!",
+      "exampleJa": "なんて愛らしい朝だろう。"
+    },
+    {
+      "id": "a3-62",
+      "en": "loyal",
+      "ja": "忠実な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Dogs are loyal companions.",
+      "exampleJa": "犬は忠実な仲間だ。"
+    },
+    {
+      "id": "a3-63",
+      "en": "magic",
+      "ja": "魔法の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "The kids love magic tricks.",
+      "exampleJa": "子どもは魔法の手品が好きだ。"
+    },
+    {
+      "id": "a3-64",
+      "en": "main",
+      "ja": "主な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "What is the main reason?",
+      "exampleJa": "主な理由は何ですか。"
+    },
+    {
+      "id": "a3-65",
+      "en": "major",
+      "ja": "主要な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "This is a major update.",
+      "exampleJa": "これは主要な更新だ。"
+    },
+    {
+      "id": "a3-66",
+      "en": "male",
+      "ja": "男性の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Male birds sang at dawn.",
+      "exampleJa": "雄の鳥が夜明に鳴いた。"
+    },
+    {
+      "id": "a3-67",
+      "en": "manual",
+      "ja": "手動の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Switch to manual mode.",
+      "exampleJa": "手動モードに切り替えて。"
+    },
+    {
+      "id": "a3-68",
+      "en": "marine",
+      "ja": "海の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Marine life is diverse.",
+      "exampleJa": "海の生物は多様だ。"
+    },
+    {
+      "id": "a3-69",
+      "en": "married",
+      "ja": "結婚した",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "They have been married for ten years.",
+      "exampleJa": "彼らは10年結婚している。"
+    },
+    {
+      "id": "a3-70",
+      "en": "massive",
+      "ja": "巨大な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "A massive storm hit the coast.",
+      "exampleJa": "巨大な崎が海岸を襲った。"
+    },
+    {
+      "id": "a3-71",
+      "en": "mature",
+      "ja": "成熟した",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "She is mature for her age.",
+      "exampleJa": "彼女は年齢のわりに成熟している。"
+    },
+    {
+      "id": "a3-72",
+      "en": "maximum",
+      "ja": "最大の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Set the heater to maximum.",
+      "exampleJa": "ヒーターを最大にして。"
+    },
+    {
+      "id": "a3-73",
+      "en": "meaningful",
+      "ja": "意味のある",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Volunteering can be meaningful.",
+      "exampleJa": "ボランティアは意味があることがある。"
+    },
+    {
+      "id": "a3-74",
+      "en": "medical",
+      "ja": "医療の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Seek medical help if needed.",
+      "exampleJa": "必要なら医療の手当を取って。"
+    },
+    {
+      "id": "a3-75",
+      "en": "mental",
+      "ja": "精神的な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Rest is good for mental health.",
+      "exampleJa": "休息は精神的な健康に良い。"
+    },
+    {
+      "id": "a3-76",
+      "en": "mild",
+      "ja": "和らかい",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "We had a mild winter.",
+      "exampleJa": "冬は和らかった。"
+    },
+    {
+      "id": "a3-77",
+      "en": "military",
+      "ja": "軍事の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "The museum shows military history.",
+      "exampleJa": "その博物館は軍事史を展示している。"
+    },
+    {
+      "id": "a3-78",
+      "en": "minimal",
+      "ja": "最小の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Keep costs minimal.",
+      "exampleJa": "費用を最小に抑えて。"
+    },
+    {
+      "id": "a3-79",
+      "en": "minor",
+      "ja": "小さな",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "It was only a minor injury.",
+      "exampleJa": "それは軽微なけがだだった。"
+    },
+    {
+      "id": "a3-80",
+      "en": "mobile",
+      "ja": "携帯の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Mobile phones changed society.",
+      "exampleJa": "携帯電話は社会を変えた。"
+    },
+    {
+      "id": "a3-81",
+      "en": "moderate",
+      "ja": "適度な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Exercise at a moderate pace.",
+      "exampleJa": "適度なペースで運動して。"
+    },
+    {
+      "id": "a3-82",
+      "en": "modern",
+      "ja": "現代的な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "The building has a modern design.",
+      "exampleJa": "その建物は現代的な設計だ。"
+    },
+    {
+      "id": "a3-83",
+      "en": "modest",
+      "ja": "なだらかな",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "He lives in a modest home.",
+      "exampleJa": "彼はなだらかな家に住んでいる。"
+    },
+    {
+      "id": "a3-84",
+      "en": "monthly",
+      "ja": "月間の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "We pay monthly rent.",
+      "exampleJa": "月額の家賃を払っている。"
+    },
+    {
+      "id": "a3-85",
+      "en": "moral",
+      "ja": "道徳的な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "It was a moral choice.",
+      "exampleJa": "それは道徳的な選択だった。"
+    },
+    {
+      "id": "a3-86",
+      "en": "mutual",
+      "ja": "相互の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "They have mutual respect.",
+      "exampleJa": "彼らは相互に尊重している。"
+    },
+    {
+      "id": "a3-87",
+      "en": "naked",
+      "ja": "裸の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "The trees stood naked in winter.",
+      "exampleJa": "冬に木は葉がなく裸だった。"
+    },
+    {
+      "id": "a3-88",
+      "en": "national",
+      "ja": "国家の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "It is a national holiday.",
+      "exampleJa": "今日は国家の祝日だ。"
+    },
+    {
+      "id": "a3-89",
+      "en": "native",
+      "ja": "土着の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "She is a native speaker of English.",
+      "exampleJa": "彼女は英語のネイティブスピーカーだ。"
+    },
+    {
+      "id": "a3-90",
+      "en": "natural",
+      "ja": "自然な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Use natural ingredients.",
+      "exampleJa": "自然な材料を使って。"
+    },
+    {
+      "id": "a3-91",
+      "en": "naval",
+      "ja": "海軍の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "The city has a naval base.",
+      "exampleJa": "その市には海軍基地がある。"
+    },
+    {
+      "id": "a3-92",
+      "en": "nearby",
+      "ja": "近くの",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Is there a cafe nearby?",
+      "exampleJa": "近くにカフェはありますか。"
+    },
+    {
+      "id": "a3-93",
+      "en": "necessary",
+      "ja": "必要な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Sleep is necessary for recovery.",
+      "exampleJa": "回復には睡眠が必要だ。"
+    },
+    {
+      "id": "a3-94",
+      "en": "negative",
+      "ja": "否定的な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Try not to be negative.",
+      "exampleJa": "否定的にならないようにして。"
+    },
+    {
+      "id": "a3-95",
+      "en": "nervous",
+      "ja": "緊張した",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "I feel nervous before speeches.",
+      "exampleJa": "演説の前は緊張する。"
+    },
+    {
+      "id": "a3-96",
+      "en": "neutral",
+      "ja": "中立な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Stay neutral in their argument.",
+      "exampleJa": "彼らのけんかでは中立でいて。"
+    },
+    {
+      "id": "a3-97",
+      "en": "noble",
+      "ja": "高貴な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "It was a noble gesture.",
+      "exampleJa": "それは高貴な行いだった。"
+    },
+    {
+      "id": "a3-98",
+      "en": "northern",
+      "ja": "北の",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "Northern lights appeared last night.",
+      "exampleJa": "昨夜北極光が見えた。"
+    },
+    {
+      "id": "a3-99",
+      "en": "notable",
+      "ja": "著名な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "There is a notable difference.",
+      "exampleJa": "著しい違いがある。"
+    },
+    {
+      "id": "a3-100",
+      "en": "novel",
+      "ja": "斬新な",
+      "pos": "adjective",
+      "level": "3",
+      "exampleEn": "She proposed a novel idea.",
+      "exampleJa": "彼女は斬新なあるいを提案した。"
+    }
+  ]
+}
