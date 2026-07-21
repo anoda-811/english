@@ -1,8 +1,10 @@
 /**
  * Generates data/vocabulary/nouns.json — ~100 nouns × 8 levels with examples.
+ * Preserves curated exampleEn/exampleJa from the existing nouns.json when present.
+ * Example refresh scripts: noun-examples-l1-4-build.mjs, patch-noun-examples-l5-8.mjs
  * Run: node scripts/generate-nouns.mjs
  */
-import { writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -245,10 +247,31 @@ function exampleFor(en, ja) {
   };
 }
 
+function loadExistingExamples() {
+  try {
+    const raw = JSON.parse(
+      readFileSync(join(__dirname, "..", "data", "vocabulary", "nouns.json"), "utf8"),
+    );
+    /** @type {Map<string, { exampleEn: string, exampleJa: string }>} */
+    const map = new Map();
+    for (const w of raw.words ?? []) {
+      if (w.en && w.exampleEn && !/^This is /i.test(w.exampleEn)) {
+        map.set(w.en, { exampleEn: w.exampleEn, exampleJa: w.exampleJa });
+      }
+    }
+    return map;
+  } catch {
+    return new Map();
+  }
+}
+
+const existingExamples = loadExistingExamples();
+
 const words = [];
 for (const [level, pairs] of Object.entries(BY_LEVEL)) {
   pairs.forEach(([en, ja], i) => {
-    const ex = exampleFor(en, ja);
+    const curated = existingExamples.get(en);
+    const ex = curated ?? exampleFor(en, ja);
     words.push({
       id: `n${level}-${i + 1}`,
       en,
@@ -261,30 +284,6 @@ for (const [level, pairs] of Object.entries(BY_LEVEL)) {
   });
 }
 
-// Better examples for common words — override template for variety on first of each level
-const better = {
-  "apple": ["I bought an apple at the store.", "店でりんごを買った。"],
-  "book": ["She is reading a book.", "彼女は本を読んでいる。"],
-  "water": ["Please drink more water.", "もっと水を飲んでください。"],
-  "friend": ["He is my best friend.", "彼は私の親友です。"],
-  "environment": ["We must protect the environment.", "環境を守らなければならない。"],
-  "opportunity": ["This is a great opportunity.", "これは素晴らしい機会だ。"],
-  "phenomenon": ["This is a natural phenomenon.", "これは自然現象です。"],
-  "ability": ["She has the ability to lead.", "彼女にはリーダーの能力がある。"],
-  "decade": ["A decade has passed since then.", "それから10年が過ぎた。"],
-  "furniture": ["We bought new furniture.", "新しい家具を買った。"],
-  "management": ["Good management is important.", "良い経営は大切だ。"],
-  "platform": ["The train is at the platform.", "電車はホームに着いている。"],
-};
-
-for (const w of words) {
-  const b = better[w.en];
-  if (b) {
-    w.exampleEn = b[0];
-    w.exampleJa = b[1];
-  }
-}
-
 const outPath = join(__dirname, "..", "data", "vocabulary", "nouns.json");
 writeFileSync(outPath, JSON.stringify({ words }, null, 2) + "\n", "utf8");
 
@@ -293,6 +292,7 @@ const counts = Object.fromEntries(
 );
 console.log("Wrote", words.length, "nouns to", outPath);
 console.log("Per level:", counts);
+console.log("Curated examples kept:", words.filter((w) => existingExamples.has(w.en)).length);
 
 const ens = words.map((w) => w.en);
 const dupes = ens.filter((e, i) => ens.indexOf(e) !== i);

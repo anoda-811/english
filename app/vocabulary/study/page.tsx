@@ -1,6 +1,6 @@
 import { AppHeader } from "@/components/AppHeader";
 import { NavCard, PageShell, SectionTitle } from "@/components/NavCard";
-import { countWordsByPos, getPartsOfSpeech } from "@/lib/vocabulary";
+import { countWordsByPos, getPartsOfSpeech, getWordsByPos } from "@/lib/vocabulary";
 
 export default function StudyPosPage() {
   const parts = getPartsOfSpeech();
@@ -16,6 +16,7 @@ export default function StudyPosPage() {
         <ul className="flex flex-col gap-3">
           {parts.map((pos) => {
             const count = countWordsByPos(pos.id);
+            const itemIds = getWordsByPos(pos.id).map((w) => w.id);
             return (
               <li key={pos.id}>
                 <NavCard
@@ -23,6 +24,7 @@ export default function StudyPosPage() {
                   title={pos.labelJa}
                   description={`${pos.labelEn} · ${count} 語`}
                   icon={pos.emoji}
+                  itemIds={itemIds}
                 />
               </li>
             );

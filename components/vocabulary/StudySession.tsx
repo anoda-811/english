@@ -31,11 +31,20 @@ type StudySessionProps = {
   words: StudyCardItem[];
   posLabel: string;
   levelLabel: string;
+  /** すべてまとめて学習など、最初からランダムにしたいとき */
+  preferRandom?: boolean;
 };
 
-export function StudySession({ words, posLabel, levelLabel }: StudySessionProps) {
-  const [orderMode, setOrderMode] = useState<OrderMode>("sequential");
-  const [deck, setDeck] = useState<StudyCardItem[]>(() => [...words]);
+export function StudySession({
+  words,
+  posLabel,
+  levelLabel,
+  preferRandom = false,
+}: StudySessionProps) {
+  const [orderMode, setOrderMode] = useState<OrderMode>(preferRandom ? "random" : "sequential");
+  const [deck, setDeck] = useState<StudyCardItem[]>(() =>
+    preferRandom ? buildDeck(words, "random") : [...words],
+  );
   const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
   const [exampleRevealed, setExampleRevealed] = useState(false);
@@ -88,9 +97,11 @@ export function StudySession({ words, posLabel, levelLabel }: StudySessionProps)
       if (storedHide === "en" || storedHide === "ja" || storedHide === "none") {
         hide = storedHide;
       }
-      const storedOrder = localStorage.getItem(ORDER_MODE_KEY);
-      if (storedOrder === "sequential" || storedOrder === "random") {
-        mode = storedOrder;
+      if (!preferRandom) {
+        const storedOrder = localStorage.getItem(ORDER_MODE_KEY);
+        if (storedOrder === "sequential" || storedOrder === "random") {
+          mode = storedOrder;
+        }
       }
     } catch {
       /* ignore */
@@ -103,7 +114,7 @@ export function StudySession({ words, posLabel, levelLabel }: StudySessionProps)
     const showBoth = hide === "none";
     setRevealed(showBoth);
     setExampleRevealed(showBoth);
-  }, [words]);
+  }, [words, preferRandom]);
 
   useEffect(() => {
     return () => {

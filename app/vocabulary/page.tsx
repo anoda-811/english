@@ -1,6 +1,15 @@
 import { AppHeader } from "@/components/AppHeader";
 import { NavCard, PageShell, SectionTitle } from "@/components/NavCard";
 import { VocabularyHero } from "@/components/vocabulary/VocabularyHero";
+import { getIdiomItemsByClassification, getIdiomClassifications, type IdiomClassificationId } from "@/lib/idioms";
+import { getPartsOfSpeech, getWordsByPos } from "@/lib/vocabulary";
+
+const allWordIds = getPartsOfSpeech().flatMap((pos) =>
+  getWordsByPos(pos.id).map((w) => w.id),
+);
+const allIdiomIds = getIdiomClassifications().flatMap((c) =>
+  getIdiomItemsByClassification(c.id as IdiomClassificationId).map((i) => i.id),
+);
 
 const MODES = [
   {
@@ -10,6 +19,7 @@ const MODES = [
     href: "/vocabulary/study",
     emoji: "🃏",
     available: true,
+    itemIds: allWordIds,
   },
   {
     id: "idioms",
@@ -18,6 +28,7 @@ const MODES = [
     href: "/vocabulary/idioms",
     emoji: "🔗",
     available: true,
+    itemIds: allIdiomIds,
   },
   {
     id: "quiz",
@@ -26,6 +37,7 @@ const MODES = [
     href: "#",
     emoji: "❓",
     available: false,
+    itemIds: undefined as string[] | undefined,
   },
 ] as const;
 
@@ -45,6 +57,7 @@ export default function VocabularyHomePage() {
                 description={mode.description}
                 icon={mode.emoji}
                 disabled={!mode.available}
+                itemIds={mode.available ? [...mode.itemIds] : undefined}
               />
             </li>
           ))}

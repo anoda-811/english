@@ -1,6 +1,10 @@
 import { AppHeader } from "@/components/AppHeader";
 import { NavCard, PageShell, SectionTitle } from "@/components/NavCard";
-import { getIdiomClassifications } from "@/lib/idioms";
+import {
+  getIdiomClassifications,
+  getIdiomItemsByClassification,
+  type IdiomClassificationId,
+} from "@/lib/idioms";
 
 export default function IdiomsClassificationsPage() {
   const classifications = getIdiomClassifications();
@@ -14,16 +18,22 @@ export default function IdiomsClassificationsPage() {
         </p>
         <SectionTitle>分類</SectionTitle>
         <ul className="flex flex-col gap-3">
-          {classifications.map((c) => (
-            <li key={c.id}>
-              <NavCard
-                href={`/vocabulary/idioms/${c.id}`}
-                title={c.labelJa}
-                description={c.descriptionJa}
-                icon={c.emoji}
-              />
-            </li>
-          ))}
+          {classifications.map((c) => {
+            const itemIds = getIdiomItemsByClassification(
+              c.id as IdiomClassificationId,
+            ).map((i) => i.id);
+            return (
+              <li key={c.id}>
+                <NavCard
+                  href={`/vocabulary/idioms/${c.id}`}
+                  title={c.labelJa}
+                  description={c.descriptionJa}
+                  icon={c.emoji}
+                  itemIds={itemIds}
+                />
+              </li>
+            );
+          })}
         </ul>
         <p className="mt-8 text-center text-xs text-zinc-400">
           熟語データは{" "}
