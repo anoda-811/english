@@ -49,6 +49,7 @@ export function StudySession({ words, posLabel, levelLabel }: StudySessionProps)
   const holdDelayRef = useRef<number | null>(null);
   const holdIntervalRef = useRef<number | null>(null);
   const didHoldRepeatRef = useRef(false);
+  const speakTokenRef = useRef(0);
 
   useEffect(() => {
     deckRef.current = deck;
@@ -109,6 +110,7 @@ export function StudySession({ words, posLabel, levelLabel }: StudySessionProps)
 
   const applyOrderMode = useCallback(
     (mode: OrderMode) => {
+      speakTokenRef.current += 1;
       stopSpeaking();
       setSpeaking(null);
       setSpeakError(false);
@@ -127,6 +129,7 @@ export function StudySession({ words, posLabel, levelLabel }: StudySessionProps)
   );
 
   const reshuffle = () => {
+    speakTokenRef.current += 1;
     stopSpeaking();
     setSpeaking(null);
     setSpeakError(false);
@@ -141,6 +144,7 @@ export function StudySession({ words, posLabel, levelLabel }: StudySessionProps)
   const progress = total > 0 ? index + 1 : 0;
 
   const stopSpeech = () => {
+    speakTokenRef.current += 1;
     stopSpeaking();
     setSpeaking(null);
     setSpeakError(false);
@@ -176,25 +180,33 @@ export function StudySession({ words, posLabel, levelLabel }: StudySessionProps)
 
   const onSpeak = async () => {
     if (!current) return;
+    const token = ++speakTokenRef.current;
     setSpeakError(false);
     setSpeaking("word");
     try {
       const result = await speakEnglish(current.en);
+      if (speakTokenRef.current !== token) return;
       if (result === "failed") setSpeakError(true);
     } finally {
-      setSpeaking(null);
+      if (speakTokenRef.current === token) {
+        setSpeaking(null);
+      }
     }
   };
 
   const onSpeakExample = async () => {
     if (!current?.exampleEn) return;
+    const token = ++speakTokenRef.current;
     setSpeakError(false);
     setSpeaking("example");
     try {
       const result = await speakEnglish(current.exampleEn);
+      if (speakTokenRef.current !== token) return;
       if (result === "failed") setSpeakError(true);
     } finally {
-      setSpeaking(null);
+      if (speakTokenRef.current === token) {
+        setSpeaking(null);
+      }
     }
   };
 
