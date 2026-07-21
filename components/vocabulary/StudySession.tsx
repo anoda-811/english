@@ -74,7 +74,7 @@ export function StudySession({
     setExampleRevealed(showBoth);
   }, []);
 
-  const clearNextHold = useCallback(() => {
+  const clearHold = useCallback(() => {
     if (holdDelayRef.current !== null) {
       window.clearTimeout(holdDelayRef.current);
       holdDelayRef.current = null;
@@ -86,8 +86,8 @@ export function StudySession({
   }, []);
 
   useEffect(() => {
-    return () => clearNextHold();
-  }, [clearNextHold]);
+    return () => clearHold();
+  }, [clearHold]);
 
   useEffect(() => {
     let mode: OrderMode = "random";
@@ -177,6 +177,7 @@ export function StudySession({
 
     const i = indexRef.current;
     const d = deckRef.current;
+    if (d.length === 0) return;
     if (i >= d.length - 1) {
       const newDeck = buildDeck(words, orderModeRef.current);
       deckRef.current = newDeck;
@@ -189,13 +190,25 @@ export function StudySession({
     }
   }, [words, resetRevealForHideMode]);
 
-  const goPrev = () => {
+  const advancePrev = useCallback(() => {
     stopSpeech();
-    if (index > 0) {
-      setIndex((i) => i - 1);
-      resetRevealForHideMode();
+    resetRevealForHideMode();
+
+    const i = indexRef.current;
+    const d = deckRef.current;
+    if (d.length === 0) return;
+    if (i <= 0) {
+      const newDeck = buildDeck(words, orderModeRef.current);
+      const last = Math.max(0, newDeck.length - 1);
+      deckRef.current = newDeck;
+      indexRef.current = last;
+      setDeck(newDeck);
+      setIndex(last);
+    } else {
+      indexRef.current = i - 1;
+      setIndex(i - 1);
     }
-  };
+  }, [words, resetRevealForHideMode]);
 
   const onSpeak = async () => {
     if (!current) return;
@@ -229,33 +242,38 @@ export function StudySession({
     }
   };
 
-  const onNextPointerDown = (e: React.PointerEvent<HTMLButtonElement>) => {
-    if (e.button !== 0) return;
-    didHoldRepeatRef.current = false;
-    clearNextHold();
-    e.currentTarget.setPointerCapture(e.pointerId);
+  const makeHoldHandlers = (advance: () => void) => ({
+    onPointerDown: (e: React.PointerEvent<HTMLButtonElement>) => {
+      if (e.button !== 0) return;
+      didHoldRepeatRef.current = false;
+      clearHold();
+      e.currentTarget.setPointerCapture(e.pointerId);
 
-    holdDelayRef.current = window.setTimeout(() => {
-      didHoldRepeatRef.current = true;
-      advanceNext();
-      holdIntervalRef.current = window.setInterval(advanceNext, HOLD_INTERVAL_MS);
-    }, HOLD_DELAY_MS);
-  };
+      holdDelayRef.current = window.setTimeout(() => {
+        didHoldRepeatRef.current = true;
+        advance();
+        holdIntervalRef.current = window.setInterval(advance, HOLD_INTERVAL_MS);
+      }, HOLD_DELAY_MS);
+    },
+    onPointerUp: (e: React.PointerEvent<HTMLButtonElement>) => {
+      clearHold();
+      if (e.currentTarget.hasPointerCapture(e.pointerId)) {
+        e.currentTarget.releasePointerCapture(e.pointerId);
+      }
+      if (!didHoldRepeatRef.current) {
+        advance();
+      }
+    },
+    onPointerCancel: () => {
+      clearHold();
+    },
+    onPointerLeave: () => {
+      clearHold();
+    },
+  });
 
-  const onNextPointerUp = (e: React.PointerEvent<HTMLButtonElement>) => {
-    clearNextHold();
-    if (e.currentTarget.hasPointerCapture(e.pointerId)) {
-      e.currentTarget.releasePointerCapture(e.pointerId);
-    }
-    if (!didHoldRepeatRef.current) {
-      advanceNext();
-    }
-  };
-
-  const onNextPointerCancel = () => {
-    clearNextHold();
-  };
-
+  const prevHold = makeHoldHandlers(advancePrev);
+  const nextHold = makeHoldHandlers(advanceNext);
   if (!current) {
     return (
       <p className="px-4 py-12 text-center text-zinc-500">この条件の単語がありません。</p>
@@ -475,18 +493,20 @@ export function StudySession({
       <div className="flex gap-2">
         <button
           type="button"
-          onClick={goPrev}
-          disabled={index === 0}
-          className="flex-1 rounded-xl border border-zinc-200 py-2.5 text-sm font-semibold text-zinc-700 disabled:opacity-40 dark:border-zinc-700 dark:text-zinc-200"
+          onPointerDown={prevHold.onPointerDown}
+          onPointerUp={prevHold.onPointerUp}
+          onPointerCancel={prevHold.onPointerCancel}
+          onPointerLeave={prevHold.onPointerLeave}
+          className="flex-1 touch-none select-none rounded-xl border border-zinc-200 py-2.5 text-sm font-semibold text-zinc-700 active:bg-zinc-50 dark:border-zinc-700 dark:text-zinc-200 dark:active:bg-zinc-800"
         >
           前へ
         </button>
         <button
           type="button"
-          onPointerDown={onNextPointerDown}
-          onPointerUp={onNextPointerUp}
-          onPointerCancel={onNextPointerCancel}
-          onPointerLeave={onNextPointerCancel}
+          onPointerDown={nextHold.onPointerDown}
+          onPointerUp={nextHold.onPointerUp}
+          onPointerCancel={nextHold.onPointerCancel}
+          onPointerLeave={nextHold.onPointerLeave}
           className="flex-1 touch-none select-none rounded-xl bg-indigo-600 py-2.5 text-sm font-semibold text-white active:bg-indigo-700"
         >
           次へ
