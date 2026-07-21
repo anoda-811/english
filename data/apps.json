@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "id": "vocabulary",
+      "title": "英単語",
+      "description": "品詞・レベル別のフラッシュカード学習",
+      "href": "/vocabulary",
+      "emoji": "📚",
+      "available": true
+    }
+  ]
+}

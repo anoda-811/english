@@ -1,0 +1,314 @@
+{
+  "classifications": [
+    {
+      "id": "verb",
+      "labelJa": "動詞別",
+      "labelEn": "By verb",
+      "emoji": "🏃",
+      "descriptionJa": "get・take など動詞ごとにまとめる"
+    },
+    {
+      "id": "preposition",
+      "labelJa": "前置詞別",
+      "labelEn": "By preposition",
+      "emoji": "📍",
+      "descriptionJa": "in・on など前置詞ごとにまとめる"
+    }
+  ],
+  "groups": [
+    {
+      "id": "get",
+      "classificationId": "verb",
+      "labelJa": "get 編",
+      "headWord": "get",
+      "emoji": "📗",
+      "coreImage": "ある状態になる・何かを得る"
+    },
+    {
+      "id": "take",
+      "classificationId": "verb",
+      "labelJa": "take 編",
+      "headWord": "take",
+      "emoji": "📘",
+      "coreImage": "手に取る・連れていく・時間などを要する"
+    },
+    {
+      "id": "make",
+      "classificationId": "verb",
+      "labelJa": "make 編",
+      "headWord": "make",
+      "emoji": "📙",
+      "coreImage": "作る・〜の状態にする"
+    },
+    {
+      "id": "in",
+      "classificationId": "preposition",
+      "labelJa": "in 編",
+      "headWord": "in",
+      "emoji": "🔹",
+      "coreImage": "〜の中・範囲・状態の内側"
+    },
+    {
+      "id": "on",
+      "classificationId": "preposition",
+      "labelJa": "on 編",
+      "headWord": "on",
+      "emoji": "🔸",
+      "coreImage": "〜の上・接触・進行中"
+    }
+  ],
+  "items": [
+    {
+      "id": "get-1",
+      "groupId": "get",
+      "en": "get up",
+      "ja": "起きる",
+      "exampleEn": "I get up at seven every morning.",
+      "exampleJa": "私は毎朝7時に起きます。"
+    },
+    {
+      "id": "get-2",
+      "groupId": "get",
+      "en": "get on",
+      "ja": "乗る・うまくいく",
+      "exampleEn": "She got on the bus at the station.",
+      "exampleJa": "彼女は駅でバスに乗った。"
+    },
+    {
+      "id": "get-3",
+      "groupId": "get",
+      "en": "get off",
+      "ja": "降りる・休む",
+      "exampleEn": "Please get off at the next stop.",
+      "exampleJa": "次の停留所で降りてください。"
+    },
+    {
+      "id": "get-4",
+      "groupId": "get",
+      "en": "get over",
+      "ja": "克服する",
+      "exampleEn": "It took him a while to get over the cold.",
+      "exampleJa": "彼が風邪を治すのにしばらくかかった。"
+    },
+    {
+      "id": "get-5",
+      "groupId": "get",
+      "en": "get along",
+      "ja": "うまくやる",
+      "exampleEn": "Do you get along with your coworkers?",
+      "exampleJa": "同僚とうまくやっていますか？"
+    },
+    {
+      "id": "get-6",
+      "groupId": "get",
+      "en": "get away",
+      "ja": "逃げる・休暇を取る",
+      "exampleEn": "We need to get away for the weekend.",
+      "exampleJa": "週末はどこかに出かけたい。"
+    },
+    {
+      "id": "get-7",
+      "groupId": "get",
+      "en": "get back",
+      "ja": "戻る・取り戻す",
+      "exampleEn": "I'll get back to you tomorrow.",
+      "exampleJa": "明日また連絡します。"
+    },
+    {
+      "id": "get-8",
+      "groupId": "get",
+      "en": "get through",
+      "ja": "切り抜ける・連絡がつく",
+      "exampleEn": "I couldn't get through to her on the phone.",
+      "exampleJa": "電話で彼女に連絡がつかなかった。"
+    },
+    {
+      "id": "get-9",
+      "groupId": "get",
+      "en": "get rid of",
+      "ja": "取り除く",
+      "exampleEn": "I want to get rid of these old clothes.",
+      "exampleJa": "この古い服を処分したい。"
+    },
+    {
+      "id": "get-10",
+      "groupId": "get",
+      "en": "get used to",
+      "ja": "～に慣れる",
+      "exampleEn": "You'll get used to the new schedule soon.",
+      "exampleJa": "すぐに新しいスケジュールに慣れるよ。"
+    },
+
+    {
+      "id": "take-1",
+      "groupId": "take",
+      "en": "take off",
+      "ja": "離陸する・脱ぐ",
+      "exampleEn": "The plane will take off in ten minutes.",
+      "exampleJa": "飛行機は10分後に離陸します。"
+    },
+    {
+      "id": "take-2",
+      "groupId": "take",
+      "en": "take on",
+      "ja": "引き受ける・雇う",
+      "exampleEn": "She decided to take on a new project.",
+      "exampleJa": "彼女は新しいプロジェクトを引き受けることにした。"
+    },
+    {
+      "id": "take-3",
+      "groupId": "take",
+      "en": "take over",
+      "ja": "引き継ぐ",
+      "exampleEn": "Who will take over when he retires?",
+      "exampleJa": "彼が引退したら誰が引き継ぐの？"
+    },
+    {
+      "id": "take-4",
+      "groupId": "take",
+      "en": "take up",
+      "ja": "始める・占める",
+      "exampleEn": "He took up tennis last year.",
+      "exampleJa": "彼は去年テニスを始めた。"
+    },
+    {
+      "id": "take-5",
+      "groupId": "take",
+      "en": "take out",
+      "ja": "取り出す・連れ出す",
+      "exampleEn": "Let's take out the trash.",
+      "exampleJa": "ゴミを出そう。"
+    },
+    {
+      "id": "take-6",
+      "groupId": "take",
+      "en": "take back",
+      "ja": "取り戻す・言い直す",
+      "exampleEn": "I take back what I said.",
+      "exampleJa": "さっき言ったことは取り消します。"
+    },
+    {
+      "id": "take-7",
+      "groupId": "take",
+      "en": "take care of",
+      "ja": "世話をする",
+      "exampleEn": "Can you take care of my dog this weekend?",
+      "exampleJa": "今週末うちの犬の世話をしてくれる？"
+    },
+    {
+      "id": "take-8",
+      "groupId": "take",
+      "en": "take part in",
+      "ja": "参加する",
+      "exampleEn": "Many students took part in the contest.",
+      "exampleJa": "多くの生徒がコンテストに参加した。"
+    },
+
+    {
+      "id": "make-1",
+      "groupId": "make",
+      "en": "make up",
+      "ja": "構成する・化粧する・仲直りする",
+      "exampleEn": "Women make up half of the team.",
+      "exampleJa": "チームの半分は女性で構成されている。"
+    },
+    {
+      "id": "make-2",
+      "groupId": "make",
+      "en": "make out",
+      "ja": "理解する・うまくいく",
+      "exampleEn": "I can't make out what he's saying.",
+      "exampleJa": "彼が何を言っているのか聞き取れない。"
+    },
+    {
+      "id": "make-3",
+      "groupId": "make",
+      "en": "make for",
+      "ja": "～に向かう・役立つ",
+      "exampleEn": "We made for the exit when the alarm rang.",
+      "exampleJa": "アラームが鳴ると私たちは出口へ向かった。"
+    },
+    {
+      "id": "make-4",
+      "groupId": "make",
+      "en": "make sure",
+      "ja": "確かめる",
+      "exampleEn": "Make sure you lock the door.",
+      "exampleJa": "ドアに鍵をかけるのを忘れないで。"
+    },
+
+    {
+      "id": "in-1",
+      "groupId": "in",
+      "en": "in time",
+      "ja": "間に合って",
+      "exampleEn": "We arrived just in time for the movie.",
+      "exampleJa": "映画にちょうど間に合って着いた。"
+    },
+    {
+      "id": "in-2",
+      "groupId": "in",
+      "en": "in charge of",
+      "ja": "～の責任者で",
+      "exampleEn": "She is in charge of the sales team.",
+      "exampleJa": "彼女は営業チームの責任者です。"
+    },
+    {
+      "id": "in-3",
+      "groupId": "in",
+      "en": "in fact",
+      "ja": "実際",
+      "exampleEn": "In fact, I have never been there.",
+      "exampleJa": "実は、私はそこに行ったことがない。"
+    },
+    {
+      "id": "in-4",
+      "groupId": "in",
+      "en": "in common",
+      "ja": "共通して",
+      "exampleEn": "We have a lot in common.",
+      "exampleJa": "私たちは共通点が多い。"
+    },
+    {
+      "id": "in-5",
+      "groupId": "in",
+      "en": "in the end",
+      "ja": "結局",
+      "exampleEn": "In the end, everything worked out fine.",
+      "exampleJa": "結局、すべてうまくいった。"
+    },
+
+    {
+      "id": "on-1",
+      "groupId": "on",
+      "en": "on time",
+      "ja": "時間通りに",
+      "exampleEn": "The train arrived on time.",
+      "exampleJa": "電車は時間通りに到着した。"
+    },
+    {
+      "id": "on-2",
+      "groupId": "on",
+      "en": "on purpose",
+      "ja": "わざと",
+      "exampleEn": "I didn't do it on purpose.",
+      "exampleJa": "わざとやったわけじゃない。"
+    },
+    {
+      "id": "on-3",
+      "groupId": "on",
+      "en": "on average",
+      "ja": "平均して",
+      "exampleEn": "On average, I sleep seven hours a night.",
+      "exampleJa": "平均して一晩に7時間眠ります。"
+    },
+    {
+      "id": "on-4",
+      "groupId": "on",
+      "en": "on the other hand",
+      "ja": "一方で",
+      "exampleEn": "It's expensive. On the other hand, it's high quality.",
+      "exampleJa": "高い。一方で、品質は良い。"
+    }
+  ]
+}
