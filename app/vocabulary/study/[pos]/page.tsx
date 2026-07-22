@@ -2,10 +2,13 @@ import { notFound } from "next/navigation";
 import { AppHeader } from "@/components/AppHeader";
 import { NavCard, PageShell, SectionTitle } from "@/components/NavCard";
 import {
+  getNounGenresWithWordCount,
+  getNounsByGenre,
   getPartOfSpeech,
   getLevelsWithWordCount,
   getWords,
   getWordsByPos,
+  type NounGenreId,
   type PartOfSpeechId,
 } from "@/lib/vocabulary";
 
@@ -21,13 +24,14 @@ export default async function StudyLevelPage({ params }: PageProps) {
   const posTyped = pos.id as PartOfSpeechId;
   const levels = getLevelsWithWordCount(posTyped);
   const allIds = getWordsByPos(posTyped).map((w) => w.id);
+  const genres = posTyped === "noun" ? getNounGenresWithWordCount() : [];
 
   return (
     <>
       <AppHeader title={pos.labelJa} backHref="/vocabulary/study" />
       <PageShell className="px-4 py-6">
         <p className="mb-5 text-sm text-zinc-600 dark:text-zinc-400">
-          レベルを選んでください
+          {posTyped === "noun" ? "レベルまたはジャンルを選んでください" : "レベルを選んでください"}
         </p>
 
         <div className="mb-6">
@@ -51,6 +55,39 @@ export default async function StudyLevelPage({ params }: PageProps) {
             />
           )}
         </div>
+
+        {genres.length > 0 && (
+          <div className="mb-6">
+            <SectionTitle>ジャンル</SectionTitle>
+            <ul className="flex flex-col gap-3">
+              {genres.map((genre) => {
+                const genreIds = getNounsByGenre(genre.id as NounGenreId).map((w) => w.id);
+                return (
+                  <li key={genre.id}>
+                    {genre.wordCount > 0 ? (
+                      <NavCard
+                        href={`/vocabulary/study/noun/genre/${genre.id}`}
+                        title={genre.labelJa}
+                        description={`${genre.descriptionJa} · ${genre.wordCount} 語`}
+                        icon={genre.emoji}
+                        itemIds={genreIds}
+                      />
+                    ) : (
+                      <NavCard
+                        href="#"
+                        title={genre.labelJa}
+                        description={genre.descriptionJa}
+                        icon={genre.emoji}
+                        disabled
+                        meta="単語なし"
+                      />
+                    )}
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        )}
 
         <SectionTitle>レベル</SectionTitle>
         <ul className="flex flex-col gap-3">

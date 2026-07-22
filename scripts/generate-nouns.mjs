@@ -247,16 +247,20 @@ function exampleFor(en, ja) {
   };
 }
 
-function loadExistingExamples() {
+function loadExistingExtras() {
   try {
     const raw = JSON.parse(
       readFileSync(join(__dirname, "..", "data", "vocabulary", "nouns.json"), "utf8"),
     );
-    /** @type {Map<string, { exampleEn: string, exampleJa: string }>} */
+    /** @type {Map<string, { exampleEn: string, exampleJa: string, genres?: string[] }>} */
     const map = new Map();
     for (const w of raw.words ?? []) {
-      if (w.en && w.exampleEn && !/^This is /i.test(w.exampleEn)) {
-        map.set(w.en, { exampleEn: w.exampleEn, exampleJa: w.exampleJa });
+      if (!w.en) continue;
+      const entry = { exampleEn: w.exampleEn, exampleJa: w.exampleJa, genres: w.genres };
+      if (w.exampleEn && !/^This is /i.test(w.exampleEn)) {
+        map.set(w.en, entry);
+      } else if (w.genres?.length) {
+        map.set(w.en, entry);
       }
     }
     return map;
@@ -265,14 +269,16 @@ function loadExistingExamples() {
   }
 }
 
-const existingExamples = loadExistingExamples();
+const existingExtras = loadExistingExtras();
 
 const words = [];
 for (const [level, pairs] of Object.entries(BY_LEVEL)) {
   pairs.forEach(([en, ja], i) => {
-    const curated = existingExamples.get(en);
-    const ex = curated ?? exampleFor(en, ja);
-    words.push({
+    const curated = existingExtras.get(en);
+    const ex = curated?.exampleEn && !/^This is /i.test(curated.exampleEn)
+      ? { exampleEn: curated.exampleEn, exampleJa: curated.exampleJa }
+      : exampleFor(en, ja);
+    const word = {
       id: `n${level}-${i + 1}`,
       en,
       ja,
@@ -280,7 +286,11 @@ for (const [level, pairs] of Object.entries(BY_LEVEL)) {
       level,
       exampleEn: ex.exampleEn,
       exampleJa: ex.exampleJa,
-    });
+    };
+    if (curated?.genres?.length) {
+      word.genres = curated.genres;
+    }
+    words.push(word);
   });
 }
 
@@ -292,7 +302,8 @@ const counts = Object.fromEntries(
 );
 console.log("Wrote", words.length, "nouns to", outPath);
 console.log("Per level:", counts);
-console.log("Curated examples kept:", words.filter((w) => existingExamples.has(w.en)).length);
+console.log("Curated examples kept:", words.filter((w) => existingExtras.has(w.en) && !/^This is /i.test(w.exampleEn ?? "")).length);
+console.log("Genres kept:", words.filter((w) => w.genres?.length).length);
 
 const ens = words.map((w) => w.en);
 const dupes = ens.filter((e, i) => ens.indexOf(e) !== i);

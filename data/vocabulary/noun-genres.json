@@ -1,0 +1,22 @@
+{
+  "genres": [
+    { "id": "food", "labelJa": "食べ物", "emoji": "🍎", "descriptionJa": "食料・飲み物・調味料" },
+    { "id": "people", "labelJa": "人・家族", "emoji": "👨‍👩‍👧", "descriptionJa": "人の種類・家族・職業の人" },
+    { "id": "body", "labelJa": "体", "emoji": "🫀", "descriptionJa": "体の部位・健康" },
+    { "id": "place", "labelJa": "場所", "emoji": "🏙️", "descriptionJa": "建物・施設・都市" },
+    { "id": "country", "labelJa": "国・地域", "emoji": "🌍", "descriptionJa": "国・政府・地域" },
+    { "id": "home", "labelJa": "家・日用品", "emoji": "🏠", "descriptionJa": "家具・家の中・道具" },
+    { "id": "school", "labelJa": "学校・学習", "emoji": "📚", "descriptionJa": "勉強・科目・試験" },
+    { "id": "nature", "labelJa": "自然", "emoji": "🌿", "descriptionJa": "天気・植物・地形" },
+    { "id": "animal", "labelJa": "動物", "emoji": "🐾", "descriptionJa": "動物・生き物" },
+    { "id": "transport", "labelJa": "交通", "emoji": "🚃", "descriptionJa": "乗り物・旅行" },
+    { "id": "clothes", "labelJa": "服", "emoji": "👕", "descriptionJa": "衣服・身につけるもの" },
+    { "id": "time", "labelJa": "時間", "emoji": "📅", "descriptionJa": "日・週・季節" },
+    { "id": "work", "labelJa": "仕事・お金", "emoji": "💼", "descriptionJa": "仕事・経済・ビジネス" },
+    { "id": "sport", "labelJa": "スポーツ・趣味", "emoji": "⚽", "descriptionJa": "スポーツ・ゲーム・趣味" },
+    { "id": "tech", "labelJa": "IT・機械", "emoji": "💻", "descriptionJa": "機械・通信・科学" },
+    { "id": "art", "labelJa": "文化・芸術", "emoji": "🎨", "descriptionJa": "音楽・映画・文学" },
+    { "id": "society", "labelJa": "社会", "emoji": "🏛️", "descriptionJa": "法律・政治・社会問題" },
+    { "id": "abstract", "labelJa": "概念・抽象", "emoji": "💭", "descriptionJa": "考え・性質・抽象名詞" }
+  ]
+}

@@ -4,12 +4,15 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import type { StudyCardItem } from "@/lib/study-types";
 import { speakEnglish, stopSpeaking } from "@/lib/speak-english";
 import { LearnedStarButton } from "@/components/vocabulary/LearnedStarButton";
+import { useLearnedWords } from "@/hooks/useLearnedWords";
 
 export type HideSide = "en" | "ja" | "none";
 export type OrderMode = "sequential" | "random";
+export type StarFilter = "all" | "learned" | "unlearned";
 
 const HIDE_SIDE_KEY = "vocabulary-hide-side";
 const ORDER_MODE_KEY = "vocabulary-order-mode";
+const STAR_FILTER_KEY = "vocabulary-star-filter";
 
 function shuffle<T>(items: T[]): T[] {
   const copy = [...items];
@@ -18,6 +21,16 @@ function shuffle<T>(items: T[]): T[] {
     [copy[i], copy[j]] = [copy[j], copy[i]];
   }
   return copy;
+}
+
+function filterByStar(
+  items: StudyCardItem[],
+  filter: StarFilter,
+  learned: Set<string>,
+): StudyCardItem[] {
+  if (filter === "learned") return items.filter((w) => learned.has(w.id));
+  if (filter === "unlearned") return items.filter((w) => !learned.has(w.id));
+  return items;
 }
 
 function buildDeck(items: StudyCardItem[], mode: OrderMode): StudyCardItem[] {
@@ -41,7 +54,9 @@ export function StudySession({
   levelLabel,
   preferRandom = false,
 }: StudySessionProps) {
+  const { learned } = useLearnedWords();
   const [orderMode, setOrderMode] = useState<OrderMode>(preferRandom ? "random" : "sequential");
+  const [starFilter, setStarFilter] = useState<StarFilter>("all");
   const [deck, setDeck] = useState<StudyCardItem[]>(() =>
     preferRandom ? buildDeck(words, "random") : [...words],
   );
@@ -55,6 +70,9 @@ export function StudySession({
   const deckRef = useRef(deck);
   const indexRef = useRef(index);
   const orderModeRef = useRef(orderMode);
+  const starFilterRef = useRef(starFilter);
+  const learnedRef = useRef(learned);
+  const wordsRef = useRef(words);
   const hideSideRef = useRef(hideSide);
   const holdDelayRef = useRef<number | null>(null);
   const holdIntervalRef = useRef<number | null>(null);
@@ -65,14 +83,41 @@ export function StudySession({
     deckRef.current = deck;
     indexRef.current = index;
     orderModeRef.current = orderMode;
+    starFilterRef.current = starFilter;
+    learnedRef.current = learned;
+    wordsRef.current = words;
     hideSideRef.current = hideSide;
-  }, [deck, index, orderMode, hideSide]);
+  }, [deck, index, orderMode, starFilter, learned, words, hideSide]);
 
   const resetRevealForHideMode = useCallback(() => {
     const showBoth = hideSideRef.current === "none";
     setRevealed(showBoth);
     setExampleRevealed(showBoth);
   }, []);
+
+  const poolFrom = useCallback(
+    (source: StudyCardItem[], filter: StarFilter, learnedSet: Set<string>) =>
+      filterByStar(source, filter, learnedSet),
+    [],
+  );
+
+  const rebuildDeck = useCallback(
+    (
+      mode: OrderMode,
+      filter: StarFilter,
+      learnedSet: Set<string>,
+      source: StudyCardItem[] = wordsRef.current,
+    ) => {
+      const pool = poolFrom(source, filter, learnedSet);
+      const next = buildDeck(pool, mode);
+      deckRef.current = next;
+      indexRef.current = 0;
+      setDeck(next);
+      setIndex(0);
+      return next;
+    },
+    [poolFrom],
+  );
 
   const clearHold = useCallback(() => {
     if (holdDelayRef.current !== null) {
@@ -92,10 +137,15 @@ export function StudySession({
   useEffect(() => {
     let mode: OrderMode = "random";
     let hide: HideSide = "ja";
+    let star: StarFilter = "all";
     try {
       const storedHide = localStorage.getItem(HIDE_SIDE_KEY);
       if (storedHide === "en" || storedHide === "ja" || storedHide === "none") {
         hide = storedHide;
+      }
+      const storedStar = localStorage.getItem(STAR_FILTER_KEY);
+      if (storedStar === "all" || storedStar === "learned" || storedStar === "unlearned") {
+        star = storedStar;
       }
       if (!preferRandom) {
         const storedOrder = localStorage.getItem(ORDER_MODE_KEY);
@@ -108,13 +158,14 @@ export function StudySession({
     }
     setHideSide(hide);
     hideSideRef.current = hide;
+    setStarFilter(star);
+    starFilterRef.current = star;
     setOrderMode(mode);
-    setDeck(buildDeck(words, mode));
-    setIndex(0);
+    rebuildDeck(mode, star, learnedRef.current, words);
     const showBoth = hide === "none";
     setRevealed(showBoth);
     setExampleRevealed(showBoth);
-  }, [words, preferRandom]);
+  }, [words, preferRandom, rebuildDeck]);
 
   useEffect(() => {
     return () => {
@@ -131,6 +182,25 @@ export function StudySession({
     }
   }, []);
 
+  const persistStarFilter = useCallback(
+    (filter: StarFilter) => {
+      speakTokenRef.current += 1;
+      stopSpeaking();
+      setSpeaking(null);
+      setSpeakError(false);
+      setStarFilter(filter);
+      starFilterRef.current = filter;
+      rebuildDeck(orderModeRef.current, filter, learnedRef.current);
+      resetRevealForHideMode();
+      try {
+        localStorage.setItem(STAR_FILTER_KEY, filter);
+      } catch {
+        /* ignore */
+      }
+    },
+    [rebuildDeck, resetRevealForHideMode],
+  );
+
   const applyOrderMode = useCallback(
     (mode: OrderMode) => {
       speakTokenRef.current += 1;
@@ -138,8 +208,7 @@ export function StudySession({
       setSpeaking(null);
       setSpeakError(false);
       setOrderMode(mode);
-      setDeck(buildDeck(words, mode));
-      setIndex(0);
+      rebuildDeck(mode, starFilterRef.current, learnedRef.current);
       resetRevealForHideMode();
       try {
         localStorage.setItem(ORDER_MODE_KEY, mode);
@@ -147,7 +216,7 @@ export function StudySession({
         /* ignore */
       }
     },
-    [words, resetRevealForHideMode],
+    [rebuildDeck, resetRevealForHideMode],
   );
 
   const reshuffle = () => {
@@ -155,8 +224,7 @@ export function StudySession({
     stopSpeaking();
     setSpeaking(null);
     setSpeakError(false);
-    setDeck(buildDeck(words, "random"));
-    setIndex(0);
+    rebuildDeck("random", starFilterRef.current, learnedRef.current);
     resetRevealForHideMode();
   };
 
@@ -179,7 +247,8 @@ export function StudySession({
     const d = deckRef.current;
     if (d.length === 0) return;
     if (i >= d.length - 1) {
-      const newDeck = buildDeck(words, orderModeRef.current);
+      const pool = poolFrom(wordsRef.current, starFilterRef.current, learnedRef.current);
+      const newDeck = buildDeck(pool, orderModeRef.current);
       deckRef.current = newDeck;
       indexRef.current = 0;
       setDeck(newDeck);
@@ -188,7 +257,7 @@ export function StudySession({
       indexRef.current = i + 1;
       setIndex(i + 1);
     }
-  }, [words, resetRevealForHideMode]);
+  }, [poolFrom, resetRevealForHideMode]);
 
   const advancePrev = useCallback(() => {
     stopSpeech();
@@ -198,7 +267,8 @@ export function StudySession({
     const d = deckRef.current;
     if (d.length === 0) return;
     if (i <= 0) {
-      const newDeck = buildDeck(words, orderModeRef.current);
+      const pool = poolFrom(wordsRef.current, starFilterRef.current, learnedRef.current);
+      const newDeck = buildDeck(pool, orderModeRef.current);
       const last = Math.max(0, newDeck.length - 1);
       deckRef.current = newDeck;
       indexRef.current = last;
@@ -208,7 +278,7 @@ export function StudySession({
       indexRef.current = i - 1;
       setIndex(i - 1);
     }
-  }, [words, resetRevealForHideMode]);
+  }, [poolFrom, resetRevealForHideMode]);
 
   const onSpeak = async () => {
     if (!current) return;
@@ -275,8 +345,53 @@ export function StudySession({
   const prevHold = makeHoldHandlers(advancePrev);
   const nextHold = makeHoldHandlers(advanceNext);
   if (!current) {
+    const emptyMessage =
+      starFilter === "learned"
+        ? "★をつけた単語がありません。"
+        : starFilter === "unlearned"
+          ? "★をつけていない単語がありません。"
+          : "この条件の単語がありません。";
     return (
-      <p className="px-4 py-12 text-center text-zinc-500">この条件の単語がありません。</p>
+      <div className="flex flex-col gap-2.5 px-4 pb-5 pt-1">
+        <div className="flex flex-col gap-2">
+          <div className="flex rounded-lg bg-zinc-100 p-0.5 dark:bg-zinc-800/80">
+            <button
+              type="button"
+              onClick={() => persistStarFilter("all")}
+              className={`flex-1 rounded-md py-1.5 text-[11px] font-medium transition ${
+                starFilter === "all"
+                  ? "bg-white text-indigo-700 shadow-sm dark:bg-zinc-900 dark:text-indigo-300"
+                  : "text-zinc-600 dark:text-zinc-400"
+              }`}
+            >
+              全部
+            </button>
+            <button
+              type="button"
+              onClick={() => persistStarFilter("learned")}
+              className={`flex-1 rounded-md py-1.5 text-[11px] font-medium transition ${
+                starFilter === "learned"
+                  ? "bg-white text-indigo-700 shadow-sm dark:bg-zinc-900 dark:text-indigo-300"
+                  : "text-zinc-600 dark:text-zinc-400"
+              }`}
+            >
+              ★のみ
+            </button>
+            <button
+              type="button"
+              onClick={() => persistStarFilter("unlearned")}
+              className={`flex-1 rounded-md py-1.5 text-[11px] font-medium transition ${
+                starFilter === "unlearned"
+                  ? "bg-white text-indigo-700 shadow-sm dark:bg-zinc-900 dark:text-indigo-300"
+                  : "text-zinc-600 dark:text-zinc-400"
+              }`}
+            >
+              ★なし
+            </button>
+          </div>
+        </div>
+        <p className="px-4 py-12 text-center text-zinc-500">{emptyMessage}</p>
+      </div>
     );
   }
 
@@ -365,6 +480,41 @@ export function StudySession({
             }`}
           >
             隠さない
+          </button>
+        </div>
+        <div className="flex rounded-lg bg-zinc-100 p-0.5 dark:bg-zinc-800/80">
+          <button
+            type="button"
+            onClick={() => persistStarFilter("all")}
+            className={`flex-1 rounded-md py-1.5 text-[11px] font-medium transition ${
+              starFilter === "all"
+                ? "bg-white text-indigo-700 shadow-sm dark:bg-zinc-900 dark:text-indigo-300"
+                : "text-zinc-600 dark:text-zinc-400"
+            }`}
+          >
+            全部
+          </button>
+          <button
+            type="button"
+            onClick={() => persistStarFilter("learned")}
+            className={`flex-1 rounded-md py-1.5 text-[11px] font-medium transition ${
+              starFilter === "learned"
+                ? "bg-white text-indigo-700 shadow-sm dark:bg-zinc-900 dark:text-indigo-300"
+                : "text-zinc-600 dark:text-zinc-400"
+            }`}
+          >
+            ★のみ
+          </button>
+          <button
+            type="button"
+            onClick={() => persistStarFilter("unlearned")}
+            className={`flex-1 rounded-md py-1.5 text-[11px] font-medium transition ${
+              starFilter === "unlearned"
+                ? "bg-white text-indigo-700 shadow-sm dark:bg-zinc-900 dark:text-indigo-300"
+                : "text-zinc-600 dark:text-zinc-400"
+            }`}
+          >
+            ★なし
           </button>
         </div>
       </div>
