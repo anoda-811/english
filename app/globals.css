@@ -55,8 +55,43 @@ body {
   animation-delay: 0.8s;
 }
 
+@keyframes apple-scene-to-basket {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(1);
+    opacity: 0;
+  }
+  12% {
+    opacity: 1;
+  }
+  35% {
+    transform: translate(8px, 4px) rotate(-12deg) scale(1.05);
+  }
+  55% {
+    transform: translate(36px, 18px) rotate(18deg) scale(1);
+  }
+  75% {
+    transform: translate(52px, 36px) rotate(-8deg) scale(0.95);
+  }
+  90% {
+    transform: translate(58px, 42px) rotate(6deg) scale(0.9);
+  }
+  100% {
+    transform: translate(58px, 44px) rotate(0deg) scale(0.88);
+    opacity: 1;
+  }
+}
+
+.apple-scene-fruit {
+  animation: apple-scene-to-basket 1.6s cubic-bezier(0.4, 0.05, 0.2, 1) both;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .vocab-hero-card {
     animation: none;
+  }
+
+  .apple-scene-fruit {
+    animation: none;
+    transform: translate(58px, 44px);
   }
 }

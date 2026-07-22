@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import type { StudyCardItem } from "@/lib/study-types";
 import { speakEnglish, stopSpeaking } from "@/lib/speak-english";
 import { LearnedStarButton } from "@/components/vocabulary/LearnedStarButton";
+import { WordSceneAnimation, hasWordScene } from "@/components/vocabulary/WordSceneAnimation";
 import { useLearnedWords } from "@/hooks/useLearnedWords";
 
 export type HideSide = "en" | "ja" | "none";
@@ -72,6 +73,8 @@ export function StudySession({
   const [swipeX, setSwipeX] = useState(0);
   const [swipeActive, setSwipeActive] = useState(false);
   const [swipeExit, setSwipeExit] = useState(false);
+  const [scenePlayKey, setScenePlayKey] = useState(0);
+  const [sceneVisible, setSceneVisible] = useState(false);
 
   const deckRef = useRef(deck);
   const indexRef = useRef(index);
@@ -306,6 +309,7 @@ export function StudySession({
   useEffect(() => {
     resetSwipeVisual();
     swipeBusyRef.current = false;
+    setSceneVisible(false);
   }, [index, current?.id, resetSwipeVisual]);
 
   const commitSwipe = useCallback(
@@ -780,7 +784,7 @@ export function StudySession({
         </button>
       )}
 
-      <div className="flex items-center justify-center gap-2">
+      <div className="flex flex-wrap items-center justify-center gap-2">
         <button
           type="button"
           onClick={onSpeak}
@@ -803,7 +807,24 @@ export function StudySession({
             {speaking === "example" ? "再生中…" : "例文"}
           </button>
         )}
+        {hasWordScene(current.en) && (
+          <button
+            type="button"
+            onClick={() => {
+              setSceneVisible(true);
+              setScenePlayKey((k) => k + 1);
+            }}
+            className="inline-flex items-center gap-1.5 rounded-full border border-rose-200 bg-rose-50 px-4 py-1.5 text-xs font-semibold text-rose-700 active:scale-95 dark:border-rose-800 dark:bg-rose-950/50 dark:text-rose-300"
+            aria-label="例文イメージを再生"
+          >
+            イメージ
+          </button>
+        )}
       </div>
+
+      {sceneVisible && hasWordScene(current.en) && (
+        <WordSceneAnimation wordEn={current.en} playKey={scenePlayKey} />
+      )}
 
       {speakError && (
         <p className="text-center text-[10px] text-red-500">
