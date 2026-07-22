@@ -5,8 +5,10 @@ import {
   bindLearnedStorageSync,
   getLearnedServerSnapshot,
   getLearnedSnapshot,
+  markLearnedId,
   subscribeLearned,
   toggleLearnedId,
+  unmarkLearnedId,
 } from "@/lib/learned-words-storage";
 
 export function useLearnedWords() {
@@ -22,7 +24,10 @@ export function useLearnedWords() {
     toggleLearnedId(wordId);
   }, []);
 
+  const markLearned = useCallback((wordId: string) => markLearnedId(wordId), []);
+  const unmarkLearned = useCallback((wordId: string) => unmarkLearnedId(wordId), []);
+
   const isLearned = useCallback((wordId: string) => learned.has(wordId), [learned]);
 
-  return { learned, toggle, isLearned };
+  return { learned, toggle, markLearned, unmarkLearned, isLearned };
 }

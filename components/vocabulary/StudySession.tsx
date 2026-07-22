@@ -39,6 +39,9 @@ function buildDeck(items: StudyCardItem[], mode: OrderMode): StudyCardItem[] {
 
 const HOLD_DELAY_MS = 350;
 const HOLD_INTERVAL_MS = 90;
+const SWIPE_AXIS_LOCK_PX = 12;
+const SWIPE_COMMIT_PX = 96;
+const SWIPE_EXIT_MS = 220;
 
 type StudySessionProps = {
   words: StudyCardItem[];
@@ -54,7 +57,7 @@ export function StudySession({
   levelLabel,
   preferRandom = false,
 }: StudySessionProps) {
-  const { learned } = useLearnedWords();
+  const { learned, markLearned, unmarkLearned } = useLearnedWords();
   const [orderMode, setOrderMode] = useState<OrderMode>(preferRandom ? "random" : "sequential");
   const [starFilter, setStarFilter] = useState<StarFilter>("all");
   const [deck, setDeck] = useState<StudyCardItem[]>(() =>
@@ -66,6 +69,9 @@ export function StudySession({
   const [hideSide, setHideSide] = useState<HideSide>("ja");
   const [speaking, setSpeaking] = useState<"word" | "example" | null>(null);
   const [speakError, setSpeakError] = useState(false);
+  const [swipeX, setSwipeX] = useState(0);
+  const [swipeActive, setSwipeActive] = useState(false);
+  const [swipeExit, setSwipeExit] = useState(false);
 
   const deckRef = useRef(deck);
   const indexRef = useRef(index);
@@ -78,6 +84,12 @@ export function StudySession({
   const holdIntervalRef = useRef<number | null>(null);
   const didHoldRepeatRef = useRef(false);
   const speakTokenRef = useRef(0);
+  const swipePointerIdRef = useRef<number | null>(null);
+  const swipeStartRef = useRef<{ x: number; y: number } | null>(null);
+  const swipeAxisRef = useRef<"none" | "h" | "v">("none");
+  const swipeXRef = useRef(0);
+  const swipeMovedRef = useRef(false);
+  const swipeBusyRef = useRef(false);
 
   useEffect(() => {
     deckRef.current = deck;
@@ -279,6 +291,117 @@ export function StudySession({
       setIndex(i - 1);
     }
   }, [poolFrom, resetRevealForHideMode]);
+
+  const resetSwipeVisual = useCallback(() => {
+    swipeXRef.current = 0;
+    setSwipeX(0);
+    setSwipeActive(false);
+    setSwipeExit(false);
+    swipeAxisRef.current = "none";
+    swipeStartRef.current = null;
+    swipePointerIdRef.current = null;
+    swipeMovedRef.current = false;
+  }, []);
+
+  useEffect(() => {
+    resetSwipeVisual();
+    swipeBusyRef.current = false;
+  }, [index, current?.id, resetSwipeVisual]);
+
+  const commitSwipe = useCallback(
+    (direction: "left" | "right") => {
+      if (swipeBusyRef.current) return;
+      const card = deckRef.current[indexRef.current];
+      if (!card) return;
+      swipeBusyRef.current = true;
+      setSwipeExit(true);
+      const exitX = direction === "right" ? window.innerWidth : -window.innerWidth;
+      swipeXRef.current = exitX;
+      setSwipeX(exitX);
+
+      window.setTimeout(() => {
+        // 左 = ★つけて次へ / 右 = ★外して次へ
+        if (direction === "left") {
+          learnedRef.current = markLearned(card.id);
+        } else {
+          learnedRef.current = unmarkLearned(card.id);
+        }
+        advanceNext();
+        resetSwipeVisual();
+        swipeBusyRef.current = false;
+      }, SWIPE_EXIT_MS);
+    },
+    [advanceNext, markLearned, unmarkLearned, resetSwipeVisual],
+  );
+
+  const onCardPointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (e.button !== 0 || swipeBusyRef.current) return;
+    swipePointerIdRef.current = e.pointerId;
+    swipeStartRef.current = { x: e.clientX, y: e.clientY };
+    swipeAxisRef.current = "none";
+    swipeMovedRef.current = false;
+    swipeXRef.current = 0;
+    setSwipeX(0);
+    setSwipeActive(true);
+    setSwipeExit(false);
+  };
+
+  const onCardPointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (swipePointerIdRef.current !== e.pointerId || !swipeStartRef.current) return;
+    const dx = e.clientX - swipeStartRef.current.x;
+    const dy = e.clientY - swipeStartRef.current.y;
+
+    if (swipeAxisRef.current === "none") {
+      if (Math.abs(dx) < SWIPE_AXIS_LOCK_PX && Math.abs(dy) < SWIPE_AXIS_LOCK_PX) return;
+      swipeAxisRef.current = Math.abs(dx) >= Math.abs(dy) ? "h" : "v";
+      if (swipeAxisRef.current === "h") {
+        try {
+          e.currentTarget.setPointerCapture(e.pointerId);
+        } catch {
+          /* ignore */
+        }
+      }
+    }
+
+    if (swipeAxisRef.current !== "h") return;
+    e.preventDefault();
+    if (Math.abs(dx) > 6) swipeMovedRef.current = true;
+    swipeXRef.current = dx;
+    setSwipeX(dx);
+  };
+
+  const onCardPointerEnd = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (swipePointerIdRef.current !== e.pointerId) return;
+    const dx = swipeXRef.current;
+    const wasHorizontal = swipeAxisRef.current === "h";
+    try {
+      if (e.currentTarget.hasPointerCapture(e.pointerId)) {
+        e.currentTarget.releasePointerCapture(e.pointerId);
+      }
+    } catch {
+      /* ignore */
+    }
+    swipePointerIdRef.current = null;
+    swipeStartRef.current = null;
+    swipeAxisRef.current = "none";
+    setSwipeActive(false);
+
+    if (wasHorizontal && Math.abs(dx) >= SWIPE_COMMIT_PX) {
+      commitSwipe(dx > 0 ? "right" : "left");
+      return;
+    }
+    swipeXRef.current = 0;
+    setSwipeX(0);
+    setSwipeExit(false);
+  };
+
+  const onCardClickCapture = (e: React.MouseEvent) => {
+    if (swipeMovedRef.current || swipeBusyRef.current) {
+      e.preventDefault();
+      e.stopPropagation();
+      swipeMovedRef.current = false;
+    }
+  };
 
   const onSpeak = async () => {
     if (!current) return;
@@ -529,51 +652,99 @@ export function StudySession({
         </button>
       )}
 
-      <div className="grid h-[min(34vh,260px)] grid-rows-2 overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm dark:border-zinc-700 dark:bg-zinc-900">
-        <button
-          type="button"
-          onClick={() => setRevealed((r) => !r)}
-          className="flex min-h-0 flex-col items-center justify-center border-b border-zinc-100 bg-gradient-to-b from-indigo-50/80 to-white px-4 py-2 transition active:bg-indigo-50/50 dark:border-zinc-800 dark:from-indigo-950/30 dark:to-zinc-900 dark:active:bg-indigo-950/20"
+      <p className="text-center text-[10px] text-zinc-400">
+        左スワイプで★覚えた → 次へ · 右スワイプで覚えていない → 次へ
+      </p>
+
+      <div
+        className="relative touch-none select-none"
+        onPointerDown={onCardPointerDown}
+        onPointerMove={onCardPointerMove}
+        onPointerUp={onCardPointerEnd}
+        onPointerCancel={onCardPointerEnd}
+        onClickCapture={onCardClickCapture}
+      >
+        <div
+          className={`pointer-events-none absolute inset-y-4 left-3 z-20 flex items-center text-sm font-semibold transition-opacity ${
+            swipeX > 24 ? "opacity-100" : "opacity-0"
+          } text-zinc-400`}
+          aria-hidden
         >
-          <span className="mb-1 shrink-0 text-[10px] font-medium uppercase tracking-widest text-indigo-500/80">
-            English
-          </span>
-          <p
-            className={`line-clamp-2 max-w-full px-1 text-center text-2xl font-bold leading-tight tracking-tight text-zinc-900 transition dark:text-zinc-50 ${
-              enHidden ? "select-none blur-md opacity-40" : ""
-            }`}
-          >
-            {current.en}
-          </p>
-          <span
-            className={`mt-1 h-4 shrink-0 text-[10px] text-zinc-400 ${enHidden ? "" : "invisible"}`}
-            aria-hidden={!enHidden}
-          >
-            タップで表示
-          </span>
-        </button>
-        <button
-          type="button"
-          onClick={() => setRevealed((r) => !r)}
-          className="flex min-h-0 flex-col items-center justify-center px-4 py-2 transition active:bg-zinc-50 dark:active:bg-zinc-800/50"
+          覚えていない
+        </div>
+        <div
+          className={`pointer-events-none absolute inset-y-4 right-3 z-20 flex items-center text-sm font-bold transition-opacity ${
+            swipeX < -24 ? "opacity-100" : "opacity-0"
+          } text-amber-400`}
+          aria-hidden
         >
-          <span className="mb-1 shrink-0 text-[10px] font-medium uppercase tracking-widest text-zinc-400">
-            日本語
-          </span>
-          <p
-            className={`line-clamp-2 max-w-full px-1 text-center text-xl font-semibold leading-tight text-zinc-800 transition dark:text-zinc-100 ${
-              jaHidden ? "select-none blur-md opacity-40" : ""
-            }`}
+          ★覚えた
+        </div>
+        <div
+          className={`grid h-[min(34vh,260px)] grid-rows-2 overflow-hidden rounded-2xl border bg-white shadow-sm will-change-transform dark:bg-zinc-900 ${
+            swipeExit ? "" : "transition-transform duration-150 ease-out"
+          } ${
+            swipeX < -40
+              ? "border-amber-300 dark:border-amber-600"
+              : swipeX > 40
+                ? "border-zinc-300 dark:border-zinc-600"
+                : "border-zinc-200 dark:border-zinc-700"
+          }`}
+          style={{
+            transform: `translateX(${swipeX}px) rotate(${swipeX / 28}deg)`,
+            opacity: swipeExit ? 0.35 : 1 - Math.min(0.35, Math.abs(swipeX) / 420),
+            transition: swipeExit
+              ? `transform ${SWIPE_EXIT_MS}ms ease-in, opacity ${SWIPE_EXIT_MS}ms ease-in`
+              : swipeActive
+                ? "none"
+                : undefined,
+          }}
+        >
+          <button
+            type="button"
+            onClick={() => setRevealed((r) => !r)}
+            className="flex min-h-0 flex-col items-center justify-center border-b border-zinc-100 bg-gradient-to-b from-indigo-50/80 to-white px-4 py-2 transition active:bg-indigo-50/50 dark:border-zinc-800 dark:from-indigo-950/30 dark:to-zinc-900 dark:active:bg-indigo-950/20"
           >
-            {current.ja}
-          </p>
-          <span
-            className={`mt-1 h-4 shrink-0 text-[10px] text-zinc-400 ${jaHidden ? "" : "invisible"}`}
-            aria-hidden={!jaHidden}
+            <span className="mb-1 shrink-0 text-[10px] font-medium uppercase tracking-widest text-indigo-500/80">
+              English
+            </span>
+            <p
+              className={`line-clamp-2 max-w-full px-1 text-center text-2xl font-bold leading-tight tracking-tight text-zinc-900 transition dark:text-zinc-50 ${
+                enHidden ? "select-none blur-md opacity-40" : ""
+              }`}
+            >
+              {current.en}
+            </p>
+            <span
+              className={`mt-1 h-4 shrink-0 text-[10px] text-zinc-400 ${enHidden ? "" : "invisible"}`}
+              aria-hidden={!enHidden}
+            >
+              タップで表示
+            </span>
+          </button>
+          <button
+            type="button"
+            onClick={() => setRevealed((r) => !r)}
+            className="flex min-h-0 flex-col items-center justify-center px-4 py-2 transition active:bg-zinc-50 dark:active:bg-zinc-800/50"
           >
-            タップで表示
-          </span>
-        </button>
+            <span className="mb-1 shrink-0 text-[10px] font-medium uppercase tracking-widest text-zinc-400">
+              日本語
+            </span>
+            <p
+              className={`line-clamp-2 max-w-full px-1 text-center text-xl font-semibold leading-tight text-zinc-800 transition dark:text-zinc-100 ${
+                jaHidden ? "select-none blur-md opacity-40" : ""
+              }`}
+            >
+              {current.ja}
+            </p>
+            <span
+              className={`mt-1 h-4 shrink-0 text-[10px] text-zinc-400 ${jaHidden ? "" : "invisible"}`}
+              aria-hidden={!jaHidden}
+            >
+              タップで表示
+            </span>
+          </button>
+        </div>
       </div>
 
       {hasExample && (

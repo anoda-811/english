@@ -76,6 +76,34 @@ export function toggleLearnedId(wordId: string): Set<string> {
   return next;
 }
 
+/** ★を付けるだけ（すでに付いていればそのまま） */
+export function markLearnedId(wordId: string): Set<string> {
+  if (typeof window !== "undefined" && !hydrated) {
+    hydrateLearnedIds();
+  }
+  if (cached.has(wordId)) return cached;
+  const next = new Set(cached);
+  next.add(wordId);
+  cached = next;
+  writeLearnedIds(next);
+  emit();
+  return next;
+}
+
+/** ★を外すだけ（付いていなければそのまま） */
+export function unmarkLearnedId(wordId: string): Set<string> {
+  if (typeof window !== "undefined" && !hydrated) {
+    hydrateLearnedIds();
+  }
+  if (!cached.has(wordId)) return cached;
+  const next = new Set(cached);
+  next.delete(wordId);
+  cached = next;
+  writeLearnedIds(next);
+  emit();
+  return next;
+}
+
 export function countLearnedInList(ids: Set<string>, wordIds: string[]): number {
   return wordIds.filter((id) => ids.has(id)).length;
 }
